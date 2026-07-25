@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crocina Forms — Admin Visual Test</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@wordpress/components@28.0.0/build-style/style.css">
+<!-- WordPress Admin Styles -->
+<style>
+/* Core WP admin styles (minimal subset for testing) */
+body { 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  background: #f0f0f1;
+  margin: 0;
+  padding: 20px;
+  color: #1d2327;
+}
+.wrap { margin: 0; max-width: 1000px; }
+.wrap h1 { font-size: 23px; font-weight: 400; margin: 0 0 1rem; padding: 9px 0 4px; line-height: 1.3; }
+.wp-heading-inline { font-size: 23px; font-weight: 400; margin: 0; padding: 9px 0 4px; }
+.page-title-action { margin-left: 0.3rem; }
+.wp-header-end { margin: 0; border: none; }
+hr.wp-header-end { display: none; }
+
+/* Core WP form tables */
+.form-table { border-collapse: collapse; margin-top: 1em; width: 100%; }
+.form-table th { width: 200px; padding: 15px 10px 15px 0; font-weight: 600; vertical-align: top; text-align: right; }
+.form-table td { padding: 15px 10px; vertical-align: top; }
+.form-table input[type="text"], .form-table input[type="url"], .form-table select { width: 100%; max-width: 400px; }
+.regular-text { width: 25em; }
+.small-text { width: 80px; }
+
+/* Core WP tabs */
+.nav-tab-wrapper { border-bottom: 1px solid #c3c4c7; margin: 0; padding-top: 9px; padding-bottom: 0; line-height: inherit; display: flex; gap: 0; }
+.nav-tab { float: none; border: 1px solid #c3c4c7; border-bottom: none; margin-left: 0; padding: 6px 14px 5px; font-size: 14px; line-height: 1.7; background: #dcdcde; color: #50575e; text-decoration: none; white-space: nowrap; }
+.nav-tab-active { background: #f0f0f1; border-bottom: 1px solid #f0f0f1; color: #000; margin-bottom: -1px; }
+.tab-content { background: #fff; border: 1px solid #c3c4c7; border-top: none; padding: 1rem; }
+
+/* Core WP submit button */
+.button-primary { background: #2271b1; border-color: #2271b1; color: #fff; text-decoration: none; text-shadow: none; padding: 0.25rem 1rem; font-size: 13px; line-height: 2.15; border-radius: 3px; cursor: pointer; display: inline-block; }
+
+/* Postbox */
+.postbox { background: #fff; border: 1px solid #ccd0d4; box-shadow: 0 1px 1px rgba(0,0,0,.04); margin-bottom: 20px; }
+.postbox-header { border-bottom: 1px solid #ccd0d4; padding: 8px 12px; background: #fff; }
+.postbox-header .hndle { font-size: 14px; padding: 0; margin: 0; }
+.postbox .inside { padding: 12px; }
+
+/* Tablenav */
+.tablenav { height: auto; margin: 6px 0 4px; padding: 0.5rem 0; }
+.tablenav.top { margin-top: 0; }
+.alignright { float: right; }
+
+/* Widefat table */
+.widefat { border-spacing: 0; width: 100%; border: 1px solid #c3c4c7; background: #fff; }
+.widefat th, .widefat td { padding: 8px 10px; text-align: right; border-bottom: 1px solid #f0f0f1; }
+.widefat thead th { background: #f6f7f7; border-bottom: 1px solid #c3c4c7; font-weight: 600; }
+.widefat tbody tr:nth-child(odd) { background: #f6f7f7; }
+.striped > tbody > :nth-child(odd) { background: #f6f7f7; }
+
+/* Notices */
+.notice { background: #fff; border: 1px solid #c3c4c7; border-right: 4px solid #72aee6; padding: 1px 12px; margin: 5px 0 15px; border-radius: 0; }
+.notice-success { border-right-color: #00a32a; }
+.notice-error { border-right-color: #d63638; }
+
+/* Description */
+.description { color: #646970; font-size: 13px; margin: 0.5rem 0; }
+
+/* Test vars */
+:root {
+  --crocina-primary: #2271b1;
+  --crocina-primary-soft: #f0f6fc;
+  --crocina-line: #dcdcde;
+}
+
+/* Page sections */
+.admin-page { 
+  background: transparent; 
+  margin-bottom: 2rem; 
+  border: 2px dashed #c3c4c7; 
+  padding: 1rem; 
+  border-radius: 8px;
+}
+.admin-page h3 { 
+  color: #646970; 
+  font-size: 14px; 
+  text-transform: uppercase; 
+  letter-spacing: 0.5px;
+  margin: 0 0 1rem;
+}
+</style>
+<link rel="stylesheet" href="assets/admin.css">
+</head>
+<body>
+
+<div class="wrap" style="margin-bottom:2rem;">
+  <h1>Crocina Forms — Admin Visual Test <span style="font-size:14px;color:#646970;font-weight:400;">Verifying all pages use standard WP styles</span></h1>
+  <p>Testing that all custom .crocina-* classes have been replaced with standard WordPress classes.</p>
+</div>
+
+<!-- ==================== DASHBOARD PAGE ==================== -->
+<div class="admin-page">
+  <h3>📊 Dashboard Page</h3>
+  <div class="wrap" style="background:#fff;padding:1rem;border:1px solid #ddd;">
+    <h1 class="wp-heading-inline">Crocina Forms</h1>
+    <a href="#" class="page-title-action">Add New Form</a>
+    <hr class="wp-header-end" />
+    
+    <div style="margin:0.5rem 0 1rem;padding:0.5rem 0.75rem;background:#f0f6fc;border-radius:4px;">
+      <strong>3 forms</strong>
+      <span style="color:#c3c4c7;margin:0 0.5rem;">|</span>
+      <strong>42 submissions</strong>
+      <span style="color:#c3c4c7;margin:0 0.5rem;">|</span>
+      12 submissions in the last 7 days
+    </div>
+
+    <form method="get">
+      <div class="tablenav top">
+        <div class="alignright">
+          <input type="search" placeholder="Search forms by title" class="regular-text" />
+          <button type="submit" class="button">Search Forms</button>
+        </div>
+        <br class="clear" />
+      </div>
+    </form>
+
+    <table class="wp-list-table widefat fixed striped">
+      <thead>
+        <tr>
+          <td class="manage-column column-cb check-column"><input type="checkbox" /></td>
+          <th>Form</th>
+          <th>Shortcode</th>
+          <th>Submissions</th>
+          <th>Created</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="check-column"><input type="checkbox" /></th>
+          <td><strong>Contact Form</strong></td>
+          <td><code>[crocina_form id="1"]</code></td>
+          <td>25 entries</td>
+          <td>2026-07-01</td>
+        </tr>
+        <tr>
+          <th class="check-column"><input type="checkbox" /></th>
+          <td><strong>Order Form</strong></td>
+          <td><code>[crocina_form id="2"]</code></td>
+          <td>12 entries</td>
+          <td>2026-07-15</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="5">
+            <div class="tablenav">
+              <div class="tablenav-pages"><span class="displaying-num">2 items</span></div>
+            </div>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+
+<!-- ==================== SETTINGS PAGE ==================== -->
+<div class="admin-page">
+  <h3>⚙️ Settings Page</h3>
+  <div class="wrap" style="background:#fff;padding:1rem;border:1px solid #ddd;">
+    <h1>Crocina Settings</h1>
+    
+    <nav class="nav-tab-wrapper">
+      <a href="#" class="nav-tab nav-tab-active">General</a>
+      <a href="#" class="nav-tab">Notifications</a>
+      <a href="#" class="nav-tab">Security</a>
+      <a href="#" class="nav-tab">Attachments</a>
+      <a href="#" class="nav-tab">Watermark</a>
+      <a href="#" class="nav-tab">System</a>
+    </nav>
+    
+    <div class="tab-content" style="margin-top:0;">
+      <table class="form-table">
+        <tbody>
+          <tr>
+            <th scope="row">Jalali date display</th>
+            <td>
+              <select>
+                <option>Full (date + time)</option>
+                <option>Short (month/day)</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Dashboard stats days</th>
+            <td><input type="number" class="small-text" value="7" min="1" max="90" /></td>
+          </tr>
+          <tr>
+            <th scope="row">Enable logging</th>
+            <td>
+              <label>
+                <input type="hidden" value="0" />
+                <input type="checkbox" value="1" checked />
+                Enable logging for all submissions
+              </label>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2>Logging</h2>
+      <table class="form-table">
+        <tbody>
+          <tr>
+            <th scope="row">Log retention (days)</th>
+            <td><input type="number" class="small-text" value="30" min="1" /></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2>Telegram</h2>
+      <details style="margin-bottom:0.5rem;">
+        <summary style="cursor:pointer;color:#2271b1;font-weight:600;">راهنمای کامل و گام‌به‌گام تنظیم تلگرام</summary>
+        <div style="padding:0.65rem 0.75rem;background:#f0f6fc;border:1px solid #c5d9ed;border-right:4px solid #2271b1;border-radius:4px;margin-top:0.35rem;font-size:13px;line-height:1.7;">
+          <p>1. در تلگرام @BotFather را پیدا کنید و /newbot را بزنید</p>
+          <p>2. توکن دریافتی را در فیلد زیر قرار دهید</p>
+          <p>3. از @RawDataBot برای دریافت Chat ID استفاده کنید</p>
+        </div>
+      </details>
+      <table class="form-table">
+        <tbody>
+          <tr>
+            <th scope="row">Telegram token</th>
+            <td><input type="text" class="regular-text" placeholder="1234567890:ABCdef..." /></td>
+          </tr>
+          <tr>
+            <th scope="row">Telegram chat ID</th>
+            <td><input type="text" class="regular-text" placeholder="123456789" /></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <?php submit_button(); ?>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== INBOX PAGE ==================== -->
+<div class="admin-page">
+  <h3>📥 Inbox Page</h3>
+  <div class="wrap" style="background:#fff;padding:1rem;border:1px solid #ddd;">
+    <h1 class="wp-heading-inline">Inbox</h1>
+    <hr class="wp-header-end" />
+    
+    <div id="poststuff" style="display:flex;gap:1.5rem;flex-wrap:wrap;align-items:flex-start;">
+      <aside style="flex:0 0 280px;max-width:100%;">
+        <div class="postbox">
+          <div class="postbox-header"><h2 class="hndle"><span>New messages</span></h2></div>
+          <div class="inside">
+            <p style="font-size:2rem;font-weight:600;margin:0;color:#2271b1;">12</p>
+          </div>
+        </div>
+        
+        <div class="postbox">
+          <div class="postbox-header"><h2 class="hndle"><span>Filter</span></h2></div>
+          <div class="inside">
+            <label>Filter by form
+              <select style="display:block;width:100%;margin-top:0.35rem;">
+                <option>All forms</option>
+                <option>Contact Form</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </aside>
+      
+      <main style="flex:1;min-width:0;">
+        <div class="tablenav top">
+          <form class="alignright">
+            <input type="search" placeholder="Search inbox..." />
+            <button type="submit" class="button">Search</button>
+          </form>
+          <br class="clear" />
+        </div>
+        
+        <table class="wp-list-table widefat fixed striped">
+          <thead>
+            <tr>
+              <td class="check-column"><input type="checkbox" /></td>
+              <th>Date</th>
+              <th>Form</th>
+              <th>Fields</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="check-column"><input type="checkbox" /></th>
+              <td>2026-07-24 15:30</td>
+              <td><span class="crocina-inbox-badge">New</span> Contact Form</td>
+              <td>
+                <div class="crocina-inbox-fields">
+                  <div class="crocina-inbox-field-row"><span class="crocina-inbox-field-label">Name:</span> Ali</div>
+                  <div class="crocina-inbox-field-row"><span class="crocina-inbox-field-label">Email:</span> ali@test.com</div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="check-column"><input type="checkbox" /></th>
+              <td>2026-07-23 12:00</td>
+              <td><span class="crocina-inbox-badge is-read">Read</span> Order Form</td>
+              <td>
+                <div class="crocina-inbox-fields">
+                  <div class="crocina-inbox-field-row"><span class="crocina-inbox-field-label">Product:</span> Item A</div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== EXPORT PAGE ==================== -->
+<div class="admin-page">
+  <h3>📦 Export Page</h3>
+  <div class="wrap" style="background:#fff;padding:1rem;border:1px solid #ddd;">
+    <h1>Export &amp; Import</h1>
+    
+    <div class="metabox-holder" style="display:flex;gap:1.5rem;flex-wrap:wrap;">
+      <div class="postbox" style="flex:1;min-width:300px;">
+        <div class="postbox-header"><h2 class="hndle"><span>Export Configuration</span></h2></div>
+        <div class="inside">
+          <p>Export all forms, logs, and settings as JSON.</p>
+          <button class="button button-primary">Export</button>
+        </div>
+      </div>
+      
+      <div class="postbox" style="flex:1;min-width:300px;">
+        <div class="postbox-header"><h2 class="hndle"><span>Import Configuration</span></h2></div>
+        <div class="inside">
+          <p>Import a previously exported JSON configuration.</p>
+          <textarea class="crocina-import-input" rows="4" placeholder="Paste JSON here..."></textarea>
+          <button class="button button-primary">Import</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== EVENT LOG PAGE ==================== -->
+<div class="admin-page">
+  <h3>📋 Event Log Page</h3>
+  <div class="wrap" style="background:#fff;padding:1rem;border:1px solid #ddd;">
+    <h1>Event Log</h1>
+    
+    <div class="postbox" style="padding:0.75rem 1rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem;">
+      <div style="display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap;font-size:13px;color:#4c5468;">
+        <span>File size: <strong>2.5 KB</strong></span>
+        <span>Lines shown: <strong>12</strong></span>
+        <span>Path: <code>events.log</code></span>
+      </div>
+      <div>
+        <button class="button">Refresh</button>
+        <button class="button button-primary">Clear log</button>
+      </div>
+    </div>
+    
+    <div class="postbox" style="padding:0;overflow:hidden;">
+      <div style="background:#1e1e1e;padding:0.75rem 1rem;overflow:auto;max-height:200px;">
+        <pre style="margin:0;font-size:12px;color:#d4d4d4;font-family:Consolas,monospace;">
+<span style="color:#6abf69;">   4  [2026-07-24] form.submitted</span>
+<span style="color:#64b5f6;">   3  [2026-07-24] notification.sent</span>
+<span style="color:#ce93d8;">   2  [2026-07-24] log.created</span>
+<span style="color:#f0625c;">   1  [2026-07-24] [error] Connection failed</span>
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== FORM EDITOR META BOXES (post-php context) ==================== -->
+<div class="admin-page">
+  <h3>🖊️ Form Editor (post-php) Meta Boxes</h3>
+  <div class="wrap" style="background:#fff;padding:1rem;border:1px solid #ddd;">
+    <div class="post-php">
+      <div class="crocina-fields-wrapper">
+        <p><strong>Fields Builder</strong> — should have white background, rounded corners, shadow</p>
+        <div class="crocina-builder-toolbar">
+          <button class="button" disabled>Undo</button>
+          <button class="button" disabled>Redo</button>
+          <button class="button button-primary">Save</button>
+        </div>
+      </div>
+      
+      <div class="crocina-notifications-grid">
+        <label>
+          <span>Webhook endpoints</span>
+          <textarea rows="2" placeholder="https://example.com/webhook"></textarea>
+        </label>
+        <label>
+          <span>Message template</span>
+          <textarea rows="2"></textarea>
+        </label>
+      </div>
+      
+      <div class="crocina-form-design">
+        <p><strong>Design Controls</strong> — should have white background, rounded corners</p>
+        <div class="crocina-design-grid">
+          <div class="crocina-design-item">
+            <label>Button text
+              <input type="text" value="Send Message" />
+            </label>
+          </div>
+          <div class="crocina-design-item crocina-design-item-color">
+            <label>Button background
+              <div class="crocina-color-compact">
+                <input type="color" value="#0e64b7" />
+                <span class="crocina-color-hex">#0e64b7</span>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== QUICK VIEW MODAL ==================== -->
+<div class="admin-page">
+  <h3>🔍 Quick View Modal</h3>
+  <div class="wrap" style="background:#fff;padding:1rem;border:1px solid #ddd;">
+    <div class="crocina-quick-view-modal is-open" style="position:relative;display:flex;background:transparent;z-index:1;">
+      <div class="crocina-quick-view-dialog">
+        <div class="crocina-quick-view-header">
+          <strong class="crocina-quick-view-title">Contact Form</strong>
+          <button class="button-link crocina-quick-view-close">×</button>
+        </div>
+        <div class="crocina-quick-view-meta">
+          <span class="crocina-quick-view-date">2026-07-24 15:30</span>
+          <span class="crocina-quick-view-ip">192.168.1.1</span>
+          <a class="crocina-quick-view-page" href="#">Contact page</a>
+        </div>
+        <div class="crocina-quick-view-body">
+          <div class="crocina-quick-view-row">
+            <span><strong>Name:</strong></span>
+            <span>Ali</span>
+          </div>
+          <div class="crocina-quick-view-row">
+            <span><strong>Email:</strong></span>
+            <span>ali@test.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

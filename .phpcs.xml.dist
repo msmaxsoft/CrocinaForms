@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<ruleset name="Crocina Forms Coding Standards">
+	<description>PHP_CodeSniffer rules for Crocina Forms (WordPress + PHP Compatibility)</description>
+
+	<!-- Scan these directories -->
+	<file>includes/</file>
+	<file>templates/</file>
+	<file>crocina-forms.php</file>
+	<file>uninstall.php</file>
+
+	<!-- Ignore hidden dirs and vendor -->
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*.js</exclude-pattern>
+	<exclude-pattern>*.css</exclude-pattern>
+
+	<!-- PHP version target (matches plugin requires) -->
+	<config name="testVersion" value="7.4-"/>
+
+	<!-- Use WordPress-Extra which includes WordPress-Core -->
+	<rule ref="WordPress-Extra">
+		<!-- Allow short ternary ?: (PHP 7.4+) -->
+		<exclude name="WordPress.PHP.DisallowShortTernary.Found"/>
+		<!-- Let PHPStan handle type issues -->
+		<exclude name="WordPress.Arrays.ArrayDeclarationSpacing"/>
+		<exclude name="WordPress.Arrays.ArrayKeySpacingRestrictions"/>
+	</rule>
+
+	<!-- Use WordPress-Docs for inline doc blocks (warning-level to reduce noise) -->
+	<rule ref="WordPress-Docs">
+		<type>warning</type>
+	</rule>
+
+	<!-- PHP Compatibility: check against PHP 7.4 -->
+	<rule ref="PHPCompatibilityWP"/>
+
+	<!-- Allow PSR-4 file naming for class files inside includes/ -->
+	<rule ref="WordPress.Files.FileName">
+		<properties>
+			<property name="strict_class_file_names" value="false"/>
+		</properties>
+	</rule>
+
+	<!-- Increase line length limit to 160 for readability in form field arrays -->
+	<rule ref="Generic.Files.LineLength">
+		<properties>
+			<property name="lineLimit" value="160"/>
+			<property name="absoluteLineLimit" value="200"/>
+		</properties>
+	</rule>
+
+	<!-- Allow tabs for indentation (WordPress standard) but relax alignment checks -->
+	<rule ref="WordPress.WhiteSpace.DisallowInlineTabs"/>
+
+	<!-- Allow Yoda conditions (WordPress standard requires them) -->
+	<rule ref="WordPress.PHP.YodaConditions"/>
+
+	<!-- Inject textdomain as the plugin's own -->
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array" value="crocina-forms"/>
+		</properties>
+	</rule>
+
+	<!-- No need to escape output in templates that already use esc_* -->
+	<rule ref="WordPress.Security.EscapeOutput"/>
+</ruleset>

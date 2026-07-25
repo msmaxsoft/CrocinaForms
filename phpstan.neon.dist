@@ -1,0 +1,26 @@
+parameters:
+	level: 5
+	paths:
+		- includes/
+		- crocina-forms.php
+		- uninstall.php
+	excludePaths:
+		- .github/
+	scanFiles:
+		# Provide WordPress stubs so PHPStan understands WP functions & classes.
+		- vendor/php-stubs/wordpress-stubs/wordpress-stubs.php
+	scanDirectories:
+		# Also scan integration files.
+		- includes/integrations/
+	bootstrapFiles:
+		# Define constants that WordPress normally defines at runtime.
+		- .phpstan.bootstrap.php
+	checkMissingIterableValueType: false
+	checkGenericClassInNonGenericObjectType: false
+	reportPossiblyNonexistentGeneralArrayOffset: false
+	reportMaybes: false
+	featureToggles:
+		disableRuntimeMagicInstantiation: true
+	stubFiles:
+		# Suppress false positives for WP_List_Table and similar WP core classes.
+		- .phpstan.stubs.php

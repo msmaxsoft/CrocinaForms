@@ -1,0 +1,650 @@
+{
+  "total": 331,
+  "used": 221,
+  "dead": 90,
+  "dead_selectors": [
+    {
+      "selector": "crocina-col-1-2",
+      "locations": [
+        "admin.css:370",
+        "form.css:17"
+      ]
+    },
+    {
+      "selector": "crocina-col-1-3",
+      "locations": [
+        "admin.css:370",
+        "form.css:18"
+      ]
+    },
+    {
+      "selector": "crocina-form-design-grid",
+      "locations": [
+        "admin.css:1590"
+      ]
+    },
+    {
+      "selector": "crocina-form-wide",
+      "locations": [
+        "form.css:1"
+      ]
+    },
+    {
+      "selector": "crocina-btn-primary-color",
+      "locations": [
+        "form.css:94"
+      ]
+    },
+    {
+      "selector": "crocina-notice-success",
+      "locations": [
+        "form.css:118"
+      ]
+    },
+    {
+      "selector": "crocina-notice-error",
+      "locations": [
+        "form.css:119"
+      ]
+    },
+    {
+      "selector": "w3",
+      "locations": [
+        "form.css:140"
+      ]
+    },
+    {
+      "selector": "org",
+      "locations": [
+        "form.css:140"
+      ]
+    },
+    {
+      "selector": "crocina-theme-modern",
+      "locations": [
+        "form.css:267",
+        "form.css:282",
+        "form.css:295",
+        "form.css:310",
+        "form.css:318",
+        "form.css:328"
+      ]
+    },
+    {
+      "selector": "crocina-theme-classic",
+      "locations": [
+        "form.css:333",
+        "form.css:339",
+        "form.css:350",
+        "form.css:356",
+        "form.css:365"
+      ]
+    },
+    {
+      "selector": "crocina-theme-minimal",
+      "locations": [
+        "form.css:372",
+        "form.css:380",
+        "form.css:386",
+        "form.css:388",
+        "form.css:397",
+        "form.css:407",
+        "form.css:412",
+        "form.css:427"
+      ]
+    },
+    {
+      "selector": "wp-block-crocina-forms-form-selector",
+      "locations": [
+        "block.css:1"
+      ]
+    },
+    {
+      "selector": "crocina-block-preview",
+      "locations": [
+        "block.css:1"
+      ]
+    },
+    {
+      "selector": "crocina-block-preview-header",
+      "locations": [
+        "block.css:3",
+        "block.css:9"
+      ]
+    },
+    {
+      "selector": "dashicons-before",
+      "locations": [
+        "block.css:9",
+        "block.css:50",
+        "block.css:159",
+        "block.css:208",
+        "block.css:299",
+        "block.css:372",
+        "block.css:408",
+        "block.css:491",
+        "block.css:503",
+        "block.css:525",
+        "block.css:592",
+        "block.css:738",
+        "block.css:822"
+      ]
+    },
+    {
+      "selector": "crocina-block-preview-title",
+      "locations": [
+        "block.css:16"
+      ]
+    },
+    {
+      "selector": "crocina-block-preview-name",
+      "locations": [
+        "block.css:22"
+      ]
+    },
+    {
+      "selector": "crocina-block-preview-badge",
+      "locations": [
+        "block.css:27",
+        "block.css:35"
+      ]
+    },
+    {
+      "selector": "crocina-block-preview-viewport",
+      "locations": [
+        "block.css:44",
+        "block.css:50"
+      ]
+    },
+    {
+      "selector": "crocina-block-frontend-preview",
+      "locations": [
+        "block.css:61"
+      ]
+    },
+    {
+      "selector": "crocina-block-form-container",
+      "locations": [
+        "block.css:67",
+        "block.css:70",
+        "block.css:76",
+        "block.css:91",
+        "block.css:105",
+        "block.css:110",
+        "block.css:120",
+        "block.css:127",
+        "block.css:137",
+        "block.css:144"
+      ]
+    },
+    {
+      "selector": "crocina-viewport-frame",
+      "locations": [
+        "block.css:78"
+      ]
+    },
+    {
+      "selector": "crocina-viewport-active",
+      "locations": [
+        "block.css:84",
+        "block.css:85"
+      ]
+    },
+    {
+      "selector": "crocina-form-template-card",
+      "locations": [
+        "block.css:91"
+      ]
+    },
+    {
+      "selector": "is-style-card",
+      "locations": [
+        "block.css:91"
+      ]
+    },
+    {
+      "selector": "crocina-form-template-minimal",
+      "locations": [
+        "block.css:105",
+        "block.css:110",
+        "block.css:120"
+      ]
+    },
+    {
+      "selector": "is-style-minimal",
+      "locations": [
+        "block.css:105",
+        "block.css:110",
+        "block.css:120"
+      ]
+    },
+    {
+      "selector": "crocina-form-template-bordered",
+      "locations": [
+        "block.css:127",
+        "block.css:137"
+      ]
+    },
+    {
+      "selector": "is-style-bordered",
+      "locations": [
+        "block.css:127",
+        "block.css:137"
+      ]
+    },
+    {
+      "selector": "crocina-form-template-shadow",
+      "locations": [
+        "block.css:144"
+      ]
+    },
+    {
+      "selector": "is-style-shadow",
+      "locations": [
+        "block.css:144"
+      ]
+    },
+    {
+      "selector": "crocina-fields-panel",
+      "locations": [
+        "block.css:147"
+      ]
+    },
+    {
+      "selector": "components-panel__body-title",
+      "locations": [
+        "block.css:147"
+      ]
+    },
+    {
+      "selector": "crocina-fields-loading",
+      "locations": [
+        "block.css:151"
+      ]
+    },
+    {
+      "selector": "crocina-fields-error",
+      "locations": [
+        "block.css:153",
+        "block.css:159"
+      ]
+    },
+    {
+      "selector": "dashicon",
+      "locations": [
+        "block.css:159"
+      ]
+    },
+    {
+      "selector": "crocina-fields-empty",
+      "locations": [
+        "block.css:166"
+      ]
+    },
+    {
+      "selector": "crocina-fields-count",
+      "locations": [
+        "block.css:167"
+      ]
+    },
+    {
+      "selector": "crocina-fields-count-label",
+      "locations": [
+        "block.css:171"
+      ]
+    },
+    {
+      "selector": "crocina-fields-undo-btns",
+      "locations": [
+        "block.css:179"
+      ]
+    },
+    {
+      "selector": "crocina-fields-list",
+      "locations": [
+        "block.css:210"
+      ]
+    },
+    {
+      "selector": "crocina-field-group",
+      "locations": [
+        "block.css:215",
+        "block.css:217",
+        "block.css:244",
+        "block.css:250"
+      ]
+    },
+    {
+      "selector": "crocina-field-group-uncategorized",
+      "locations": [
+        "block.css:234",
+        "block.css:235",
+        "block.css:277"
+      ]
+    },
+    {
+      "selector": "crocina-group-fields",
+      "locations": [
+        "block.css:244",
+        "block.css:379"
+      ]
+    },
+    {
+      "selector": "is-group-dragging",
+      "locations": [
+        "block.css:250"
+      ]
+    },
+    {
+      "selector": "crocina-group-header",
+      "locations": [
+        "block.css:252",
+        "block.css:257",
+        "block.css:272",
+        "block.css:277"
+      ]
+    },
+    {
+      "selector": "crocina-group-collapse-btn",
+      "locations": [
+        "block.css:281",
+        "block.css:286",
+        "block.css:299"
+      ]
+    },
+    {
+      "selector": "crocina-group-name",
+      "locations": [
+        "block.css:305"
+      ]
+    },
+    {
+      "selector": "crocina-group-name-input",
+      "locations": [
+        "block.css:307",
+        "block.css:317",
+        "block.css:320",
+        "block.css:324",
+        "block.css:333"
+      ]
+    },
+    {
+      "selector": "components-base-control__field",
+      "locations": [
+        "block.css:317"
+      ]
+    },
+    {
+      "selector": "crocina-group-count",
+      "locations": [
+        "block.css:337"
+      ]
+    },
+    {
+      "selector": "crocina-group-delete-btn",
+      "locations": [
+        "block.css:348",
+        "block.css:358",
+        "block.css:372"
+      ]
+    },
+    {
+      "selector": "crocina-add-group-area",
+      "locations": [
+        "block.css:383"
+      ]
+    },
+    {
+      "selector": "crocina-add-group-btn",
+      "locations": [
+        "block.css:386",
+        "block.css:390",
+        "block.css:408"
+      ]
+    },
+    {
+      "selector": "crocina-field-row",
+      "locations": [
+        "block.css:418",
+        "block.css:425",
+        "block.css:436",
+        "block.css:552"
+      ]
+    },
+    {
+      "selector": "is-drag-over",
+      "locations": [
+        "block.css:455"
+      ]
+    },
+    {
+      "selector": "crocina-field-row-handle",
+      "locations": [
+        "block.css:464",
+        "block.css:476",
+        "block.css:491"
+      ]
+    },
+    {
+      "selector": "crocina-fields-drag-hint",
+      "locations": [
+        "block.css:500",
+        "block.css:503"
+      ]
+    },
+    {
+      "selector": "crocina-field-icon",
+      "locations": [
+        "block.css:521",
+        "block.css:525"
+      ]
+    },
+    {
+      "selector": "crocina-field-info",
+      "locations": [
+        "block.css:531"
+      ]
+    },
+    {
+      "selector": "crocina-field-label",
+      "locations": [
+        "block.css:535",
+        "block.css:571"
+      ]
+    },
+    {
+      "selector": "crocina-field-meta",
+      "locations": [
+        "block.css:541"
+      ]
+    },
+    {
+      "selector": "crocina-field-type-badge",
+      "locations": [
+        "block.css:548"
+      ]
+    },
+    {
+      "selector": "crocina-field-info-clickable",
+      "locations": [
+        "block.css:566",
+        "block.css:571"
+      ]
+    },
+    {
+      "selector": "crocina-field-expand-icon",
+      "locations": [
+        "block.css:576",
+        "block.css:582",
+        "block.css:592"
+      ]
+    },
+    {
+      "selector": "crocina-field-details",
+      "locations": [
+        "block.css:596"
+      ]
+    },
+    {
+      "selector": "crocina-field-details-item",
+      "locations": [
+        "block.css:618"
+      ]
+    },
+    {
+      "selector": "crocina-field-details-label",
+      "locations": [
+        "block.css:621"
+      ]
+    },
+    {
+      "selector": "crocina-field-details-value",
+      "locations": [
+        "block.css:629"
+      ]
+    },
+    {
+      "selector": "crocina-field-details-empty",
+      "locations": [
+        "block.css:637"
+      ]
+    },
+    {
+      "selector": "crocina-field-details-note",
+      "locations": [
+        "block.css:641"
+      ]
+    },
+    {
+      "selector": "crocina-field-details-options",
+      "locations": [
+        "block.css:648"
+      ]
+    },
+    {
+      "selector": "crocina-color-field",
+      "locations": [
+        "block.css:663",
+        "block.css:779",
+        "block.css:782",
+        "block.css:788"
+      ]
+    },
+    {
+      "selector": "crocina-color-label",
+      "locations": [
+        "block.css:677",
+        "block.css:679"
+      ]
+    },
+    {
+      "selector": "component-color-indicator",
+      "locations": [
+        "block.css:679",
+        "block.css:873"
+      ]
+    },
+    {
+      "selector": "crocina-style-tabs",
+      "locations": [
+        "block.css:691",
+        "block.css:697",
+        "block.css:698",
+        "block.css:702",
+        "block.css:724",
+        "block.css:730",
+        "block.css:738"
+      ]
+    },
+    {
+      "selector": "components-tab-panel__tabs-item",
+      "locations": [
+        "block.css:698",
+        "block.css:702",
+        "block.css:724",
+        "block.css:730",
+        "block.css:738"
+      ]
+    },
+    {
+      "selector": "crocina-tab-content",
+      "locations": [
+        "block.css:753"
+      ]
+    },
+    {
+      "selector": "crocina-style-section-label",
+      "locations": [
+        "block.css:757"
+      ]
+    },
+    {
+      "selector": "crocina-style-primary",
+      "locations": [
+        "block.css:761"
+      ]
+    },
+    {
+      "selector": "components-color-picker-wrapper",
+      "locations": [
+        "block.css:779"
+      ]
+    },
+    {
+      "selector": "components-color-picker__inputs-wrapper",
+      "locations": [
+        "block.css:782"
+      ]
+    },
+    {
+      "selector": "components-color-picker__body",
+      "locations": [
+        "block.css:788"
+      ]
+    },
+    {
+      "selector": "crocina-reset-section",
+      "locations": [
+        "block.css:793"
+      ]
+    },
+    {
+      "selector": "crocina-reset-btn",
+      "locations": [
+        "block.css:795",
+        "block.css:802",
+        "block.css:821",
+        "block.css:822"
+      ]
+    },
+    {
+      "selector": "crocina-template-grid",
+      "locations": [
+        "block.css:828"
+      ]
+    },
+    {
+      "selector": "crocina-template-option",
+      "locations": [
+        "block.css:833",
+        "block.css:839",
+        "block.css:853",
+        "block.css:857",
+        "block.css:865"
+      ]
+    },
+    {
+      "selector": "crocina-template-label",
+      "locations": [
+        "block.css:865"
+      ]
+    },
+    {
+      "selector": "crocina-template-label-row",
+      "locations": [
+        "block.css:869",
+        "block.css:873"
+      ]
+    }
+  ]
+}

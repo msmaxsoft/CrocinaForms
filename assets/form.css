@@ -1,0 +1,504 @@
+/* ================================================================
+   Crocina Forms — Frontend Styles
+   Optimized for zero render-blocking cost.
+   No animations, transitions, or transforms.
+   ================================================================ */
+
+/* -------------------- Base form container -------------------- */
+.crocina-form {
+	padding: var(--crocina-padding, 1rem);
+	border-radius: var(--crocina-border-radius, 6px);
+	max-width: var(--crocina-form-max-width, 640px);
+	margin: 0 auto 1.5rem;
+	background: var(--crocina-form-bg, #ffffff);
+	font-size: var(--crocina-font-size, 0.95rem);
+}
+
+/* Wider form for spacious layouts */
+.crocina-form.crocina-form-wide {
+	max-width: var(--crocina-form-max-width-wide, 780px);
+}
+
+/* -------------------- Inner layout -------------------- */
+.crocina-form__inner {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: var(--crocina-padding, 1rem);
+}
+
+.crocina-fields-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	width: 100%;
+}
+
+.crocina-fields-grid .crocina-field {
+	flex: 1 1 100%;
+}
+
+.crocina-fields-grid .crocina-col-1-2 {
+	flex: 1 1 calc(50% - 1rem);
+}
+
+.crocina-fields-grid .crocina-col-1-3 {
+	flex: 1 1 calc(33.333% - 1rem);
+}
+
+@media (max-width: 600px) {
+	.crocina-fields-grid [class*="crocina-col-"] {
+		flex: 1 1 100%;
+	}
+}
+
+/* -------------------- Field labels & helpers -------------------- */
+.crocina-field label {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+	font-size: var(--crocina-font-size, 0.95rem);
+}
+
+.crocina-field label span {
+	color: var(--crocina-label-color, inherit);
+}
+
+.crocina-field-helper {
+	display: block;
+	margin-top: 0.35rem;
+	font-size: 0.85rem;
+	color: #4a5568;
+}
+
+/* -------------------- Input / textarea / select -------------------- */
+.crocina-field input[type="text"],
+.crocina-field input[type="email"],
+.crocina-field input[type="tel"],
+.crocina-field input[type="url"],
+.crocina-field input[type="number"],
+.crocina-field input[type="file"],
+.crocina-field textarea,
+.crocina-field select {
+	width: 100%;
+	padding: 0.65rem;
+	border: 1px solid var(--crocina-field-border-color, #cfd7e0);
+	border-radius: var(--crocina-border-radius, 4px);
+	font-size: var(--crocina-font-size, 0.95rem);
+	background: #ffffff;
+}
+
+.crocina-field input:focus,
+.crocina-field textarea:focus,
+.crocina-field select:focus {
+	border-color: var(--crocina-field-focus-color, var(--crocina-primary-300, #0e64b7));
+	outline: 2px solid var(--crocina-primary-200, rgb(14 100 183 / 25%));
+	outline-offset: -1px;
+	box-shadow: 0 0 0 3px var(--crocina-primary-50, rgb(14 100 183 / 8%));
+}
+
+/* -------------------- Submit button -------------------- */
+.crocina-button {
+	border: none;
+	border-radius: var(--crocina-border-radius, 4px);
+	padding: 0.75rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.45rem;
+	background: var(--crocina-btn-bg, #0e64b7);
+	color: var(--crocina-btn-color, #ffffff);
+}
+
+.crocina-button:hover {
+	background: var(--crocina-primary-400, var(--crocina-btn-bg, #0e64b7));
+}
+/* When use_primary_color is active, button background uses the theme primary
+   colour instead of the per-form button_background design setting. */
+.crocina-btn-primary-color {
+	background: var(--crocina-theme-primary, var(--crocina-btn-bg, #0e64b7));
+}
+
+.crocina-button:active {
+	opacity: 0.85;
+}
+
+/* Focus-visible for keyboard accessibility */
+.crocina-button:focus-visible,
+.crocina-field input:focus-visible,
+.crocina-field textarea:focus-visible,
+.crocina-field select:focus-visible {
+	outline: 2px solid var(--crocina-field-focus-color, var(--crocina-primary-300, #0e64b7));
+	outline-offset: 2px;
+}
+
+/* -------------------- Loading state (minimal) -------------------- */
+.crocina-button.is-loading {
+	opacity: 0.8;
+	cursor: wait;
+}
+
+.crocina-is-loading .crocina-field input,
+.crocina-is-loading .crocina-field textarea,
+.crocina-is-loading .crocina-field select {
+	opacity: 0.75;
+}
+
+/* -------------------- Notices -------------------- */
+.crocina-notice {
+	padding: 1rem;
+	border-radius: var(--crocina-border-radius, 4px);
+}
+
+.crocina-notice-success {
+	background: #d4edda;
+	color: #155724;
+	border-left: 4px solid #28a745;
+}
+
+.crocina-notice-error {
+	background: #f8d7da;
+	color: #721c24;
+	border-left: 4px solid #dc3545;
+}
+
+.crocina-notice-meta {
+	margin-top: 0.35rem;
+	font-size: 0.85rem;
+	opacity: 0.9;
+}
+
+/* -------------------- Honeypot (hidden) -------------------- */
+.crocina-honeypot {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	left: -9999px;
+	overflow: hidden;
+}
+
+/* -------------------- Choices (checkbox / radio) -------------------- */
+.crocina-field-choices {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-top: 0.35rem;
+}
+
+.crocina-choice {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	font-size: var(--crocina-font-size, 0.95rem);
+}
+
+/* -------------------- Select arrow (inline SVG, minimal) -------------------- */
+.crocina-field select {
+	appearance: none;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%236b7280' viewBox='0 0 12 12'%3E%3Cpath d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 0.75rem center;
+	padding-right: 2rem;
+}
+
+/* -------------------- Drag-and-drop zone -------------------- */
+.crocina-drop-zone {
+	position: relative;
+	border: 2px dashed #cfd7e0;
+	border-radius: var(--crocina-border-radius, 6px);
+	padding: 1rem;
+	text-align: center;
+	cursor: pointer;
+	background: #fafbfc;
+}
+
+.crocina-drop-zone:hover {
+	border-color: #a0aec0;
+	background: #f7f8fa;
+}
+
+.crocina-drop-zone.is-dragover {
+	border-color: var(--crocina-btn-bg, #0e64b7);
+	background: var(--crocina-primary-50, rgb(14 100 183 / 6%));
+	outline: 2px solid var(--crocina-primary-200, rgb(14 100 183 / 25%));
+	outline-offset: -2px;
+}
+
+.crocina-drop-zone input[type="file"] {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+.crocina-drop-zone-message {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.4rem;
+	font-size: 0.9rem;
+	color: #6b7280;
+	pointer-events: none;
+}
+
+.crocina-drop-icon {
+	flex-shrink: 0;
+	color: #9ca3af;
+}
+
+.crocina-drop-zone.is-dragover .crocina-drop-icon {
+	color: var(--crocina-btn-bg, #0e64b7);
+}
+
+.crocina-drop-zone.is-dragover .crocina-drop-zone-message {
+	color: var(--crocina-btn-bg, #0e64b7);
+}
+
+/* -------------------- Upload progress bar -------------------- */
+.crocina-upload-progress {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	padding: 0.5rem 0;
+}
+
+.crocina-upload-progress-label {
+	font-size: 0.85rem;
+	color: #6b7280;
+	white-space: nowrap;
+}
+
+.crocina-upload-progress-track {
+	flex: 1;
+	height: 8px;
+	background: #e5e7eb;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.crocina-upload-progress-fill {
+	height: 100%;
+	background: var(--crocina-btn-bg, #0e64b7);
+	border-radius: 4px;
+}
+
+.crocina-upload-progress-pct {
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: #374151;
+	min-width: 2.5rem;
+	text-align: right;
+}
+
+/* -------------------- File input & preview -------------------- */
+.crocina-field input[type="file"] {
+	padding: 0.5rem;
+}
+
+.crocina-file-preview {
+	margin-top: 0.5rem;
+	min-height: 0;
+}
+
+.crocina-file-thumb {
+	display: block;
+	max-width: 100%;
+	max-height: 200px;
+	width: auto;
+	height: auto;
+	border-radius: var(--crocina-border-radius, 4px);
+	border: 1px solid #e0e0e0;
+	background: #fafafa;
+	object-fit: contain;
+}
+
+.crocina-file-info {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.45rem 0.65rem;
+	background: #f5f7fa;
+	border: 1px solid #e0e4e8;
+	border-radius: var(--crocina-border-radius, 4px);
+	font-size: 0.85rem;
+	color: #343a40;
+}
+
+.crocina-file-info .dashicons {
+	font-size: 1rem;
+	width: 1rem;
+	height: 1rem;
+}
+
+.crocina-file-name {
+	font-weight: 500;
+	word-break: break-all;
+}
+
+.crocina-file-size {
+	color: #6c757d;
+}
+
+/* -------------------- File size error -------------------- */
+.crocina-file-error {
+	padding: 0.5rem 0.65rem;
+	background: #fef2f2;
+	border: 1px solid #fecaca;
+	border-radius: var(--crocina-border-radius, 4px);
+	font-size: 0.85rem;
+	color: #b91c1c;
+	line-height: 1.4;
+}
+
+/* ================================================================
+   Theme: Modern — clean, light
+   ================================================================ */
+.crocina-theme-modern .crocina-form {
+	background: #ffffff;
+	border-radius: 12px;
+	padding: 1.25rem;
+	border: 1px solid #f0f0f1;
+}
+
+.crocina-theme-modern .crocina-field input,
+.crocina-theme-modern .crocina-field textarea,
+.crocina-theme-modern .crocina-field select {
+	border: 1px solid #d0d5dd;
+	border-radius: 8px;
+	padding: 0.7rem 0.85rem;
+	background: #f9fafb;
+}
+
+.crocina-theme-modern .crocina-field input:focus,
+.crocina-theme-modern .crocina-field textarea:focus,
+.crocina-theme-modern .crocina-field select:focus {
+	background: #ffffff;
+	border-color: var(--crocina-primary-300, #0e64b7);
+	box-shadow: 0 0 0 4px var(--crocina-primary-50, rgb(14 100 183 / 8%));
+}
+
+.crocina-theme-modern .crocina-button {
+	border-radius: 8px;
+	padding: 0.7rem 1.25rem;
+	font-weight: 500;
+	background: var(--crocina-btn-bg, var(--crocina-theme-primary, #0e64b7));
+}
+
+.crocina-theme-modern .crocina-button:hover {
+	background: var(--crocina-primary-400, #0b5091);
+}
+
+.crocina-theme-modern .crocina-field label {
+	font-weight: 500;
+}
+
+/* ================================================================
+   Theme: Classic — traditional, warm
+   ================================================================ */
+.crocina-theme-classic .crocina-form {
+	background: #f8f6f2;
+	border-radius: 4px;
+	padding: 1.25rem;
+	border: 1px solid #dad1c3;
+	max-width: var(--crocina-form-max-width, 640px);
+}
+
+.crocina-theme-classic .crocina-field label {
+	font-weight: 600;
+	color: #4a3728;
+}
+
+.crocina-theme-classic .crocina-field input,
+.crocina-theme-classic .crocina-field textarea,
+.crocina-theme-classic .crocina-field select {
+	border: 2px solid #d4c9b8;
+	border-radius: 3px;
+	padding: 0.6rem 0.75rem;
+	background: #fffdf8;
+	color: #3d2c1e;
+}
+
+.crocina-theme-classic .crocina-field input:focus,
+.crocina-theme-classic .crocina-field textarea:focus,
+.crocina-theme-classic .crocina-field select:focus {
+	border-color: var(--crocina-primary-300, #8b6f47);
+	background: #ffffff;
+	box-shadow: 0 0 0 3px var(--crocina-primary-50, rgb(139 111 71 / 10%));
+}
+
+.crocina-theme-classic .crocina-button {
+	border-radius: 3px;
+	padding: 0.65rem 1rem;
+	background: #4a3728;
+	color: #f8f6f2;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	font-size: 0.85rem;
+}
+
+/* ================================================================
+   Theme: Minimal — borderless, airy
+   ================================================================ */
+.crocina-theme-minimal .crocina-form {
+	background: transparent;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	max-width: var(--crocina-form-max-width, 640px);
+}
+
+.crocina-theme-minimal .crocina-fields-grid {
+	gap: 0.5rem;
+}
+
+.crocina-theme-minimal .crocina-field label {
+	font-size: 0.85rem;
+	color: #6b7280;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+}
+
+.crocina-theme-minimal .crocina-field input,
+.crocina-theme-minimal .crocina-field textarea,
+.crocina-theme-minimal .crocina-field select {
+	border: none;
+	border-bottom: 1px solid #e0e0e0;
+	border-radius: 0;
+	padding: 0.5rem 0;
+	background: transparent;
+	color: #111827;
+}
+
+.crocina-theme-minimal .crocina-field input:focus,
+.crocina-theme-minimal .crocina-field textarea:focus,
+.crocina-theme-minimal .crocina-field select:focus {
+	border-bottom-color: var(--crocina-primary-300, #0e64b7);
+	background: transparent;
+}
+
+.crocina-theme-minimal .crocina-button {
+	border-radius: 0;
+	padding: 0.6rem 0;
+	background: transparent;
+	color: var(--crocina-btn-bg, var(--crocina-theme-primary, #0e64b7));
+	font-weight: 500;
+	border-bottom: 2px solid var(--crocina-btn-bg, var(--crocina-theme-primary, #0e64b7));
+	justify-content: flex-start;
+}
+
+.crocina-theme-minimal .crocina-button:hover {
+	border-bottom-color: var(--crocina-primary-400, #0b5091);
+	color: var(--crocina-primary-400, #0b5091);
+}
+
+.crocina-theme-minimal .crocina-button .dashicons {
+	display: none;
+}

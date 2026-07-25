@@ -1,0 +1,2435 @@
+# Crocina Forms - Persian (Iran) Translation
+# Copyright (C) 2026 Mohammad Ghorbani
+# This file is distributed under the same license as the plugin.
+# https://github.com/mohammad/crocina-forms
+msgid ""
+msgstr ""
+"Project-Id-Version: Crocina Forms 0.1.0\n"
+"POT-Creation-Date: 2026-07-24 22:00:39+0000\n"
+"PO-Revision-Date: 2026-07-24 22:00:39+0000\n"
+"Last-Translator: Mohammad Ghorbani\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Crocina Forms POT Generator\n"
+
+#: includes/class-crocina-ajax.php
+msgid "%d entries marked as read."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "%d of %d webhook(s) failed."
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "%d submissions in the last %d days"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "%s: Failed. Check your configuration."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "%s: Sent successfully."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "(test)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "1/1"
+msgstr "۱/۱"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "1/2"
+msgstr "۱/۲"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "1/3"
+msgstr "۱/۳"
+
+#: includes/class-crocina-ajax.php
+msgid "A batch watermark operation is already in progress. Wait for it to finish or reload the page."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Active"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Add Crocina Form"
+msgstr "افزودن فرم کروسینا"
+
+#: assets/block.js
+msgid "Add Group"
+msgstr ""
+
+#: includes/class-crocina-core.php
+#: templates/admin/dashboard.php
+msgid "Add New Form"
+msgstr "افزودن فرم جدید"
+
+#: templates/admin/builder-canvas.php
+msgid "Add fields"
+msgstr "افزودن فیلدها"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Add option"
+msgstr "افزودن گزینه"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Add option values once using the builder below; they sync automatically for choice fields."
+msgstr "مقادیر گزینه را یک بار با سازنده زیر اضافه کنید؛ برای فیلدهای انتخابی به صورت خودکار همگام می شوند."
+
+#: templates/admin/settings-modern.php
+msgid "Admin Email"
+msgstr ""
+
+#: includes/class-crocina-admin-page-renderer.php
+msgid "Ali"
+msgstr "علی"
+
+#: templates/admin/settings-modern.php
+msgid "Alias for warm-cache"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "All %d webhook(s) sent."
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "All Forms"
+msgstr "همه فرم ها"
+
+#: templates/admin/settings-modern.php
+msgid "All channels"
+msgstr ""
+
+#: templates/admin/inbox-modern.php
+msgid "All forms"
+msgstr "همه فرم ها"
+
+#: templates/admin/inbox-modern.php
+msgid "All messages"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Allowed file types (comma separated)"
+msgstr "نوع فایل های مجاز (با کاما جدا شود)"
+
+#: templates/admin/settings-modern.php
+msgid "Apply Watermark to All Images"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Apply watermark to all existing media library images."
+msgstr ""
+
+#: templates/admin/event-log.php
+msgid "Are you sure you want to delete the entire event log?"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php
+msgid "Are you sure you want to delete this log?"
+msgstr "آیا از حذف این گزارش مطمئن هستید؟"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Arrow"
+msgstr "فلش"
+
+#: includes/class-crocina-ajax.php
+msgid "Attachment #%d: %s"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Attachment #%d: file not found."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Attachment #%d: watermark apply returned false (unsupported format or small image)."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Attachments"
+msgstr "پیوست‌ها"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Authentication"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Auto-append Jalali date to custom messages"
+msgstr "افزودن خودکار تاریخ جلالی به پیام های سفارشی"
+
+#: templates/admin/settings-modern.php
+msgid "Auto-append date type"
+msgstr "نوع تاریخ خودکار"
+
+#: assets/block.js
+msgid "Auto-fit"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Available CLI commands. Run with"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+#: includes/class-crocina-channel-bale.php
+#: templates/admin/settings-modern.php
+msgid "Bale"
+msgstr "بله"
+
+#: templates/admin/settings-modern.php
+msgid "Bale chat ID"
+msgstr "شناسه چت بله"
+
+#: templates/admin/settings-modern.php
+msgid "Bale endpoint"
+msgstr "اندپوینت بله"
+
+#: templates/admin/settings-modern.php
+msgid "Bale token"
+msgstr "توکن بله"
+
+#: templates/admin/settings-modern.php
+msgid "Batch"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Batch Watermark"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Batch watermark complete. %d succeeded, %d failed."
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "Benchmark"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Border radius (px)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: templates/admin/builder-canvas.php
+#: assets/block.js
+msgid "Bordered"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Bot token and chat ID are required."
+msgstr ""
+
+#: includes/integrations/class-crocina-bale.php
+#: includes/integrations/class-crocina-eitaa.php
+msgid "Bot token is empty."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Both Jalali and Gregorian"
+msgstr "جلالی و میلادی"
+
+#: templates/admin/settings-modern.php
+msgid "Bottom left"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Bottom right"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Briefcase"
+msgstr "کیف‌دستی"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Browse"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Build your form visually"
+msgstr "فرم را به صورت بصری بسازید"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Button"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Button background"
+msgstr "پس زمینه دکمه"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Button icon"
+msgstr "آیکن دکمه"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Button text"
+msgstr "متن دکمه"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Button text color"
+msgstr "رنگ متن دکمه"
+
+#: templates/admin/settings-modern.php
+msgid "Cache Backend"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Cache Performance"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Cache backend:"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Calendar"
+msgstr "تقویم"
+
+#: templates/admin/settings-modern.php
+msgid "Capability Mapping"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: templates/admin/builder-canvas.php
+#: assets/block.js
+msgid "Card"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Center"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Channel Error History"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Chat"
+msgstr "گفتگو"
+
+#: includes/integrations/class-crocina-bale.php
+#: includes/integrations/class-crocina-eitaa.php
+msgid "Chat ID is empty."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Check"
+msgstr "تایید"
+
+#: includes/class-crocina-admin.php
+#: assets/block.js
+msgid "Checkbox"
+msgstr "چک باکس"
+
+#: assets/block.js
+msgid "Choose a form"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Choose a template"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Choose an icon"
+msgstr "انتخاب آیکون"
+
+#: assets/block.js
+msgid "Choose which form to display."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: assets/block.js
+msgid "Classic"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Clean, flat layout with minimal decoration."
+msgstr ""
+
+#: templates/admin/event-log.php
+msgid "Clear log"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Clear logs"
+msgstr "پاک کردن لاگ ها"
+
+#: templates/admin/event-log.php
+msgid "Clearing..."
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Click a field type or drag it onto the canvas. Drag card handles to reorder."
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Click export above to generate JSON…"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Clipboard"
+msgstr "کلیپ‌بورد"
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: templates/admin/inbox-modern.php
+msgid "Close"
+msgstr ""
+
+#: assets/block.js
+msgid "Collapse"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Colors"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Column width"
+msgstr "عرض ستون"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Configure how this form notifies you — via email, instant-message channels, or custom webhook URLs. Only the channels you enable below will be used."
+msgstr ""
+
+#: includes/class-crocina-admin-page-renderer.php
+msgid "Contact form"
+msgstr "فرم تماس"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Content &amp; Advanced"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Copy"
+msgstr ""
+
+#: templates/admin/export-modern.php
+msgid "Copy export code"
+msgstr "کپی کد برون‌ریزی"
+
+#: templates/admin/export-modern.php
+msgid "Copy failed. Please select and copy manually."
+msgstr "کپی انجام نشد. لطفاً متن را به‌صورت دستی انتخاب و کپی کنید."
+
+#: templates/admin/export-modern.php
+msgid "Copy the full JSON or export only selected categories above."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Core service unavailable."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Could not load database status."
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Count"
+msgstr "تعداد"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Create a server endpoint (PHP, Node.js, Zapier, Make, n8n, etc.) that accepts POST requests."
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Created"
+msgstr "ایجاد شده"
+
+#: includes/class-crocina-core.php
+#: assets/block.js
+msgid "Crocina Form"
+msgstr "فرم کروسینا"
+
+#: includes/class-crocina-admin.php
+msgid "Crocina Form Submissions"
+msgstr "ارسال های فرم کروسینا"
+
+#: includes/class-crocina-admin.php
+#: includes/class-crocina-core.php
+#: templates/admin/dashboard.php
+msgid "Crocina Forms"
+msgstr "کروسینا فرمز"
+
+#: crocina-forms.php
+msgid "Crocina Forms requires PHP 7.4 or higher. Your current PHP version is %s. Please upgrade."
+msgstr "کروسینا فرمز به PHP 7.4 یا بالاتر نیاز دارد. نسخه فعلی PHP شما %s است. لطفا بروزرسانی کنید."
+
+#: crocina-forms.php
+msgid "Crocina Forms requires WordPress 5.6 or higher. Your current version is %s. Please upgrade."
+msgstr "کروسینا فرمز به وردپرس 5.6 یا بالاتر نیاز دارد. نسخه فعلی شما %s است. لطفا بروزرسانی کنید."
+
+#: templates/admin/settings-modern.php
+msgid "Crocina Settings"
+msgstr "تنظیمات کروسینا"
+
+#: includes/class-crocina-admin.php
+msgid "Crocina configuration imported successfully."
+msgstr "پیکربندی کروسینا با موفقیت ایمپورت شد."
+
+#: assets/block.js
+msgid "Current template. Change it in the Template panel on the left."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Current user capabilities used by the plugin."
+msgstr ""
+
+#: assets/block.js
+msgid "Current visual theme. Change it in the Theme panel on the left."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Custom CSS for advanced styling. Only available to administrators."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Custom sample image for preview"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "DB"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Daily submissions chart"
+msgstr "نمودار ارسال های روزانه"
+
+#: templates/admin/settings-modern.php
+msgid "Dashboard stats days"
+msgstr "روزهای آمار داشبورد"
+
+#: templates/admin/settings-modern.php
+msgid "Database Status"
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "Database queries"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php
+msgid "Date"
+msgstr "تاریخ"
+
+#: includes/class-crocina-admin.php
+#: includes/class-crocina-inbox-table.php
+msgid "Date (Jalali)"
+msgstr "تاریخ (جلالی)"
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: templates/admin/builder-canvas.php
+#: assets/block.js
+msgid "Default"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Default (transient fallback)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Default template"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Default theme"
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php
+#: includes/class-crocina-inbox-table.php
+msgid "Delete"
+msgstr "حذف"
+
+#: assets/block.js
+msgid "Delete group (fields move to Uncategorized)"
+msgstr ""
+
+#: assets/block.js
+msgid "Delete this group? Fields will move to Uncategorized."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Design Cache"
+msgstr ""
+
+#: assets/block.js
+msgid "Desktop"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Disclaimer, privacy note, extra links, etc."
+msgstr ""
+
+#: assets/block.js
+msgid "Display Options"
+msgstr ""
+
+#: assets/block.js
+msgid "Display the form name bar in the editor preview."
+msgstr ""
+
+#: assets/block.js
+msgid "Display the submit button area."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Displayed above the form fields."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Displayed below the form fields before the submit button."
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Download .json"
+msgstr ""
+
+#: assets/block.js
+msgid "Drag to reorder"
+msgstr ""
+
+#: templates/fields/field-file.php
+msgid "Drop file here or click to select"
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Each endpoint receives a JSON payload containing"
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php
+msgid "Edit"
+msgstr "ویرایش"
+
+#: includes/class-crocina-core.php
+msgid "Edit Form"
+msgstr "ویرایش فرم"
+
+#: includes/class-crocina-ajax.php
+#: includes/class-crocina-channel-eitaa.php
+#: templates/admin/settings-modern.php
+msgid "Eitaa"
+msgstr "ایتا"
+
+#: templates/admin/settings-modern.php
+msgid "Eitaa bot token"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Eitaa chat ID"
+msgstr "شناسه چت ایتا"
+
+#: includes/class-crocina-ajax.php
+msgid "Eitaa does not support fetching the chat ID automatically. Add your bot as an admin to the target channel, then use the channel @username (e.g. @mychannel) or its numeric ID as the chat ID."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: includes/class-crocina-admin.php
+#: includes/class-crocina-ajax.php
+#: includes/class-crocina-channel-email.php
+#: assets/block.js
+msgid "Email"
+msgstr "ایمیل"
+
+#: templates/admin/settings-modern.php
+msgid "Email recipients"
+msgstr "گیرندگان ایمیل"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Email recipients (comma separated)"
+msgstr "دریافت کنندگان ایمیل (با کاما جدا شوند)"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Enable email recipients"
+msgstr "فعالسازی دریافت ایمیل"
+
+#: templates/admin/settings-modern.php
+msgid "Enable event debug logging"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Enable file attachments for admin email"
+msgstr "فعال سازی پیوست فایل برای ایمیل مدیریت"
+
+#: templates/admin/settings-modern.php
+msgid "Enable image watermarking"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Enable logging for all submissions"
+msgstr "فعال سازی ثبت لاگ برای همه ارسال ها"
+
+#: includes/integrations/class-crocina-bale.php
+#: includes/integrations/class-crocina-eitaa.php
+msgid "Endpoint not allowed."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Engine"
+msgstr ""
+
+#: assets/block.js
+msgid "Enter group name:"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Enter one URL per line in the field above (e.g."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Environment"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Error Log Guard"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Error: %s"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Errors are persisted in"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+#: templates/admin/event-log.php
+msgid "Event Log"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Event Webhook"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Event log cleared successfully."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Event logs are written to"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Example PHP endpoint"
+msgstr ""
+
+#: assets/block.js
+msgid "Expand"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Export & Import"
+msgstr "برون‌ریزی و درون‌ریزی"
+
+#: templates/admin/export-modern.php
+msgid "Export & Import Center"
+msgstr "مرکز برون‌ریزی و درون‌ریزی"
+
+#: templates/admin/builder-canvas.php
+msgid "Export / Import"
+msgstr ""
+
+#: templates/admin/export-modern.php
+msgid "Export JSON copied."
+msgstr "کد برون‌ریزی کپی شد."
+
+#: templates/admin/export-modern.php
+msgid "Export data"
+msgstr "برون‌ریزی داده‌ها"
+
+#: templates/admin/export-modern.php
+msgid "Export selected only"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Export this form"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Export, stats, webhook test"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Extra CSS"
+msgstr "CSS اضافی"
+
+#: templates/admin/settings-modern.php
+msgid "FULLTEXT"
+msgstr ""
+
+#: includes/class-crocina-logger.php
+msgid "FULLTEXT index on payload is working correctly."
+msgstr ""
+
+#: includes/class-crocina-logger.php
+msgid "FULLTEXT query failed on %s. MariaDB with InnoDB requires version 10.6+ for FULLTEXT indexes on LONGTEXT columns. Run the upgrade routine to create the fallback."
+msgstr ""
+
+#: includes/class-crocina-logger.php
+msgid "FULLTEXT query failed: %s"
+msgstr ""
+
+#: includes/class-crocina-logger.php
+msgid "FULLTEXT unavailable — search uses LIKE (slower but works everywhere)."
+msgstr ""
+
+#: includes/class-crocina-logger.php
+msgid "FULLTEXT working via payload_ft fallback column (TEXT)."
+msgstr ""
+
+#: templates/admin/inbox-modern.php
+msgid "Failed to delete the selected log."
+msgstr "حذف گزارش انتخاب شده ناموفق بود."
+
+#: includes/class-crocina-ajax.php
+msgid "Failed to encode form data."
+msgstr ""
+
+#: assets/block.js
+msgid "Failed to load fields."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Failed to mark as read."
+msgstr ""
+
+#: includes/class-crocina-rest-controller.php
+msgid "Failed to save field order."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Failed to send test message. Check your configuration."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Failed: %s"
+msgstr ""
+
+#: includes/class-crocina-logger.php
+msgid "Fallback FULLTEXT also failed: %s"
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php
+msgid "Field"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Field border color"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Field focus color"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Field label color"
+msgstr "رنگ برچسب فیلد"
+
+#: includes/class-crocina-inbox-table.php
+#: assets/block.js
+msgid "Fields"
+msgstr "فیلدها"
+
+#: includes/class-crocina-admin-page-renderer.php
+#: includes/class-crocina-notifications.php
+msgid "Fields:"
+msgstr "فیلدها:"
+
+#: includes/class-crocina-admin.php
+#: assets/block.js
+msgid "File"
+msgstr "فایل"
+
+#: includes/class-crocina-core.php
+msgid "File is required."
+msgstr "فایل الزامی است."
+
+#: includes/class-crocina-core.php
+msgid "File is too large."
+msgstr "فایل بیش از حد بزرگ است."
+
+#: templates/admin/event-log.php
+msgid "File size:"
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "File type not allowed."
+msgstr "نوع فایل مجاز نیست."
+
+#: includes/class-crocina-core.php
+msgid "File upload failed."
+msgstr "آپلود فایل ناموفق بود."
+
+#: templates/admin/inbox-modern.php
+msgid "Filter"
+msgstr "فیلتر"
+
+#: templates/admin/inbox-modern.php
+msgid "Filter by form"
+msgstr "فیلتر بر اساس فرم"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Flag"
+msgstr "پرچم"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Floating appearance with deep shadow."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Flush, warm, or show cache status"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: templates/admin/settings-modern.php
+msgid "Font size (px)"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+#: includes/class-crocina-inbox-table.php
+msgid "Form"
+msgstr "فرم"
+
+#: assets/block.js
+msgid "Form Fields"
+msgstr ""
+
+#: assets/block.js
+msgid "Form Settings"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Form background"
+msgstr "پس زمینه فرم"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Form footer (shown below fields)"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Form imported successfully. Reloading…"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Form intro (shown above fields)"
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "Form is empty."
+msgstr "فرم خالی است."
+
+#: includes/class-crocina-admin.php
+#: includes/class-crocina-ajax.php
+#: includes/class-crocina-core.php
+#: includes/class-crocina-rest-controller.php
+msgid "Form not found."
+msgstr "فرم پیدا نشد."
+
+#: templates/admin/builder-canvas.php
+msgid "Form settings"
+msgstr "تنظیمات فرم"
+
+#: templates/admin/builder-canvas.php
+msgid "Form slug"
+msgstr "نامک فرم"
+
+#: templates/admin/builder-canvas.php
+msgid "Form slug (identifier)..."
+msgstr "نامک فرم (شناسه)..."
+
+#: includes/class-crocina-channel-email.php
+#: includes/class-crocina-notifications.php
+msgid "Form submission"
+msgstr "ارسال فرم"
+
+#: includes/class-crocina-admin-page-renderer.php
+#: includes/class-crocina-notifications.php
+msgid "Form:"
+msgstr "فرم:"
+
+#: templates/admin/export-modern.php
+msgid "Forms and their field definitions"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Forms per page"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Forward all plugin events as JSON POST requests to an external endpoint."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Full (date + time)"
+msgstr "کامل (تاریخ + ساعت)"
+
+#: includes/class-crocina-ajax.php
+msgid "Full Name"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "GD library is not installed. Preview unavailable."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "GD library not available"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "General"
+msgstr "عمومی"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Get the endpoint URL"
+msgstr ""
+
+#: templates/admin/export-modern.php
+msgid "Global settings (channels, spam, logging)"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Gregorian only"
+msgstr "فقط میلادی"
+
+#: assets/block.js
+msgid "Group"
+msgstr ""
+
+#: assets/block.js
+msgid "Group name"
+msgstr ""
+
+#: assets/block.js
+msgid "H:"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "HTTPS required"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Heart"
+msgstr "قلب"
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: assets/block.js
+msgid "Helper text"
+msgstr "متن راهنما"
+
+#: assets/block.js
+msgid "Hide the form name bar in the editor preview."
+msgstr ""
+
+#: assets/block.js
+msgid "Hide the submit button area."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Hits"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Honeypot field name"
+msgstr "نام فیلد هانی پات"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "How to set up webhook endpoints"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php
+msgid "IP"
+msgstr "IP"
+
+#: includes/class-crocina-notifications.php
+msgid "IP:"
+msgstr "IP:"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Icon picker"
+msgstr "انتخابگر آیکون"
+
+#: templates/admin/export-modern.php
+msgid "Import configuration"
+msgstr "درون‌ریزی پیکربندی"
+
+#: templates/admin/builder-canvas.php
+msgid "Import into this form"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Import payload too large."
+msgstr "حجم داده ایمپورت خیلی زیاد است."
+
+#: includes/class-crocina-admin.php
+msgid "Imported Form"
+msgstr "فرم ایمپورت شده"
+
+#: templates/admin/settings-modern.php
+msgid "Inactive"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+#: templates/admin/inbox-modern.php
+msgid "Inbox"
+msgstr "صندوق ورودی"
+
+#: templates/admin/export-modern.php
+msgid "Inbox / submission history"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Inbox rows"
+msgstr "ردیف های صندوق ورودی"
+
+#: templates/admin/settings-modern.php
+msgid "Indexes"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Individual"
+msgstr ""
+
+#: assets/block.js
+msgid "Insert a Crocina contact form into your content with custom display options."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Install php-gd extension or ask your host."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Invalid JSON payload."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Invalid channel."
+msgstr ""
+
+#: includes/class-crocina-rest-controller.php
+msgid "Invalid fields data."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Invalid form."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php
+msgid "Invalid input."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Invalid log ID."
+msgstr ""
+
+#: includes/integrations/class-crocina-bale.php
+#: includes/integrations/class-crocina-eitaa.php
+msgid "Invalid response (HTTP %1$d): %2$s"
+msgstr ""
+
+#: assets/block.js
+msgid "Invalid response."
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "Invalid timestamp."
+msgstr "زمان نامعتبر است."
+
+#: templates/admin/settings-modern.php
+msgid "Jalali date display"
+msgstr "نمایش تاریخ جلالی"
+
+#: templates/admin/settings-modern.php
+msgid "Jalali only"
+msgstr "فقط جلالی"
+
+#: includes/class-crocina-ajax.php
+msgid "John Doe"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Key / Slug"
+msgstr "کلید / اسلاگ"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Label"
+msgstr "برچسب"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Label, slug, type, placeholder, helper text, and choice options live here. Required fields will insist on data when the form is submitted."
+msgstr "برچسب، کلید، نوع، متن جایگزین، متن راهنما و گزینه‌های انتخابی اینجا تنظیم می‌شوند. فیلدهای ضروری بدون داده ارسال نمی‌شوند."
+
+#: includes/class-crocina-form-list-table.php
+msgid "Last Updated"
+msgstr "آخرین بروزرسانی"
+
+#: templates/admin/export-modern.php
+msgid "Latest log: %1$s submitted on %2$s."
+msgstr "آخرین گزارش: %1$s در %2$s ارسال شد."
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Layout &amp; Dimensions"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Legacy indexes"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Lifted card-style with rounded corners and subtle shadow."
+msgstr ""
+
+#: templates/admin/event-log.php
+msgid "Lines shown:"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Link"
+msgstr "لینک"
+
+#: templates/admin/settings-modern.php
+msgid "List forms with field/cache info"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Live Preview"
+msgstr ""
+
+#: assets/block.js
+msgid "Loading available formsu2026"
+msgstr ""
+
+#: assets/block.js
+msgid "Loading fieldsu2026"
+msgstr ""
+
+#: assets/block.js
+msgid "Loadingu2026"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Location"
+msgstr "موقعیت"
+
+#: templates/admin/inbox-modern.php
+msgid "Log deleted successfully."
+msgstr "گزارش با موفقیت حذف شد."
+
+#: includes/class-crocina-ajax.php
+msgid "Log file does not exist."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php
+#: includes/class-crocina-ajax.php
+msgid "Log not found."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Log retention (days)"
+msgstr "نگهداری لاگ (روز)"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Log submissions for this form (stored in the inbox)."
+msgstr "ثبت لاگ ارسال ها برای این فرم (در صندوق ورودی ذخیره می شود)."
+
+#: includes/class-crocina-admin.php
+msgid "Logged submissions"
+msgstr "ارسال های ثبت شده"
+
+#: includes/class-crocina-admin-ajax-handler.php
+msgid "Logger is unavailable."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Logger unavailable."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Logging"
+msgstr "لاگ‌ها"
+
+#: templates/admin/settings-modern.php
+msgid "Logo max width (px)"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Logo only"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Logo opacity (5–100)"
+msgstr ""
+
+#: templates/admin/inbox-modern.php
+msgid "Mark all as read"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php
+msgid "Mark as read"
+msgstr "علامت‌گذاری به‌عنوان خوانده‌شده"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Mark field as required"
+msgstr "علامت گذاری فیلد به عنوان الزامی"
+
+#: includes/class-crocina-ajax.php
+msgid "Marked as read."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Max attachment size (MB)"
+msgstr "حداکثر اندازه پیوست (MB)"
+
+#: templates/admin/settings-modern.php
+msgid "Max body size (KB)"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Max exec"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Megaphone"
+msgstr "بلندگو"
+
+#: templates/admin/settings-modern.php
+msgid "Memory"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Message"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Message example: {fields} sent from {page_url}"
+msgstr "نمونه پیام: {fields} ارسال شده از {page_url}"
+
+#: includes/class-crocina-core.php
+msgid "Message sent successfully."
+msgstr "پیام با موفقیت ارسال شد."
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Message template"
+msgstr "قالب پیام"
+
+#: includes/integrations/class-crocina-bale.php
+#: includes/integrations/class-crocina-eitaa.php
+msgid "Message text is empty."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: templates/admin/builder-canvas.php
+#: assets/block.js
+msgid "Minimal"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Minimum delay (seconds)"
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php
+msgid "Missing log ID."
+msgstr ""
+
+#: assets/block.js
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: assets/block.js
+msgid "Modern"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Multi-line preview text"
+msgstr ""
+
+#: includes/class-crocina-admin-page-renderer.php
+msgid "Name"
+msgstr "نام"
+
+#: includes/class-crocina-inbox-table.php
+msgid "New"
+msgstr "جدید"
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: includes/class-crocina-admin.php
+msgid "New Field"
+msgstr "فیلد جدید"
+
+#: includes/class-crocina-core.php
+msgid "New Form"
+msgstr "فرم جدید"
+
+#: templates/admin/inbox-modern.php
+msgid "New messages"
+msgstr "پیام‌های جدید"
+
+#: includes/class-crocina-admin.php
+msgid "No Crocina forms are available."
+msgstr "هیچ فرم کروسینا در دسترس نیست."
+
+#: includes/class-crocina-admin-ajax-handler.php
+msgid "No categories selected."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "No channels are enabled for this form."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php
+#: includes/class-crocina-inbox-table.php
+msgid "No data"
+msgstr "بدون داده"
+
+#: assets/block.js
+msgid "No fields configured for this form."
+msgstr ""
+
+#: assets/block.js
+msgid "No fields found."
+msgstr ""
+
+#: assets/block.js
+msgid "No forms available."
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "No forms found"
+msgstr "فرمی یافت نشد"
+
+#: includes/class-crocina-core.php
+msgid "No forms found in trash"
+msgstr "فرمی در زباله دان یافت نشد"
+
+#: templates/admin/dashboard.php
+msgid "No forms found. Create your first form to get started."
+msgstr ""
+
+#: assets/block.js
+msgid "No group"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "No icon"
+msgstr "بدون آیکن"
+
+#: includes/class-crocina-ajax.php
+msgid "No image processing library (GD/Imagick) available."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "No images found in the media library."
+msgstr ""
+
+#: templates/admin/event-log.php
+msgid "No log entries yet. Enable event logging in Settings to start collecting events."
+msgstr ""
+
+#: templates/admin/event-log.php
+msgid "No log file found."
+msgstr ""
+
+#: includes/class-crocina-rest-controller.php
+msgid "No valid fields to save."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Not tested"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Notification preview"
+msgstr "پیش نمایش اعلان"
+
+#: includes/class-crocina-ajax.php
+msgid "Notification service unavailable."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: templates/admin/settings-modern.php
+msgid "Notifications"
+msgstr "اطلاع‌رسانی"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Notifications & Webhooks"
+msgstr ""
+
+#: templates/admin/inbox-modern.php
+msgid "Notifications resent successfully."
+msgstr "اعلان ها با موفقیت دوباره ارسال شدند."
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Notify via WhatsApp (global endpoint/token)"
+msgstr "اطلاع رسانی از طریق واتس اپ (اندپوینت یا توکن سراسری)"
+
+#: includes/class-crocina-admin.php
+#: assets/block.js
+msgid "Number"
+msgstr "عدد"
+
+#: templates/admin/settings-modern.php
+msgid "Object cache"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Only HTTPS endpoints are allowed by default for security."
+msgstr ""
+
+#: templates/admin/export-modern.php
+msgid "Only import JSON from trusted sources."
+msgstr ""
+
+#: assets/block.js
+msgid "Options"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Padding (px)"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php
+msgid "Page"
+msgstr "صفحه"
+
+#: includes/class-crocina-notifications.php
+msgid "Page:"
+msgstr "صفحه:"
+
+#: templates/admin/builder-canvas.php
+msgid "Paste JSON to import into this form…"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Paste the full URL"
+msgstr ""
+
+#: templates/admin/export-modern.php
+msgid "Paste your JSON payload here..."
+msgstr "JSON خود را اینجا بچسبانید..."
+
+#: templates/admin/event-log.php
+msgid "Path:"
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "Peak memory"
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php
+#: includes/class-crocina-ajax.php
+msgid "Permission denied."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Persistent (Redis/Memcached)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: includes/class-crocina-admin-page-renderer.php
+#: assets/block.js
+msgid "Phone"
+msgstr "تلفن"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Pick the layout style that best fits your form."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: assets/block.js
+msgid "Placeholder"
+msgstr "متن جایگزین"
+
+#: includes/class-crocina-ajax.php
+msgid "Please configure the %s token and chat ID in the settings above, then save before testing."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Please enter the Eitaa bot token first."
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "Please wait a moment before submitting again."
+msgstr "لطفا قبل از ارسال دوباره کمی صبر کنید."
+
+#: templates/admin/settings-modern.php
+msgid "Post max"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Pre-build cache for all forms"
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: assets/block.js
+msgid "Preview height (px)"
+msgstr ""
+
+#: assets/block.js
+msgid "Preview height for the editor. Adjust it in the Display Options panel."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Preview value"
+msgstr ""
+
+#: assets/block.js
+msgid "Primary color"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Processing… %d of %d images done."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Prominent border with a bold outline."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Published Forms"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Quick add text"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Quick backup or transfer this single form as JSON."
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php
+#: templates/admin/inbox-modern.php
+msgid "Quick view"
+msgstr "نمایش سریع"
+
+#: templates/admin/settings-modern.php
+msgid "REST API Health"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+#: assets/block.js
+msgid "Radio"
+msgstr "رادیو"
+
+#: templates/admin/settings-modern.php
+msgid "Rate limit (requests per minute)"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Rate limit (submissions per window)"
+msgstr "محدودیت نرخ (ارسال در هر بازه)"
+
+#: templates/admin/settings-modern.php
+msgid "Rate limit window (seconds)"
+msgstr "بازه محدودیت نرخ (ثانیه)"
+
+#: includes/class-crocina-inbox-table.php
+msgid "Read"
+msgstr "خوانده‌شده"
+
+#: templates/admin/inbox-modern.php
+msgid "Read only"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Receive the payload"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Redo"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+#: assets/block.js
+msgid "Redo (Ctrl+Shift+Z)"
+msgstr ""
+
+#: templates/admin/event-log.php
+#: templates/admin/settings-modern.php
+msgid "Refresh"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Refresh Error Log"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Registered REST API endpoints under crocina/v1."
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Registered forms"
+msgstr "فرم های ثبت شده"
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: templates/admin/settings-modern.php
+msgid "Remove"
+msgstr "حذف"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Remove field"
+msgstr "حذف فیلد"
+
+#: includes/class-crocina-core.php
+msgid "Render time"
+msgstr ""
+
+#: includes/integrations/class-crocina-bale.php
+#: includes/integrations/class-crocina-eitaa.php
+msgid "Request failed (HTTP %d)."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Required"
+msgstr "الزامی"
+
+#: assets/block.js
+msgid "Reset all block settings to their default values."
+msgstr ""
+
+#: assets/block.js
+msgid "Reset all settings to defaults? This action cannot be undone."
+msgstr ""
+
+#: assets/block.js
+msgid "Reset to defaults"
+msgstr ""
+
+#: assets/block.js
+msgid "Responsive preview"
+msgstr ""
+
+#: assets/block.js
+msgid "Responsive preview mode for testing different screen sizes."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Result after auto-append:"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+#: includes/class-crocina-channel-rubika.php
+#: templates/admin/settings-modern.php
+msgid "Rubika"
+msgstr "روبیکا"
+
+#: templates/admin/settings-modern.php
+msgid "Rubika chat ID"
+msgstr "شناسه چت روبیکا"
+
+#: templates/admin/settings-modern.php
+msgid "Rubika endpoint"
+msgstr "اندپوینت روبیکا"
+
+#: templates/admin/settings-modern.php
+msgid "Rubika token"
+msgstr "توکن روبیکا"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Sample Input"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Sample Textarea"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Save"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Save form (Ctrl+S)"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Scan handlers for nonce/cap"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Scanning…"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Schema"
+msgstr ""
+
+#: templates/admin/dashboard.php
+#: templates/admin/inbox-modern.php
+msgid "Search"
+msgstr "جستجو"
+
+#: includes/class-crocina-core.php
+#: templates/admin/dashboard.php
+msgid "Search Forms"
+msgstr "جستجوی فرم ها"
+
+#: templates/admin/dashboard.php
+msgid "Search forms"
+msgstr "جستجوی فرم ها"
+
+#: templates/admin/dashboard.php
+msgid "Search forms by title"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Search icons..."
+msgstr "جستجوی آیکون‌ها..."
+
+#: templates/admin/inbox-modern.php
+msgid "Search inbox..."
+msgstr "جستجوی صندوق ورودی..."
+
+#: templates/admin/inbox-modern.php
+msgid "Search logs"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Security"
+msgstr "امنیت"
+
+#: includes/class-crocina-core.php
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-crocina-admin.php
+#: assets/block.js
+msgid "Select"
+msgstr "انتخاب"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Select / radio / checkbox options"
+msgstr "گزینه های انتخاب/رادیو/چک باکس"
+
+#: includes/class-crocina-admin.php
+msgid "Select a Crocina form by entering its ID below:%s"
+msgstr "یک فرم کروسینا را با وارد کردن شناسه زیر انتخاب کنید:%s"
+
+#: templates/admin/builder-canvas.php
+msgid "Select a field from the left to start building your form."
+msgstr "برای شروع، یک فیلد از سمت چپ انتخاب کنید."
+
+#: assets/block.js
+msgid "Select a form to see its fields."
+msgstr ""
+
+#: templates/admin/export-modern.php
+msgid "Select what to export"
+msgstr ""
+
+#: templates/fields/field-select.php
+msgid "Select..."
+msgstr "انتخاب کنید..."
+
+#: templates/fields/field-file.php
+msgid "Selected file preview"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Send"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: includes/class-crocina-core.php
+msgid "Send Message"
+msgstr "ارسال پیام"
+
+#: templates/admin/settings-modern.php
+msgid "Send Test Message"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Send payload to Bale endpoint/token"
+msgstr "ارسال داده به اندپوینت یا توکن بله"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Send payload to Eitaa webhook"
+msgstr "ارسال داده به وبهوک ایتا"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Send payload to Rubika endpoint"
+msgstr "ارسال داده به اندپوینت روبیکا"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Send test notification"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Send test webhook"
+msgstr ""
+
+#: includes/class-crocina-core.php
+#: templates/form.php
+msgid "Sending..."
+msgstr "در حال ارسال..."
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Sends a sample submission to all enabled channels to verify configuration."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Server"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Set to 0 for unlimited."
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: templates/admin/settings-modern.php
+msgid "Settings Cache"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: templates/admin/builder-canvas.php
+#: assets/block.js
+msgid "Shadow"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Share"
+msgstr "اشتراک"
+
+#: templates/admin/settings-modern.php
+msgid "Short (month/day)"
+msgstr "کوتاه (ماه/روز)"
+
+#: includes/class-crocina-admin.php
+#: includes/class-crocina-form-list-table.php
+msgid "Shortcode"
+msgstr "شورتکد"
+
+#: includes/class-crocina-admin.php
+msgid "Shortcode inserted."
+msgstr "شورتکد درج شد."
+
+#: assets/block.js
+msgid "Show form footer"
+msgstr ""
+
+#: assets/block.js
+msgid "Show preview header"
+msgstr ""
+
+#: templates/admin/export-modern.php
+msgid "Snapshot: %1$s (format %2$s). %3$d forms and %4$d submissions."
+msgstr "اسنپ شات: %1$s (فرمت %2$s). %3$d فرم و %4$d ارسال."
+
+#: includes/class-crocina-core.php
+msgid "Spam detected."
+msgstr "اسپم شناسایی شد."
+
+#: templates/admin/builder-canvas.php
+msgid "Spam protection is enabled for this form."
+msgstr "محافظت ضد اسپم برای این فرم فعال است."
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Star"
+msgstr "ستاره"
+
+#: templates/admin/export-modern.php
+msgid "Start import"
+msgstr "شروع درون‌ریزی"
+
+#: templates/admin/inbox-modern.php
+#: templates/admin/settings-modern.php
+msgid "Status"
+msgstr ""
+
+#: assets/block.js
+msgid "Style"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Subject example: {form_title} received on {page_title}"
+msgstr "نمونه موضوع: {form_title} دریافت شد در {page_title}"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Subject template"
+msgstr "قالب موضوع"
+
+#: includes/class-crocina-admin.php
+#: includes/class-crocina-form-list-table.php
+msgid "Submissions"
+msgstr "ارسال ها"
+
+#: includes/class-crocina-admin.php
+msgid "Submissions in last %d days"
+msgstr "ارسال ها در %d روز اخیر"
+
+#: assets/block.js
+msgid "Submit button takes its background from the primary color."
+msgstr ""
+
+#: assets/block.js
+msgid "Submit button uses its own background color setting."
+msgstr ""
+
+#: includes/class-crocina-channel-email.php
+#: includes/class-crocina-notifications.php
+#: templates/admin/settings-modern.php
+msgid "Submitted at (Jalali):"
+msgstr "ارسال در (جلالی):"
+
+#: includes/class-crocina-notifications.php
+#: templates/admin/settings-modern.php
+#: templates/notice.php
+msgid "Submitted at:"
+msgstr "ارسال در:"
+
+#: templates/admin/settings-modern.php
+msgid "System"
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "System error."
+msgstr "خطای سیستم."
+
+#: assets/block.js
+msgid "Tablet"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+#: includes/class-crocina-channel-telegram.php
+#: templates/admin/settings-modern.php
+msgid "Telegram"
+msgstr "تلگرام"
+
+#: templates/admin/settings-modern.php
+msgid "Telegram chat ID"
+msgstr "شناسه چت تلگرام"
+
+#: templates/admin/settings-modern.php
+msgid "Telegram endpoint"
+msgstr "اندپوینت تلگرام"
+
+#: templates/admin/settings-modern.php
+msgid "Telegram token"
+msgstr "توکن تلگرام"
+
+#: includes/class-crocina-admin.php
+msgid "Telephone"
+msgstr "تلفن"
+
+#: assets/block.js
+msgid "Template"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Template input:"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+#: assets/block.js
+msgid "Template:"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Test message sent successfully!"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Test notification sent."
+msgstr ""
+
+#: includes/class-crocina-admin.php
+#: assets/block.js
+msgid "Text"
+msgstr "متن"
+
+#: templates/admin/settings-modern.php
+msgid "Text + Logo"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Text color (hex)"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Text only"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Text opacity (5–100)"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+#: assets/block.js
+msgid "Textarea"
+msgstr "ناحیه متنی"
+
+#: templates/admin/settings-modern.php
+msgid "The log is rotated at 5 MB."
+msgstr ""
+
+#: assets/block.js
+msgid "Theme"
+msgstr ""
+
+#: assets/block.js
+msgid "Theme:"
+msgstr ""
+
+#: templates/admin/export-modern.php
+msgid "This JSON snapshot includes your forms, settings, and inbox history."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "This is a test message from the Crocina Forms plugin."
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "To protect your endpoint, add a secret query parameter (e.g."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Toggle field options"
+msgstr "باز/بسته کردن تنظیمات فیلد"
+
+#: includes/class-crocina-core.php
+msgid "Too many fields submitted."
+msgstr "تعداد فیلدهای ارسال شده زیاد است."
+
+#: templates/admin/settings-modern.php
+msgid "Top left"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Top right"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Total Logs"
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "Total upload size is too large."
+msgstr "مجموع حجم آپلود بسیار زیاد است."
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Type"
+msgstr "نوع"
+
+#: includes/class-crocina-admin.php
+#: assets/block.js
+msgid "URL"
+msgstr "URL"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Ultra-light border, airy spacing, no frills."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Unable to clear the log file. Check file permissions."
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Unable to decode the provided JSON."
+msgstr "امکان خواندن JSON ارسالی نیست."
+
+#: includes/class-crocina-admin-page-renderer.php
+msgid "Unable to display inbox."
+msgstr "نمایش صندوق ورودی ممکن نیست."
+
+#: templates/admin/inbox-modern.php
+msgid "Unable to find the requested log entry."
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "Unable to import configuration."
+msgstr "امکان ایمپورت پیکربندی نیست."
+
+#: includes/class-crocina-core.php
+msgid "Unable to submit the form."
+msgstr "ارسال فرم ممکن نیست."
+
+#: includes/class-crocina-admin-ajax-handler.php
+msgid "Unable to update log status."
+msgstr ""
+
+#: assets/block.js
+msgid "Uncategorized"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "Undo"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+#: assets/block.js
+msgid "Undo (Ctrl+Z)"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Unknown error."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Unread Logs"
+msgstr ""
+
+#: templates/admin/inbox-modern.php
+msgid "Unread only"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Upload Logo"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Upload Sample Image"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Upload a custom image to see how the watermark looks."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Upload a transparent PNG logo. Recommended max width: 120px."
+msgstr ""
+
+#: assets/block.js
+msgid "Upload field"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Upload max"
+msgstr ""
+
+#: templates/form.php
+msgid "Uploading file…"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Use the global Telegram settings for this form"
+msgstr "برای این فرم از تنظیمات سراسری تلگرام استفاده کن"
+
+#: assets/block.js
+msgid "Use theme primary color for button"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Use theme primary color for submit button"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Useful for debugging without enabling WP_DEBUG."
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php
+msgid "View"
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "View Form"
+msgstr "مشاهده فرم"
+
+#: includes/class-crocina-inbox-table.php
+msgid "View details"
+msgstr "مشاهده جزئیات"
+
+#: templates/admin/settings-modern.php
+msgid "View the most recent errors below."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "WP-CLI Commands"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "WP_DEBUG"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "WP_DEBUG_DISPLAY"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "WP_DEBUG_LOG"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Watermark"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Watermark Logo"
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+msgid "Watermark is not enabled. Enable it in the watermark settings first."
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Watermark position"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Watermark text"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Watermark type"
+msgstr ""
+
+#: includes/class-crocina-channel-webhook.php
+msgid "Webhook"
+msgstr ""
+
+#: templates/admin/settings-modern.php
+msgid "Webhook endpoint URL"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Webhook endpoints (one per line)"
+msgstr "اندپوینت های وبهوک (هر خط یکی)"
+
+#: includes/class-crocina-ajax.php
+msgid "Webhooks (%d/%d)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Webhooks send a JSON POST request to each endpoint URL whenever this form is submitted."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "Welcome message, instructions, etc."
+msgstr ""
+
+#: includes/class-crocina-ajax.php
+#: includes/class-crocina-channel-whatsapp.php
+#: templates/admin/settings-modern.php
+msgid "WhatsApp"
+msgstr "واتس اپ"
+
+#: templates/admin/settings-modern.php
+msgid "WhatsApp chat ID"
+msgstr "شناسه چت واتس‌اپ"
+
+#: templates/admin/settings-modern.php
+msgid "WhatsApp endpoint"
+msgstr "اندپوینت واتس‌اپ"
+
+#: templates/admin/settings-modern.php
+msgid "WhatsApp token"
+msgstr "توکن واتس‌اپ"
+
+#: templates/admin/settings-modern.php
+msgid "When a channel send fails (test or real), the error is logged to"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "You are not allowed to delete logs."
+msgstr "شما مجاز به حذف لاگ ها نیستید."
+
+#: includes/class-crocina-admin.php
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php
+msgid "You are not allowed to preview forms."
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "You are not allowed to resend logs."
+msgstr "شما مجاز به ارسال مجدد لاگ ها نیستید."
+
+#: includes/class-crocina-admin-ajax-handler.php
+msgid "You are not allowed to update logs."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php
+msgid "You are not allowed to view logs."
+msgstr ""
+
+#: includes/class-crocina-core.php
+msgid "You are submitting too often. Try again later."
+msgstr "خیلی سریع ارسال می کنید. بعدا دوباره تلاش کنید."
+
+#: includes/class-crocina-rest-controller.php
+msgid "You do not have permission to list forms."
+msgstr ""
+
+#: includes/class-crocina-rest-controller.php
+msgid "You do not have permission to modify forms."
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php
+msgid "You do not have sufficient permissions to perform this action."
+msgstr "مجوز کافی برای انجام این عمل را ندارید."
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "and validate it on your server."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+#: includes/class-crocina-admin.php
+msgid "auto key"
+msgstr "کلید خودکار"
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "e.g. 14"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "e.g. 20"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php
+msgid "e.g. 8"
+msgstr ""
+
+#: includes/class-crocina-admin.php
+msgid "entries"
+msgstr "رکورد"
+
+#: templates/admin/export-modern.php
+msgid "forms"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php
+msgid "n/a"
+msgstr "نامشخص"
+
+#: includes/class-crocina-logger.php
+msgid "not set"
+msgstr ""
+
+#: templates/admin/builder-canvas.php
+msgid "or"
+msgstr ""
+
+#: includes/class-crocina-notifications.php
+msgid "submission"
+msgstr "ارسال"
+
+#: templates/admin/export-modern.php
+msgid "submissions"
+msgstr ""
+
+#: assets/block.js
+msgid "u2014 Select a form u2014"
+msgstr ""
+
+#: templates/admin/export-modern.php
+msgid "unknown form"
+msgstr "فرم نامشخص"
+
+#: templates/admin/settings-modern.php
+msgid "—"
+msgstr ""
+

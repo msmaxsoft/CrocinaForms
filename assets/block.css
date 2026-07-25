@@ -1,0 +1,1057 @@
+/* Crocina Forms — Gutenberg block editor styles */
+
+.wp-block-crocina-forms-form-selector {
+	max-width: 100%;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Preview header                                                    */
+/* ---------------------------------------------------------------- */
+.crocina-block-preview {
+	background: #ffffff;
+	border: 1px solid #e2e4e7;
+	border-radius: 6px;
+	padding: 1rem;
+	margin-bottom: 0;
+	box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+}
+
+.crocina-block-preview-header {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.crocina-block-preview-header .dashicons,
+.crocina-block-preview-header .dashicons-before::before {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	color: #0e64b7;
+}
+
+.crocina-block-preview-title {
+	font-weight: 600;
+	font-size: 13px;
+	color: #1d2327;
+}
+
+.crocina-block-preview-name {
+	margin-left: auto;
+	font-size: 12px;
+	color: #787c82;
+	background: #f0f0f1;
+	padding: 0.15rem 0.5rem;
+	border-radius: 3px;
+}
+
+/* Badge row — shows template name & height */
+.crocina-block-preview-badge {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	padding-top: 0.5rem;
+	font-size: 11px;
+	color: #8c8f94;
+}
+
+.crocina-block-preview-badge span {
+	background: #f6f7f7;
+	padding: 0.1rem 0.4rem;
+	border-radius: 2px;
+}
+
+/* Viewport badge */
+.crocina-block-preview-viewport {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.2rem;
+	background: #e5f1fa;
+	color: #0e64b7;
+	font-weight: 600;
+}
+
+.crocina-block-preview-viewport .dashicons,
+.crocina-block-preview-viewport .dashicons-before::before {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	color: #0e64b7;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Frontend preview container                                       */
+/* ---------------------------------------------------------------- */
+.crocina-block-frontend-preview {
+	position: relative;
+}
+
+.crocina-block-form-container {
+	overflow-y: auto;
+	transition: max-height 0.2s ease;
+}
+
+.crocina-block-form-container::-webkit-scrollbar {
+	width: 6px;
+}
+
+.crocina-block-form-container::-webkit-scrollbar-thumb {
+	background: #ccd0d4;
+	border-radius: 3px;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Responsive viewport frame                                         */
+/* ---------------------------------------------------------------- */
+.crocina-viewport-frame {
+	transition: all 0.25s ease;
+}
+
+.crocina-viewport-active {
+	position: relative;
+}
+
+/* Simulate a device frame notch at the top of mobile/tablet viewports */
+.crocina-viewport-active::before {
+	content: '';
+	display: block;
+	height: 20px;
+	background: #f0f0f1;
+	border-bottom: 1px solid #e8eaed;
+}
+
+/* Simulate a status bar dot on the notch */
+.crocina-viewport-active::after {
+	content: '';
+	position: absolute;
+	top: 6px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #c3c4c7;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Template variant styles — wrap form in distinctive looks         */
+/* ---------------------------------------------------------------- */
+/*                                                                      */
+/*  Both selector patterns work:                                        */
+/*    .crocina-form-template-{name}  — from the custom template attr    */
+/*    .is-style-{name}              — from WordPress Block Styles API   */
+/*                                                                      */
+/*  The combo selector (first line) ensures whichever mechanism the     */
+/*  user chooses applies the same visual style.                        */
+
+/* Card template — elevated box with rounded corners */
+.crocina-form-template-card .crocina-form,
+.is-style-card .crocina-block-form-container .crocina-form {
+	background: #ffffff;
+	border-radius: 12px;
+	padding: 1.5rem;
+	box-shadow: 0 4px 24px rgb(0 0 0 / 8%);
+	border: 1px solid #e8eaed;
+}
+
+/* Minimal template — clean, borderless, compact */
+.crocina-form-template-minimal .crocina-form,
+.is-style-minimal .crocina-block-form-container .crocina-form {
+	background: transparent;
+	padding: 0;
+}
+
+.crocina-form-template-minimal .crocina-form .crocina-fields-grid,
+.is-style-minimal .crocina-block-form-container .crocina-form .crocina-fields-grid {
+	gap: 0.75rem;
+}
+
+.crocina-form-template-minimal .crocina-form .crocina-button,
+.is-style-minimal .crocina-block-form-container .crocina-form .crocina-button {
+	border-radius: 0;
+	box-shadow: none;
+}
+
+/* Bordered template — visible field borders, structured */
+.crocina-form-template-bordered .crocina-form,
+.is-style-bordered .crocina-block-form-container .crocina-form {
+	background: #ffffff;
+	border: 2px solid var(--crocina-theme-primary, #0e64b7);
+	border-radius: 6px;
+	padding: 1.5rem;
+}
+
+.crocina-form-template-bordered .crocina-form input,
+.crocina-form-template-bordered .crocina-form textarea,
+.crocina-form-template-bordered .crocina-form select,
+.is-style-bordered .crocina-block-form-container .crocina-form input,
+.is-style-bordered .crocina-block-form-container .crocina-form textarea,
+.is-style-bordered .crocina-block-form-container .crocina-form select {
+	border-width: 2px;
+	border-color: var(--crocina-theme-primary, #0e64b7);
+}
+
+/* Shadow template — floating card with soft shadow */
+.crocina-form-template-shadow .crocina-form,
+.is-style-shadow .crocina-block-form-container .crocina-form {
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 1.5rem;
+	box-shadow:
+		0 1px 2px rgb(0 0 0 / 4%),
+		0 8px 40px rgb(0 0 0 / 8%);
+	border: none;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Form Fields panel (InspectorControls)                            */
+/* ---------------------------------------------------------------- */
+.crocina-fields-panel .components-panel__body-title {
+	margin-bottom: 0;
+}
+
+.crocina-fields-loading {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 1rem 0;
+	color: #787c82;
+	font-size: 12px;
+}
+
+.crocina-fields-error {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.75rem 0;
+	color: #d63638;
+	font-size: 12px;
+}
+
+.crocina-fields-error .dashicon,
+.crocina-fields-error .dashicons-before::before {
+	color: #d63638;
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+}
+
+.crocina-fields-empty {
+	padding: 0.75rem 0;
+	font-size: 12px;
+	color: #8c8f94;
+	font-style: italic;
+}
+
+.crocina-fields-count {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #787c82;
+	padding-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
+	border-bottom: 1px solid #f0f0f1;
+	letter-spacing: 0.5px;
+}
+
+.crocina-fields-count-label {
+	flex: 1;
+}
+
+/* Undo / Redo buttons in the fields panel header */
+.crocina-fields-undo-btns {
+	display: flex;
+	align-items: center;
+	gap: 0.15rem;
+	flex-shrink: 0;
+	margin-left: auto;
+}
+
+.crocina-undo-btn,
+.crocina-redo-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 22px;
+	height: 22px;
+	padding: 0;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background: transparent;
+	cursor: pointer;
+	color: #787c82;
+	transition: all 0.1s ease;
+	line-height: 1;
+}
+
+.crocina-undo-btn:hover:not(.is-disabled, :disabled),
+.crocina-redo-btn:hover:not(.is-disabled, :disabled) {
+	background: #e0e0e0;
+	color: #1d2327;
+	border-color: #c3c4c7;
+}
+
+.crocina-undo-btn:active:not(.is-disabled, :disabled),
+.crocina-redo-btn:active:not(.is-disabled, :disabled) {
+	background: #c3c4c7;
+	transform: scale(0.93);
+}
+
+.crocina-undo-btn.is-disabled,
+.crocina-redo-btn.is-disabled,
+.crocina-undo-btn:disabled,
+.crocina-redo-btn:disabled {
+	opacity: 0.35;
+	cursor: default;
+	color: #b4b9be;
+}
+
+.crocina-undo-btn .dashicons,
+.crocina-redo-btn .dashicons,
+.crocina-undo-btn .dashicons-before::before,
+.crocina-redo-btn .dashicons-before::before {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	line-height: 1;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Group containers for field grouping                              */
+/* ---------------------------------------------------------------- */
+.crocina-fields-list {
+	padding: 0.25rem 0;
+}
+
+.crocina-field-group {
+	border: 1px solid #e8eaed;
+	border-radius: 6px;
+	margin-bottom: 0.5rem;
+	background: #fafafa;
+	overflow: hidden;
+	transition: border-color 0.15s ease;
+}
+
+.crocina-field-group:hover {
+	border-color: #c3c4c7;
+}
+
+.crocina-field-group-draggable {
+	cursor: default;
+}
+
+.crocina-field-group-uncategorized {
+	border-style: dashed;
+	border-color: #dddddd;
+	background: transparent;
+}
+
+.crocina-field-group-uncategorized:hover {
+	border-color: #bbbbbb;
+}
+
+.crocina-field-group.is-collapsed .crocina-group-fields {
+	display: none;
+}
+
+.crocina-field-group.is-group-dragging {
+	opacity: 0.4;
+	box-shadow: 0 0 0 1px var(--wp-admin-theme-color, #0e64b7);
+}
+
+/* Group header */
+.crocina-group-header {
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+	padding: 0.4rem 0.5rem;
+	background: #f0f0f1;
+	border-bottom: 1px solid #e8eaed;
+	font-size: 11px;
+	font-weight: 600;
+	color: #50575e;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.crocina-group-header[draggable="true"] {
+	cursor: grab;
+}
+
+.crocina-group-header[draggable="true"]:active {
+	cursor: grabbing;
+}
+
+.crocina-field-group-uncategorized .crocina-group-header {
+	background: transparent;
+	border-bottom: none;
+	padding: 0.25rem 0.5rem;
+}
+
+.crocina-group-collapse-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 18px;
+	height: 18px;
+	padding: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	color: #8c8f94;
+	border-radius: 3px;
+	transition: all 0.1s ease;
+}
+
+.crocina-group-collapse-btn:hover {
+	background: #e0e0e0;
+	color: #1d2327;
+}
+
+.crocina-group-collapse-btn .dashicons,
+.crocina-group-collapse-btn .dashicons-before::before {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+}
+
+.crocina-group-name {
+	flex: 1;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	color: #50575e;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.crocina-group-name-input {
+	flex: 1;
+}
+
+.crocina-group-name-input .components-base-control__field {
+	margin: 0;
+}
+
+.crocina-group-name-input input {
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	padding: 2px 4px;
+	min-height: unset;
+	height: 22px;
+	border: 1px solid transparent;
+	background: transparent;
+	border-radius: 3px;
+	transition: all 0.1s ease;
+}
+
+.crocina-group-name-input input:hover {
+	border-color: #c3c4c7;
+	background: #ffffff;
+}
+
+.crocina-group-name-input input:focus {
+	border-color: var(--wp-admin-theme-color, #0e64b7);
+	box-shadow: 0 0 0 1px var(--wp-admin-theme-color, #0e64b7);
+	background: #ffffff;
+}
+
+.crocina-group-count {
+	font-size: 10px;
+	color: #8c8f94;
+	background: #e0e0e0;
+	padding: 0.1rem 0.35rem;
+	border-radius: 8px;
+	font-weight: 600;
+	line-height: 1.4;
+	flex-shrink: 0;
+}
+
+.crocina-group-delete-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 18px;
+	height: 18px;
+	padding: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	color: #8c8f94;
+	border-radius: 3px;
+	transition: all 0.1s ease;
+	flex-shrink: 0;
+}
+
+.crocina-group-delete-btn:hover {
+	background: #f1adad;
+	color: #d63638;
+}
+
+.crocina-group-delete-btn .dashicons,
+.crocina-group-delete-btn .dashicons-before::before {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+}
+
+.crocina-group-fields {
+	padding: 0.15rem 0.35rem;
+}
+
+/* Add Group button */
+.crocina-add-group-area {
+	padding: 0.35rem 0;
+	margin-bottom: 0.35rem;
+}
+
+.crocina-add-group-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+	padding: 0.25rem 0.5rem;
+	border: 1px dashed #c3c4c7;
+	border-radius: 4px;
+	background: transparent;
+	cursor: pointer;
+	font-size: 11px;
+	color: #787c82;
+	transition: all 0.1s ease;
+	font-family: inherit;
+	width: 100%;
+	justify-content: center;
+}
+
+.crocina-add-group-btn:hover {
+	border-color: var(--wp-admin-theme-color, #0e64b7);
+	color: var(--wp-admin-theme-color, #0e64b7);
+	background: #f0f6fc;
+}
+
+.crocina-add-group-btn .dashicons,
+.crocina-add-group-btn .dashicons-before::before {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+}
+
+.crocina-field-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.5rem;
+	padding: 0.45rem 0.25rem;
+	border-bottom: 1px solid #f6f7f7;
+	transition: background 0.1s ease;
+	cursor: default;
+}
+
+.crocina-field-row:last-child {
+	border-bottom: none;
+}
+
+.crocina-field-row:hover {
+	background: #f6f7f7;
+	margin: 0 -0.25rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	border-radius: 4px;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Drag-and-drop visual feedback                                    */
+/* ---------------------------------------------------------------- */
+.crocina-field-row-draggable {
+	cursor: grab;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.crocina-field-row-draggable:active {
+	cursor: grabbing;
+}
+
+.crocina-field-row-draggable.is-dragging {
+	opacity: 0.4;
+	background: #f0f0f1;
+	border-radius: 4px;
+	box-shadow: 0 0 0 1px #c3c4c7;
+	transform: scale(0.97);
+	transition: opacity 0.1s ease, transform 0.15s ease;
+}
+
+.crocina-field-row-draggable.is-drag-over {
+	border-bottom: 2px solid var(--wp-admin-theme-color, #0e64b7);
+	background: #f0f6fc;
+	border-radius: 4px 4px 0 0;
+	margin-bottom: -1px;
+	transition: border-color 0.1s ease, background 0.1s ease;
+}
+
+.crocina-field-row-handle {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	margin-top: 2px;
+	cursor: grab;
+	color: #8c8f94;
+	border-radius: 3px;
+	transition: color 0.1s ease, background 0.1s ease;
+}
+
+.crocina-field-row-handle:hover {
+	color: #1d2327;
+	background: #e0e0e0;
+}
+
+.crocina-field-row-handle .dashicons,
+.crocina-field-row-handle .dashicons-before::before {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+}
+
+.crocina-fields-drag-hint {
+	display: flex;
+	align-items: center;
+	gap: 0.3rem;
+	font-size: 10px;
+	color: #8c8f94;
+	padding-bottom: 0.35rem;
+	margin-bottom: 0.35rem;
+	border-bottom: 1px dashed #e0e0e0;
+	font-style: italic;
+}
+
+.crocina-fields-drag-hint .dashicons,
+.crocina-fields-drag-hint .dashicons-before::before {
+	width: 12px;
+	height: 12px;
+	font-size: 12px;
+	color: #b4b9be;
+}
+
+.crocina-field-icon {
+	flex-shrink: 0;
+	margin-top: 1px;
+}
+
+.crocina-field-icon .dashicons,
+.crocina-field-icon .dashicons-before::before {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	color: #0e64b7;
+}
+
+.crocina-field-info {
+	flex: 1;
+	min-width: 0;
+}
+
+.crocina-field-label {
+	font-size: 13px;
+	font-weight: 500;
+	color: #1d2327;
+	line-height: 1.4;
+}
+
+.crocina-field-required {
+	color: #d63638;
+	font-weight: 700;
+	margin-left: 2px;
+	font-size: 14px;
+}
+
+.crocina-field-meta {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	margin-top: 0.15rem;
+}
+
+.crocina-field-type-badge {
+	display: inline-block;
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	color: #50575e;
+	background: #f0f0f1;
+	padding: 0.1rem 0.4rem;
+	border-radius: 3px;
+	line-height: 1.4;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Expandable field details section                                 */
+/* ---------------------------------------------------------------- */
+.crocina-field-row.is-expanded {
+	flex-wrap: wrap;
+	background: #f6f7f7;
+	margin: 0 -0.25rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	border-radius: 4px 4px 0 0;
+	border-bottom-color: #c3c4c7;
+}
+
+.crocina-field-info-clickable {
+	cursor: pointer;
+	transition: color 0.1s ease;
+}
+
+.crocina-field-info-clickable:hover .crocina-field-label {
+	color: var(--wp-admin-theme-color, #0e64b7);
+}
+
+.crocina-field-expand-icon {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 18px;
+	height: 18px;
+	margin-top: 2px;
+	cursor: pointer;
+	color: #8c8f94;
+	border-radius: 3px;
+	transition: color 0.1s ease, background 0.1s ease, transform 0.15s ease;
+}
+
+.crocina-field-expand-icon:hover {
+	color: #1d2327;
+	background: #e0e0e0;
+}
+
+.crocina-field-expand-icon .dashicons,
+.crocina-field-expand-icon .dashicons-before::before {
+	width: 12px;
+	height: 12px;
+	font-size: 12px;
+}
+
+.crocina-field-details {
+	flex: 0 0 100%;
+	order: 99;
+	padding: 0.5rem 0 0.25rem;
+	margin-top: 0.35rem;
+	border-top: 1px solid #e0e0e0;
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+	animation: crocinaFadeSlideIn 0.15s ease-out;
+}
+
+@keyframes crocinaFadeSlideIn {
+	from {
+		opacity: 0;
+		transform: translateY(-4px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.crocina-field-details-item {
+	display: flex;
+	flex-direction: column;
+	gap: 0.1rem;
+	padding: 0.15rem 0;
+}
+
+.crocina-field-details-label {
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+	color: #787c82;
+	line-height: 1.3;
+}
+
+.crocina-field-details-value {
+	font-size: 12px;
+	color: #1d2327;
+	line-height: 1.4;
+	word-break: break-word;
+}
+
+.crocina-field-details-empty {
+	color: #c3c4c7;
+	font-style: italic;
+	font-size: 11px;
+}
+
+.crocina-field-details-note {
+	font-size: 11px;
+	color: #787c82;
+	font-style: italic;
+	background: #f0f0f1;
+	padding: 0.05rem 0.3rem;
+	border-radius: 2px;
+	display: inline-block;
+	width: fit-content;
+}
+
+.crocina-field-details-options {
+	font-size: 11px;
+	color: #50575e;
+	line-height: 1.4;
+	font-family: monospace;
+	background: #f0f0f1;
+	padding: 0.15rem 0.4rem;
+	border-radius: 2px;
+	word-break: break-word;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Color picker (InspectorControls)                                  */
+/* ---------------------------------------------------------------- */
+.crocina-color-field {
+	padding: 0.25rem 0;
+}
+
+.crocina-color-label {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 12px;
+	font-weight: 500;
+	color: #1d2327;
+	margin-bottom: 0.75rem;
+	padding: 0.25rem 0;
+}
+
+.crocina-color-label .component-color-indicator {
+	width: 18px;
+	height: 18px;
+	border-radius: 4px;
+	border: 1px solid #dddddd;
+	flex-shrink: 0;
+}
+
+/* ---------------------------------------------------------------- */
+/*  TabPanel style tabs (Template | Theme switching)                 */
+/* ---------------------------------------------------------------- */
+.crocina-style-tabs {
+	margin-top: 0.5rem;
+}
+
+.crocina-style-tabs .components-tab-panel__tabs {
+	display: flex;
+	gap: 0;
+	margin-bottom: 0.75rem;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 0;
+}
+
+.crocina-style-tabs .components-tab-panel__tabs-item {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+	padding: 0.5rem 0.75rem;
+	border: none;
+	border-bottom: 2px solid transparent;
+	background: transparent;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 500;
+	color: #787c82;
+	transition: all 0.15s ease;
+	font-family: inherit;
+	line-height: 1.3;
+	white-space: nowrap;
+	outline: none;
+	box-shadow: none;
+	position: relative;
+	bottom: -1px;
+}
+
+.crocina-style-tabs .components-tab-panel__tabs-item:hover {
+	color: #1d2327;
+	background: #f0f0f1;
+}
+
+.crocina-style-tabs .components-tab-panel__tabs-item:focus-visible {
+	box-shadow: 0 0 0 2px var(--wp-admin-theme-color, #0e64b7);
+	border-radius: 2px 2px 0 0;
+}
+
+.crocina-style-tabs .components-tab-panel__tabs-item.is-active {
+	color: var(--wp-admin-theme-color, #0e64b7);
+	border-bottom-color: var(--wp-admin-theme-color, #0e64b7);
+	font-weight: 600;
+	background: transparent;
+}
+
+.crocina-style-tabs .components-tab-panel__tabs-item .dashicons,
+.crocina-style-tabs .components-tab-panel__tabs-item .dashicons-before::before {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	line-height: 1;
+}
+
+.crocina-tab-content {
+	padding: 0.25rem 0;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Unified Style panel section labels                               */
+/* ---------------------------------------------------------------- */
+.crocina-style-section-label {
+	margin-top: 1rem;
+	margin-bottom: 0.35rem;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #757575;
+	border-top: 1px solid #f0f0f1;
+	padding-top: 0.75rem;
+}
+
+.crocina-style-primary {
+	padding-bottom: 0.5rem;
+}
+
+/* Compact color picker inside PanelBody */
+.crocina-color-field .components-color-picker-wrapper {
+	padding: 0;
+}
+
+.crocina-color-field .components-color-picker__inputs-wrapper {
+	min-width: unset;
+}
+
+.crocina-color-field .components-color-picker__body {
+	padding: 0;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Reset to defaults button (Display Options panel)                 */
+/* ---------------------------------------------------------------- */
+.crocina-reset-section {
+	margin-top: 1rem;
+	padding-top: 0.75rem;
+	border-top: 1px solid #e0e0e0;
+}
+
+.crocina-reset-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.4rem;
+	width: 100%;
+	padding: 0.5rem 0.75rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	background: #fafafa;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 500;
+	color: #d63638;
+	transition: all 0.15s ease;
+	font-family: inherit;
+	line-height: 1.3;
+	box-sizing: border-box;
+}
+
+.crocina-reset-btn:hover {
+	background: #fcf0f1;
+	border-color: #d63638;
+	color: #b32d2e;
+}
+
+.crocina-reset-btn:active {
+	background: #f1adad;
+	transform: scale(0.98);
+}
+
+.crocina-reset-btn .dashicons,
+.crocina-reset-btn .dashicons-before::before {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	line-height: 1;
+}
+
+/* ---------------------------------------------------------------- */
+/*  Template selector grid (InspectorControls)                       */
+/* ---------------------------------------------------------------- */
+.crocina-template-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0.5rem;
+	margin-top: 0.25rem;
+}
+
+.crocina-template-option {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.3rem;
+	padding: 0.6rem 0.4rem;
+	border: 2px solid #e0e0e0;
+	border-radius: 6px;
+	background: #fafafa;
+	cursor: pointer;
+	transition: all 0.15s ease;
+	font-family: inherit;
+	font-size: 11px;
+	line-height: 1.2;
+	color: #50575e;
+	box-sizing: border-box;
+}
+
+.crocina-template-option:hover {
+	border-color: #3582c4;
+	background: #f0f6fc;
+}
+
+.crocina-template-option.is-active {
+	border-color: #0e64b7;
+	background: #e5f1fa;
+	color: #0e64b7;
+	font-weight: 600;
+	box-shadow: inset 0 0 0 1px #0e64b7;
+}
+
+.crocina-template-option .dashicons {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+}
+
+.crocina-template-option .crocina-template-label {
+	text-align: center;
+	white-space: nowrap;
+}
+
+.crocina-template-label-row {
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+}
+
+.crocina-template-label-row .component-color-indicator {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	flex-shrink: 0;
+	border: 1px solid rgb(0 0 0 / 10%);
+}

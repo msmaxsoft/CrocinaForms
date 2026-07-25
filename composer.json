@@ -1,0 +1,21 @@
+{
+	"name": "crocina/crocina-forms",
+	"description": "Crocina Forms — lightweight WordPress form builder",
+	"type": "wordpress-plugin",
+	"require": {
+		"php": ">=7.4",
+		"khaled.alshamaa/ar-php": "^7.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.6"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Crocina_Forms\\Tests\\": "tests/"
+		}
+	},
+	"scripts": {
+		"test": "phpunit",
+		"test:cachewarmer": "phpunit tests/TestCacheWarmer.php"
+	}
+}

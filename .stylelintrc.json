@@ -1,0 +1,41 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "no-descending-specificity": null,
+    "selector-class-pattern": [
+      "^(crocina|wp|is-|has-|components|editor|dashicons|block-editor|CodeMirror|button|media|search|tablenav|postbox|post-|handle|handlediv|hndle|inside|major|publishing|spinner|notice|wrap|page-title|align|nav-tab|widefat|striped|displaying|paging|screen-reader|ui-|form-|description)[\\w-]*",
+      {
+        "message": "Expected class selector to follow WordPress/Crocina naming convention"
+      }
+    ],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind", "apply", "layer"]
+      }
+    ],
+    "declaration-property-value-no-unknown": null,
+    "color-hex-length": "long",
+    "no-duplicate-selectors": true,
+    "declaration-block-no-duplicate-properties": true,
+    "max-nesting-depth": null,
+    "length-zero-no-unit": null,
+    "declaration-no-important": null,
+    "property-no-vendor-prefix": null,
+    "value-no-vendor-prefix": null,
+    "media-feature-range-notation": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "comment-empty-line-before": null,
+    "rule-empty-line-before": null,
+    "at-rule-empty-line-before": null,
+    "comment-no-empty": null,
+    "color-function-notation": null,
+    "shorthand-property-no-redundant-values": null,
+    "alpha-value-notation": null,
+    "font-family-name-quotes": null,
+    "declaration-property-value-keyword-no-deprecated": null,
+    "selector-not-notation": null,
+    "no-empty-source": null,
+    "keyframes-name-pattern": null
+  }
+}

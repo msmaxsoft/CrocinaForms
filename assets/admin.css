@@ -1,0 +1,2268 @@
+
+
+.crocina-builder-wrapper {
+	display: grid;
+	grid-template-columns: 260px 1fr;
+	gap: 1.25rem;
+}
+
+.crocina-builder-sidebar {
+	background: #ffffff;
+	border: 1px solid #e2e7f5;
+	border-radius: 16px;
+	padding: 1rem;
+	box-shadow: 0 10px 24px rgb(16 30 60 / 6%);
+	position: sticky;
+	top: 72px;
+	height: fit-content;
+}
+
+.crocina-builder-sidebar h4 {
+	margin: 0 0 0.75rem;
+	font-size: 15px;
+	color: #1c2540;
+}
+
+.crocina-field-buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.crocina-add-btn {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	border: 1px solid #d2dbf0;
+	background: #f6f8ff;
+	border-radius: 8px;
+	padding: 0.45rem 0.65rem;
+	cursor: pointer;
+	font-size: 12px;
+	color: #1f2a44;
+	transition: all 0.15s ease;
+}
+
+.crocina-add-btn:hover {
+	background: #e6edff;
+	border-color: #b9c9f3;
+	transform: translateX(2px);
+}
+
+.crocina-add-btn .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+}
+
+.crocina-builder-shortcuts {
+	margin-top: 0.75rem;
+	padding-top: 0.65rem;
+	border-top: 1px solid #e8edf6;
+}
+
+.crocina-builder-shortcuts .button {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	width: 100%;
+	justify-content: center;
+	padding: 0.5rem 0.5rem;
+	font-size: 12px;
+	border-radius: 8px;
+	background: #ffffff;
+	border: 1px dashed #bcc8e0;
+	color: #1f2a44;
+	transition: all 0.12s ease;
+}
+
+.crocina-builder-shortcuts .button:hover {
+	background: #f0f4ff;
+	border-color: #8da1cc;
+	border-style: solid;
+}
+
+.crocina-builder-shortcuts .button .dashicons {
+	color: #2271b1;
+}
+
+.crocina-builder-help {
+	margin-top: 0.75rem;
+	background: #fff9f0;
+	border: 1px solid #ffe3b6;
+	border-radius: 10px;
+	padding: 0.5rem 0.7rem;
+	font-size: 11px;
+	color: #6b4f2a;
+}
+
+.crocina-builder-canvas {
+	background: #f7f9ff;
+	border: 1px solid #dfe5f1;
+	border-radius: 18px;
+	padding: 1.1rem 1.2rem 1.4rem;
+	min-height: 420px;
+	position: relative;
+}
+
+.crocina-builder-canvas.is-dragging {
+	border-color: #9bb6f0;
+	box-shadow: 0 0 0 2px rgb(31 105 222 / 15%);
+}
+
+.crocina-field-cards.is-drop-target {
+	outline: 2px dashed #9bb6f0;
+	border-radius: 14px;
+	padding: 0.5rem;
+}
+
+.crocina-canvas-header {
+	margin-bottom: 1rem;
+}
+
+.crocina-canvas-header input {
+	width: 100%;
+	padding: 0.55rem 0.75rem;
+	border-radius: 8px;
+	border: 1px solid #cfd8e7;
+	font-size: 13px;
+	background: #ffffff;
+	box-sizing: border-box;
+}
+
+.crocina-fields-grid-admin {
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0, 1fr));
+	gap: 1rem;
+}
+
+.crocina-builder-toolbar {
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+	margin-bottom: 0.75rem;
+	padding: 0.35rem 0;
+	border-bottom: 1px solid #e2e8f5;
+}
+
+.crocina-builder-toolbar .button {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+	padding: 0.3rem 0.6rem;
+	font-size: 12px;
+	height: auto;
+	min-height: 30px;
+	border-radius: 6px;
+}
+
+.crocina-builder-toolbar .button .dashicons {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+}
+
+.crocina-builder-toolbar .button:disabled {
+	opacity: 0.4;
+	cursor: not-allowed;
+}
+
+.crocina-builder-toolbar .button-primary {
+	margin-left: auto;
+}
+
+.crocina-toolbar-spacer {
+	flex: 1;
+}
+
+.crocina-honeypot-indicator {
+	margin-top: 1rem;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	font-size: 12px;
+	color: #1f69de;
+	background: #eef4ff;
+	border-radius: 999px;
+	padding: 0.3rem 0.7rem;
+}
+
+/* -------------------------------------------------------------- */
+/*  Sticky save bar for settings tabs                             */
+/* -------------------------------------------------------------- */
+.crocina-save-bar {
+	position: sticky;
+	bottom: 0;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.5rem 1rem;
+	margin-top: 1.5rem;
+	background: #f0f4ff;
+	border-top: 1px solid #c5d5f0;
+	border-radius: 0 0 4px 4px;
+}
+
+.crocina-save-bar .crocina-save-settings {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+}
+
+.crocina-save-feedback.crocina-saving {
+	color: #555;
+}
+
+.crocina-save-feedback .spinner {
+	float: none;
+	margin-top: 0;
+}
+
+/* -------------------------------------------------------------- */
+/*  Inline export / import card (builder page)                    */
+/* -------------------------------------------------------------- */
+#crocina-export-card .crocina-export-inline-title {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin: 0 0 0.25rem;
+	font-size: 15px;
+	font-weight: 600;
+	color: #1f2a44;
+}
+
+#crocina-export-card .crocina-export-inline-title .dashicons {
+	color: #4a6cf7;
+}
+
+#crocina-export-card .crocina-export-inline-desc {
+	margin: 0 0 0.75rem;
+	font-size: 12.5px;
+	color: #5f6b85;
+}
+
+#crocina-export-card .crocina-export-inline-actions {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+#crocina-export-card .crocina-export-inline-area {
+	display: none;
+	margin-top: 0.65rem;
+}
+
+#crocina-export-card textarea.crocina-export-inline-json,
+#crocina-export-card textarea.crocina-import-inline-json {
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #d2dbf0;
+	border-radius: 8px;
+	padding: 0.6rem;
+	font-family: Consolas, Monaco, 'Courier New', monospace;
+	font-size: 11px;
+	background: #f6f8ff;
+	color: #1c2540;
+	resize: vertical;
+}
+
+#crocina-export-card textarea.crocina-export-inline-json:focus,
+#crocina-export-card textarea.crocina-import-inline-json:focus {
+	border-color: #4a6cf7;
+	outline: none;
+	box-shadow: 0 0 0 2px rgb(74 108 247 / 15%);
+}
+
+#crocina-export-card .crocina-export-inline-buttons {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+#crocina-export-card .crocina-export-inline-buttons .button {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+	font-size: 12px;
+}
+
+#crocina-export-card .crocina-export-inline-buttons .button .dashicons {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+}
+
+#crocina-export-card .crocina-import-inline-divider {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin: 0.75rem 0;
+}
+
+#crocina-export-card .crocina-import-inline-divider::before,
+#crocina-export-card .crocina-import-inline-divider::after {
+	content: '';
+	flex: 1;
+	height: 1px;
+	background: #dce3f2;
+}
+
+#crocina-export-card .crocina-import-inline-divider span {
+	font-size: 11px;
+	color: #8b98bb;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+#crocina-export-card .crocina-import-inline-area {
+	margin-top: 0.65rem;
+}
+
+#crocina-export-card .crocina-import-inline-area .button {
+	margin-top: 0.5rem;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+	font-size: 12px;
+}
+
+#crocina-export-card .crocina-import-inline-area .button .dashicons {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+}
+
+#crocina-export-card .crocina-import-status {
+	margin-top: 0.5rem;
+	font-size: 12px;
+	padding: 0.3rem 0.6rem;
+	border-radius: 6px;
+}
+
+#crocina-export-card .crocina-import-status.is-error {
+	color: #d63638;
+	background: #fcf0f1;
+}
+
+#crocina-export-card .crocina-import-status.is-success {
+	color: #0a7a4b;
+	background: #edfaf5;
+}
+
+.crocina-form-settings-section {
+	margin-top: 1.5rem;
+}
+
+.crocina-form-settings-section h3 {
+	margin: 0 0 0.75rem;
+	font-size: 16px;
+	color: #0f1f35;
+}
+
+.crocina-form-settings-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+	gap: 1rem;
+	min-width: 0;
+}
+
+.crocina-form-settings-card {
+	background: #ffffff;
+	border: 1px solid #e2e7f5;
+	border-radius: 16px;
+	padding: 1rem;
+	box-shadow: 0 10px 24px rgb(16 30 60 / 6%);
+	overflow-x: auto;
+}
+
+.crocina-form-settings-card input[type="text"],
+.crocina-form-settings-card input[type="color"],
+.crocina-form-settings-card select,
+.crocina-form-settings-card textarea {
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.crocina-form-settings-card .crocina-design-item label {
+	word-break: break-word;
+}
+
+@media (max-width: 1024px) {
+
+	.crocina-builder-wrapper {
+		grid-template-columns: 1fr;
+	}
+
+
+	.crocina-builder-sidebar {
+		position: static;
+	}
+}
+
+.crocina-field-cards {
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0, 1fr));
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.crocina-field-card {
+	background: #ffffff;
+	border-radius: 12px;
+	border: 1px solid #e1e7f3;
+	box-shadow: 0 12px 25px rgb(7 24 68 / 8%);
+	overflow: hidden;
+	grid-column: span 12;
+}
+
+@media (max-width: 782px) {
+.crocina-field-card,
+.crocina-field-card.crocina-col-1-2,
+.crocina-field-card.crocina-col-1-3{
+		grid-column: span 12;
+	}
+}
+
+.crocina-field-card-header {
+	display: grid;
+	grid-template-columns: auto auto 1fr auto;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.95rem 1rem;
+	border-bottom: 1px solid #ecf0f8;
+}
+
+.crocina-field-card-handle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	background: #f5f7fb;
+	border-radius: 8px;
+	color: #5a6577;
+}
+
+.crocina-field-card-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 28px;
+	height: 28px;
+	background: #eef2ff;
+	border-radius: 6px;
+	color: #4a6cf7;
+	font-size: 16px;
+}
+
+.crocina-field-card-meta {
+	line-height: 1.2;
+}
+
+.crocina-field-card-label {
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	color: #14253d;
+}
+
+.crocina-field-card-key {
+	display: block;
+	font-size: 12px;
+	color: #5a6577;
+}
+
+.crocina-field-card-actions {
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+}
+
+.crocina-field-card-actions .button-link {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	background: #f4f6fb;
+	color: #4b5c85;
+}
+
+.crocina-field-card-actions .button-link:hover {
+	background: #e6ebfb;
+}
+
+.crocina-field-card-body {
+	padding: 1rem 1.25rem 1.25rem;
+	background: #fbfdff;
+}
+
+.crocina-field-card-subtitle {
+	margin: 0;
+	font-size: 13px;
+	color: #484f61;
+}
+
+.crocina-field-card-grid {
+	margin-top: 0.75rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 0.9rem;
+}
+
+.crocina-field-card-grid label {
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	color: #4a546b;
+	gap: 0.3rem;
+}
+
+.crocina-field-card-grid input,
+.crocina-field-card-grid select {
+	width: 100%;
+	padding: 0.55rem 0.65rem;
+	border-radius: 8px;
+	border: 1px solid #ced5e3;
+	background: #ffffff;
+	font-size: 14px;
+}
+
+.crocina-field-required {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem;
+	padding: 0.35rem 0;
+}
+
+.crocina-field-required span {
+	font-weight: 600;
+	color: #1c2340;
+}
+
+.crocina-field-required-toggle {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.25rem;
+}
+
+.crocina-field-required-checkbox {
+	width: 20px;
+	height: 20px;
+	border-radius: 6px;
+	border: 1px solid #ced5e3;
+	background: #ffffff;
+	transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.crocina-field-required-checkbox:checked {
+	border-color: #1f69de;
+	background: #1f69de;
+}
+
+.crocina-field-required-value {
+	display: none;
+}
+
+.crocina-field-options {
+	margin-top: 1.25rem;
+	padding-top: 0.9rem;
+	border-top: 1px dashed #dce4f3;
+}
+
+.crocina-field-options-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem;
+}
+
+.crocina-field-options-header strong {
+	font-size: 13px;
+	color: #1a2240;
+}
+
+.crocina-field-options-header p {
+	margin: 0;
+	font-size: 11px;
+	color: #65708e;
+}
+
+.crocina-options-builder {
+	margin-top: 0.65rem;
+	display: none;
+	flex-direction: column;
+	gap: 0.45rem;
+}
+
+.crocina-option-row {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+
+.crocina-option-row input {
+	flex: 1;
+	padding: 0.5rem 0.75rem;
+	border: 1px solid #d7dfe9;
+	border-radius: 6px;
+}
+
+.crocina-option-row .crocina-option-remove {
+	border: none;
+	background: #ffffff;
+	color: #bf1f27;
+	padding: 0.25rem 0.5rem;
+	border-radius: 6px;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 5%);
+	cursor: pointer;
+}
+
+.crocina-choice {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	margin-right: 0.75rem;
+	margin-bottom: 0.35rem;
+	font-size: 13px;
+	color: #172137;
+}
+
+.crocina-choice input {
+	margin: 0;
+}
+
+.crocina-option-handle {
+	cursor: grab;
+	font-size: 16px;
+	padding: 0.3rem 0.45rem;
+	border-radius: 6px;
+	background: #f4f6fb;
+	color: #4b5c85;
+}
+
+.crocina-option-row:active .crocina-option-handle {
+	cursor: grabbing;
+}
+
+.crocina-option-add {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.45rem 0.7rem;
+	border-radius: 8px;
+	border: 1px solid #d2dbf0;
+	background: #e6edff;
+	color: #1251b6;
+	cursor: pointer;
+}
+
+.crocina-design-section {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.5rem 0 0.35rem;
+	margin-top: 0.5rem;
+	border-top: 1px solid #e6ecf5;
+}
+
+.crocina-design-section:first-of-type {
+	border-top: none;
+	margin-top: 0;
+	padding-top: 0.35rem;
+}
+
+.crocina-design-section-title {
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+	color: #4a6cf7;
+}
+
+.crocina-design-section-label {
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #3a4a6b;
+}
+
+.crocina-add-field {
+	width: 44px;
+	height: 44px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+	border: none;
+	background: linear-gradient(135deg, #1f69de, #1661a8);
+	box-shadow: 0 10px 20px rgb(26 91 178 / 20%);
+	color: #ffffff;
+}
+
+.crocina-add-field .dashicons {
+	font-size: 18px;
+}
+
+/* ---- Compact design grid ---- */
+.crocina-design-compact {
+	margin-top: 0.75rem;
+}
+
+/* ---- Template switcher bar in the builder header ---- */
+.crocina-template-switcher {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.6rem 0;
+	margin-bottom: 0.5rem;
+	flex-wrap: wrap;
+	background: #f8faff;
+	border-radius: 10px;
+	padding: 0.5rem 0.75rem;
+}
+
+.crocina-template-switcher-label {
+	font-size: 10px;
+	color: #5a6577;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	font-weight: 700;
+	margin-right: 0.35rem;
+	flex-shrink: 0;
+}
+
+.crocina-template-switcher-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+	border: 1px solid #e2e8f0;
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 0.3rem 0.55rem;
+	cursor: pointer;
+	font-size: 11px;
+	color: #3f4a62;
+	transition: all 0.12s ease;
+	line-height: 1.2;
+}
+
+.crocina-template-switcher-btn:hover {
+	background: #f1f5fe;
+	border-color: #b9caf0;
+	color: #1a2a4a;
+}
+
+.crocina-template-switcher-btn.is-active {
+	background: #2271b1;
+	border-color: #2271b1;
+	color: #ffffff;
+	box-shadow: 0 2px 6px rgb(34 113 177 / 30%);
+}
+
+.crocina-template-switcher-btn .dashicons {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+}
+
+.crocina-template-switcher-btn.is-active .dashicons {
+	color: #ffffff;
+}
+
+/* ---- Template live preview in design meta box ---- */
+/* Each variant subtly changes the mini preview bar so the user sees the    */
+/* effect of switching templates without leaving the form editor.            */
+#crocina-template-preview {
+	transition: border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+/* ---- Event Log page ---- */
+#crocina-event-log-result {
+	display: none;
+}
+
+#crocina-event-log-result.is-visible {
+	display: block;
+}
+
+#crocina-event-log-result.is-success {
+	background: #d4edda;
+	color: #155724;
+	border: 1px solid #c3e6cb;
+}
+
+#crocina-event-log-result.is-error {
+	background: #f8d7da;
+	color: #721c24;
+	border: 1px solid #f5c6cb;
+}
+
+#crocina-watermark-preview-img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+	border: 1px solid #e2e7f5;
+	box-shadow: 0 6px 18px rgb(12 36 90 / 8%);
+	background: #f0f2f5;
+}
+
+/* ---- Webhook help guide collapsible ---- */
+.crocina-webhook-guide {
+	margin-top: 0.5rem;
+	padding: 0.5rem 0.6rem;
+	border-radius: 8px;
+	border: 1px solid #cfe2ff;
+	background: #f0f6ff;
+	font-size: 12px;
+	color: #29415f;
+}
+
+.crocina-webhook-guide summary {
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 12px;
+color: #1f69de;
+	list-style: none;
+}
+
+.crocina-webhook-guide summary::-webkit-details-marker {
+	display: none;
+}
+
+.crocina-webhook-guide-body {
+	margin-top: 0.5rem;
+	padding-top: 0.5rem;
+	border-top: 1px solid #cfe2ff;
+	line-height: 1.6;
+}
+
+.crocina-webhook-guide-body ol {
+	margin: 0.35rem 0 0.5rem;
+	padding-inline-start: 1.1rem;
+}
+
+.crocina-webhook-guide-body ol li {
+	margin-bottom: 0.25rem;
+}
+
+.crocina-webhook-guide-body code {
+	background: #e3edff;
+	padding: 0.1rem 0.3rem;
+	border-radius: 4px;
+	font-size: 11px;
+}
+
+.crocina-webhook-guide-body pre code {
+	background: transparent;
+	padding: 0;
+	font-size: 11px;
+}
+
+.crocina-webhook-guide-body pre {
+	background: #1e1e1e;
+	color: #f4f4f4;
+	padding: 0.5rem 0.6rem;
+	border-radius: 6px;
+	font-size: 11px;
+	overflow-x: auto;
+	margin: 0.35rem 0;
+}
+/* ---- Template selector: Browse button + hidden select ---- */
+.crocina-template-selector-wrap {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+
+.crocina-template-selector-wrap select {
+	flex: 1;
+	min-width: 0;
+}
+
+.crocina-template-selector-wrap .button {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+	padding: 0.35rem 0.6rem;
+	font-size: 12px;
+	height: auto;
+	min-height: 30px;
+	border-radius: 6px;
+	white-space: nowrap;
+	flex-shrink: 0;
+}
+
+.crocina-template-selector-wrap .button .dashicons {
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+}
+
+/* ---- Template thumbnail modal ---- */
+.crocina-template-modal {
+	position: fixed;
+	inset: 0;
+	background: rgb(15 25 40 / 45%);
+	display: none;
+	align-items: center;
+	justify-content: center;
+	z-index: 100001;
+}
+
+.crocina-template-modal.is-open {
+	display: flex;
+}
+
+.crocina-template-modal-dialog {
+	width: min(700px, 94vw);
+	max-height: 85vh;
+	background: #ffffff;
+	border-radius: 16px;
+	box-shadow: 0 20px 50px rgb(10 20 40 / 25%);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.crocina-template-modal-header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.25rem 1rem;
+	padding: 1rem 1.25rem;
+	border-bottom: 1px solid #e3e8f4;
+	background: #f6f8fc;
+}
+
+.crocina-template-modal-header strong {
+	font-size: 16px;
+	color: #0f1f35;
+	flex: 1;
+}
+
+.crocina-template-modal-header p {
+	margin: 0;
+	font-size: 12px;
+	color: #5a6577;
+	flex: 0 0 100%;
+}
+
+.crocina-template-modal-close {
+	font-size: 20px;
+	color: #5a6577;
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	margin-left: auto;
+}
+
+.crocina-template-modal-close:hover {
+	color: #bf1f27;
+}
+
+.crocina-template-modal-grid {
+	padding: 1.25rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+	gap: 1rem;
+	overflow: auto;
+	max-height: 60vh;
+}
+
+.crocina-thumb-visual {
+	height: 95px;
+	padding: 0.65rem 0.7rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.3rem;
+	justify-content: center;
+	border-bottom: 1px solid #edf1f9;
+}
+
+.crocina-thumb-field {
+	display: flex;
+	flex-direction: column;
+	gap: 0.15rem;
+}
+
+.crocina-thumb-label {
+	display: block;
+	height: 4px;
+	width: 40%;
+	background: #cdd5e3;
+	border-radius: 2px;
+}
+
+.crocina-thumb-input {
+	display: block;
+	height: 12px;
+	background: #ffffff;
+	border: 1px solid #d7dfe9;
+	border-radius: 2px;
+}
+
+.crocina-thumb-textarea {
+	display: block;
+	height: 18px;
+	background: #ffffff;
+	border: 1px solid #d7dfe9;
+	border-radius: 2px;
+}
+
+.crocina-thumb-button {
+	display: inline-block;
+	align-self: flex-start;
+	padding: 0.2rem 0.55rem;
+	font-size: 8px;
+	line-height: 1.2;
+	border-radius: 3px;
+	color: #ffffff;
+	background: #0e64b7;
+}
+
+.crocina-thumb-info {
+	padding: 0.5rem 0.65rem 0.6rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+}
+
+.crocina-thumb-name {
+	font-size: 13px;
+	color: #1a2540;
+}
+
+.crocina-thumb-desc {
+	font-size: 11px;
+	color: #5e6b88;
+	line-height: 1.35;
+}
+
+.crocina-icon-picker-field {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	flex-wrap: wrap;
+}
+
+.crocina-icon-picker-trigger {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.crocina-icon-picker-label {
+	font-size: 13px;
+	color: #1f2a3c;
+}
+
+.crocina-icon-picker-modal {
+	position: fixed;
+	inset: 0;
+	background: rgb(15 25 40 / 45%);
+	display: none;
+	align-items: center;
+	justify-content: center;
+	z-index: 100000;
+}
+
+.crocina-icon-picker-modal.is-open {
+	display: flex;
+}
+
+.crocina-icon-picker-dialog {
+	width: min(760px, 92vw);
+	max-height: 80vh;
+	background: #ffffff;
+	border-radius: 14px;
+	box-shadow: 0 20px 50px rgb(10 20 40 / 25%);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.crocina-icon-picker-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.9rem 1.2rem;
+	border-bottom: 1px solid #e3e8f4;
+	background: #f6f8fc;
+}
+
+.crocina-icon-picker-search {
+	padding: 0.8rem 1.2rem;
+	border-bottom: 1px solid #eef2fb;
+}
+
+.crocina-icon-picker-search input {
+	width: 100%;
+	padding: 0.6rem 0.8rem;
+	border-radius: 8px;
+	border: 1px solid #cfd8e7;
+}
+
+.crocina-icon-picker-grid {
+	padding: 1rem 1.2rem 1.4rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+	gap: 0.75rem;
+	overflow: auto;
+}
+
+.crocina-icon-picker-option {
+	border: 1px solid #e2e8f5;
+	border-radius: 10px;
+	background: #f9fbff;
+	padding: 0.6rem 0.7rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	cursor: pointer;
+	text-align: left;
+}
+
+.crocina-icon-picker-option:hover {
+	border-color: #9bb6f0;
+	background: #eef4ff;
+}
+
+.crocina-icon-picker-name {
+	font-size: 12px;
+	color: #2a3348;
+}
+
+.crocina-inbox-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	padding: 0.2rem 0.5rem;
+	border-radius: 999px;
+	font-size: 11px;
+	background: #e6f0ff;
+	color: #1f69de;
+}
+
+.crocina-inbox-badge.is-read {
+	background: #f1f3f8;
+	color: #5a6577;
+}
+
+.crocina-inbox-form-cell {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+}
+
+.crocina-inbox-avatar {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: #1f69de;
+	color: #ffffff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.crocina-quick-view-modal {
+	position: fixed;
+	inset: 0;
+	background: rgb(15 25 40 / 45%);
+	display: none;
+	align-items: center;
+	justify-content: center;
+	z-index: 100000;
+}
+
+.crocina-quick-view-modal.is-open {
+	display: flex;
+}
+
+.crocina-quick-view-dialog {
+	width: min(720px, 92vw);
+	max-height: 80vh;
+	overflow: hidden;
+	background: #ffffff;
+	border-radius: 16px;
+	box-shadow: 0 20px 50px rgb(10 20 40 / 30%);
+	display: flex;
+	flex-direction: column;
+}
+
+.crocina-quick-view-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 1.2rem;
+	border-bottom: 1px solid #e3e8f4;
+	background: #f6f8fc;
+}
+
+.crocina-quick-view-meta {
+	display: flex;
+	gap: 1rem;
+	padding: 0.8rem 1.2rem;
+	font-size: 12px;
+	color: #5a6577;
+	border-bottom: 1px solid #eef2fb;
+}
+
+.crocina-quick-view-body {
+	padding: 1rem 1.2rem 1.4rem;
+	overflow: auto;
+}
+
+.crocina-quick-view-row {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 0.6rem 0;
+	border-bottom: 1px solid #f0f3fa;
+	font-size: 13px;
+}
+
+/* ---- Design grid & color picker ---- */
+
+.crocina-design-grid {
+	display: grid;
+	grid-template-columns: minmax(200px, 1.4fr) minmax(160px, 1fr);
+	gap: 0.65rem;
+}
+
+.crocina-design-item-color label {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	gap: 0.5rem !important;
+	justify-content: flex-start !important;
+}
+
+.crocina-color-compact {
+	display: inline-flex;
+	align-items: center;
+}
+
+.crocina-color-compact input[type="color"] {
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	border: 1px solid #cfd8e7;
+	border-radius: 6px;
+	cursor: pointer;
+	background: none;
+}
+
+.crocina-color-compact input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 2px;
+}
+
+.crocina-color-compact input[type="color"]::-webkit-color-swatch {
+	border-radius: 3px;
+	border: 0;
+}
+
+.crocina-notifications-guidance {
+	background: #fff9f0;
+	border: 1px solid #ffe3b6;
+	border-left: 4px solid #ffb347;
+	padding: 0.9rem 1rem;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+	font-size: 13px;
+	color: #5d452a;
+}
+
+.crocina-notifications-guidance h4 {
+	margin: 0 0 0.35rem;
+	font-size: 16px;
+	color: #2f1f00;
+}
+
+.crocina-notifications-guidance ul {
+	margin: 0.65rem 0 0;
+	padding-left: 1.2rem;
+	color: #4b3a2b;
+}
+
+.crocina-notifications-sample {
+	margin-top: 0.75rem;
+	background: #1e1e1e;
+	color: #f4f4f4;
+	padding: 0.75rem;
+	border-radius: 8px;
+	font-size: 0.8rem;
+	line-height: 1.4;
+}
+
+.crocina-notifications-sample pre {
+	margin: 0;
+	font-size: 0.78rem;
+}
+
+.crocina-notifications-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 0.8rem;
+}
+
+.crocina-notifications-grid label {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3rem;
+}
+
+.crocina-notifications-grid input,
+.crocina-notifications-grid textarea {
+	border-radius: 8px;
+	border: 1px solid #d3dbe7;
+	padding: 0.45rem 0.6rem;
+	background: #ffffff;
+}
+
+.crocina-notifications-grid textarea {
+	min-height: 120px;
+	resize: vertical;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.crocina-notifications-channels {
+	margin-top: 1rem;
+	display: grid;
+	gap: 0.5rem;
+}
+
+.crocina-channel-row {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	background: #f7f9ff;
+	padding: 0.45rem 0.75rem;
+	border-radius: 8px;
+	border: 1px solid #d7dfee;
+	font-size: 13px;
+}
+
+.crocina-channel-row small {
+	color: #4f5671;
+}
+
+.crocina-test-notification-section {
+	margin-top: 1rem;
+	padding: 0.75rem;
+	background: #f6f9ff;
+	border-radius: 10px;
+	border: 1px solid #dce4f2;
+}
+
+.crocina-test-notification-section .crocina-test-notification-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	font-size: 12px;
+	width: 100%;
+	justify-content: center;
+	padding: 0.5rem 0.75rem;
+}
+
+.crocina-test-notification-section .crocina-test-notification-btn .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+}
+
+.crocina-test-notification-section .crocina-test-notification-desc {
+	margin: 0.5rem 0 0;
+	font-size: 11.5px;
+	color: #525d78;
+	line-height: 1.4;
+}
+
+.crocina-test-notification-section .crocina-test-notification-results {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+	margin-top: 0.5rem;
+}
+
+.crocina-test-channel-result,
+.crocina-channel-test-result {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.35rem 0.55rem;
+	border-radius: 6px;
+	font-size: 12px;
+	line-height: 1.3;
+	margin: 0.5rem 0;
+}
+
+.crocina-test-channel-result.is-loading,
+.crocina-channel-test-result.is-loading {
+	color: #1f69de;
+	background: #eef4ff;
+}
+
+.crocina-test-channel-result.is-success,
+.crocina-channel-test-result.is-success {
+	color: #0a7a4b;
+	background: #edfaf5;
+}
+
+.crocina-test-channel-result.is-error,
+.crocina-channel-test-result.is-error {
+	color: #b32d2e;
+	background: #fcf0f1;
+}
+
+.crocina-test-channel-result .dashicons,
+.crocina-channel-test-result .dashicons,
+.crocina-channel-test-ok,
+.crocina-channel-test-err {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	flex-shrink: 0;
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+.crocina-test-channel-result strong {
+	font-weight: 600;
+	flex-shrink: 0;
+}
+
+.crocina-test-channel-result small {
+	font-size: 11px;
+	opacity: 0.85;
+}
+
+/* Detailed error box for channel test results */
+.crocina-channel-test-result.is-detail {
+	padding: 0;
+	background: transparent;
+	border: none;
+}
+
+.crocina-channel-test-result .crocina-channel-test-msg {
+	padding: 0.5rem 0.75rem;
+	border-radius: 4px;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.crocina-channel-test-result.is-error .crocina-channel-test-msg {
+	background: #fcf0f1;
+	border-left: 4px solid #b32d2e;
+}
+
+.crocina-channel-test-result.is-success .crocina-channel-test-msg {
+	background: #edfaf5;
+	border-left: 4px solid #0a7a4b;
+}
+
+.crocina-channel-test-result .crocina-channel-test-detail {
+	margin-top: 0.5rem;
+	padding: 0.65rem 0.75rem;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	font-size: 12.5px;
+	line-height: 1.5;
+	color: #3c434a;
+}
+
+.crocina-channel-test-result .crocina-channel-test-detail p {
+	margin: 0 0 0.35rem;
+	font-size: 12.5px;
+}
+
+.crocina-channel-test-result .crocina-channel-test-detail ul {
+	margin: 0;
+	padding-left: 1.2rem;
+	list-style: disc;
+}
+
+.crocina-channel-test-result .crocina-channel-test-detail li {
+	margin: 0.15rem 0;
+	font-size: 12px;
+	line-height: 1.5;
+}
+}
+
+.crocina-notifications-logging {
+	display: block;
+	margin-top: 1rem;
+	padding: 0.55rem 0.75rem;
+	border-radius: 8px;
+	border: 1px solid #cfd5e5;
+	background: #f9fbff;
+	font-size: 13px;
+}
+
+.crocina-inbox-fields {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.crocina-inbox-field-row {
+	font-size: 13px;
+	color: #20263b;
+}
+
+.crocina-inbox-field-label {
+	font-weight: 600;
+	margin-right: 0.2rem;
+}.post-php .postbox .inside {
+	background: transparent;
+	border: 0;
+	padding: 0;
+}
+
+.crocina-field-card-body {
+	background: #fdfefe;
+	border-radius: 0 0 12px 12px;
+}
+
+.crocina-export-status,
+.crocina-import-status {
+	font-size: 12px;
+	color: #1f69de;
+	min-height: 1em;
+}
+
+.crocina-export-status.is-error,
+.crocina-import-status.is-error {
+	color: #bf1f27;
+}
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 1rem;
+
+.crocina-dashboard-widget-wrap {
+	background: #ffffff;
+	border: 1px solid #e2e7f5;
+	border-radius: 12px;
+	padding: 1rem;
+	box-shadow: 0 12px 28px rgb(15 35 75 / 6%);
+}
+
+.crocina-dashboard-widget li {
+	flex: 1;
+	background: #f7f8fb;
+	border: 1px solid #dfe4ef;
+	border-radius: 10px;
+	padding: 0.95rem 1rem;
+	text-align: center;
+}
+
+.crocina-dashboard-widget li strong {
+	display: block;
+	font-size: 2rem;
+	color: #1f4cb6;
+	margin-bottom: 0.35rem;
+}
+
+.crocina-dashboard-widget li span {
+	color: #4c516a;
+	font-size: 0.9rem;
+}
+
+.crocina-dashboard-chart {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
+	gap: 0.75rem;
+	align-items: end;
+	margin-top: 1rem;
+	padding: 0.75rem;
+	border: 1px solid #e1e6f2;
+	border-radius: 10px;
+	background: #f9fbff;
+}
+
+.crocina-dashboard-chart-bar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 0.35rem;
+	min-height: 140px;
+}
+
+.crocina-dashboard-chart-fill {
+	width: 100%;
+	max-width: 52px;
+	background: linear-gradient(180deg, #1f69de 0%, #0e64b7 100%);
+	border-radius: 8px 8px 4px 4px;
+	min-height: 12px;
+}
+
+.crocina-dashboard-chart-value {
+	font-size: 12px;
+	color: #1f2a44;
+	font-weight: 600;
+}
+
+.crocina-dashboard-chart-label {
+	font-size: 11px;
+	color: #6a728a;
+}
+
+.crocina-dashboard-widget-wrap table {
+	margin-top: 0.75rem;
+}
+
+.crocina-dashboard-widget-wrap table th,
+.crocina-dashboard-widget-wrap table td {
+	text-align: right;
+}
+
+@media (max-width: 768px) {
+
+	.crocina-field-card-header {
+		grid-template-columns: auto 1fr;
+	}
+.crocina-form-design-grid,
+.crocina-notifications-grid{
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+}
+
+/* =====================================================================
+ * Crocina Forms — Unified Design System (v2)
+ * A cohesive theme layer that harmonises typography, colors, spacing,
+ * tabs, accordions/guides and empty states across every admin screen.
+ * Loaded last so it fine-tunes the existing structure without breaking it.
+ * ===================================================================== */
+:root {
+	/* WordPress-native palette for seamless integration */
+	--crocina-primary: #2271b1;
+	--crocina-primary-hover: #135e96;
+	--crocina-primary-soft: #f0f6fc;
+	--crocina-primary-border: #c5d9ed;
+	--crocina-ink: #1d2327;
+	--crocina-muted: #646970;
+	--crocina-line: #dcdcde;
+	--crocina-surface: #ffffff;
+	--crocina-canvas: #f6f7f7;
+	--crocina-success: #00a32a;
+	--crocina-warning: #dba617;
+	--crocina-danger: #d63638;
+	--crocina-radius: 10px;
+	--crocina-radius-lg: 14px;
+	--crocina-shadow: 0 1px 2px rgb(0 0 0 / 6%);
+	--crocina-shadow-lg: 0 12px 32px rgb(16 30 60 / 8%);
+	/* Use WordPress admin's native font stack for seamless integration */
+	--crocina-font: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.crocina-status-ok {
+	background: #edfaef;
+	color: #00a32a;
+}
+
+.crocina-status-err {
+	background: #fcf0f1;
+	color: #d63638;
+}
+
+/* ---------- Toggle rows ---------- */
+.crocina-toggle-row {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 13px;
+	color: var(--crocina-ink);
+	padding: 0.5rem 0;
+}
+
+.crocina-batch-errors {
+	font-size: 12px;
+	color: #d63638;
+	background: #fcf0f1;
+	padding: 0.5rem 0.75rem;
+	border-radius: 3px;
+	margin-top: 0.25rem;
+	line-height: 1.6;
+	max-height: 120px;
+	overflow-y: auto;
+}
+
+.crocina-batch-errors em {
+	color: #8c8f94;
+	font-style: italic;
+}
+
+/* =====================================================================
+ * Crocina Forms — System Status Tab
+ * Visual progress bars, overview cards, and status badges.
+ * ===================================================================== */
+
+/* ---- Overview stat cards ---- */
+.crocina-system-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 0.75rem;
+	margin-bottom: 1rem;
+}
+
+.crocina-system-card {
+	display: flex;
+	align-items: center;
+	gap: 0.65rem;
+	background: #ffffff;
+	padding: 0.85rem;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 4%);
+}
+
+.crocina-system-card-icon {
+	width: 36px;
+	height: 36px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f0f6fc;
+	color: #2271b1;
+	border-radius: 8px;
+	flex-shrink: 0;
+}
+
+.crocina-system-card-body {
+	display: flex;
+	flex-direction: column;
+	gap: 0.15rem;
+	min-width: 0;
+}
+
+.crocina-system-card-value {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #1d2327;
+	line-height: 1.2;
+}
+
+.crocina-system-card-label {
+	font-size: 12px;
+	color: #646970;
+	line-height: 1.3;
+}
+
+/* ---- Progress bars ---- */
+.crocina-progress-bar {
+	background: #f0f0f1;
+	border-radius: 999px;
+	height: 12px;
+	overflow: hidden;
+	margin: 0.5rem 0;
+}
+
+.crocina-progress-fill {
+	height: 100%;
+	border-radius: 999px;
+	transition: width 0.4s ease;
+}
+
+.crocina-progress-fill-blue {
+	background: linear-gradient(90deg, #2271b1, #135e96);
+}
+
+.crocina-progress-fill-green {
+	background: linear-gradient(90deg, #00a32a, #008a20);
+}
+
+/* ---- Status badges ---- */
+.crocina-system-badge {
+	display: inline-block;
+	padding: 0.1rem 0.5rem;
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 600;
+	vertical-align: middle;
+	margin-left: 0.4rem;
+}
+
+.crocina-system-badge-ok {
+	background: #edfaef;
+	color: #008a20;
+}
+
+.crocina-system-badge-warn {
+	background: #fcf9e8;
+	color: #b8860b;
+}
+
+.crocina-system-badge-poor {
+	background: #fcf0f1;
+	color: #b32d2e;
+}
+
+/* ---- System toolbar (refresh button + timestamp) ---- */
+@keyframes crocina-spin {
+	from { transform: rotate(0deg); }
+	to   { transform: rotate(360deg); }
+}
+
+.crocina-system-refresh-spin {
+	animation: crocina-spin 0.6s ease-in-out;
+}
+
+/* Inline postbox headers in the system tab should be compact */
+#tab-system .postbox .inside h3 {
+	margin: 0 0 0.35rem;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+#tab-system .postbox {
+	margin-bottom: 0.75rem;
+}
+
+#tab-system .postbox .inside {
+	padding: 0.85rem;
+}
+
+/* =====================================================================
+ * Crocina Forms — Expanded System Status (v2)
+ * Professional UI with section cards, metric grids, capability/rest/cli/env panels.
+ * ===================================================================== */
+
+/* ---- Toolbar ---- */
+.crocina-system-toolbar {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	margin-bottom: 1rem;
+	padding: 0.5rem 0;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.crocina-system-toolbar .button {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+
+.crocina-system-toolbar .button .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+}
+
+.crocina-system-ts {
+	font-size: 12px;
+	color: #646970;
+}
+
+/* ---- Section cards ---- */
+.crocina-system-section {
+	background: #ffffff;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	margin-bottom: 0.85rem;
+	overflow: hidden;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 4%);
+}
+
+.crocina-system-section-title {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.65rem 0.85rem;
+	background: #f6f7f7;
+	border-bottom: 1px solid #dcdcde;
+	font-size: 13px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.crocina-system-section-title .dashicons {
+	width: 18px;
+	height: 18px;
+	font-size: 18px;
+	color: #2271b1;
+}
+
+.crocina-system-section-body {
+	padding: 0.85rem;
+}
+
+/* ---- Metric cards (Cache Performance two-column) ---- */
+.crocina-system-two-col {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0.75rem;
+}
+
+.crocina-metric-card {
+	background: #f6f7f7;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 0.7rem;
+}
+
+.crocina-metric-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.35rem;
+	font-size: 13px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.crocina-metric-details {
+	display: flex;
+	gap: 1rem;
+	margin-top: 0.35rem;
+	font-size: 12px;
+	color: #646970;
+}
+
+.crocina-metric-details strong {
+	color: #1d2327;
+}
+
+.crocina-system-note {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	margin-top: 0.65rem;
+	padding: 0.45rem 0.65rem;
+	background: #f0f6fc;
+	border: 1px solid #c5d9ed;
+	border-radius: 6px;
+	font-size: 12px;
+	color: #3c434a;
+}
+
+.crocina-system-note .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	color: #2271b1;
+}
+
+/* ---- Database grid ---- */
+.crocina-db-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0.5rem;
+}
+
+.crocina-db-item {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+	padding: 0.5rem;
+	background: #f6f7f7;
+	border-radius: 6px;
+}
+
+.crocina-db-item-full {
+	grid-column: 1 / -1;
+}
+
+.crocina-db-label {
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	color: #646970;
+}
+
+.crocina-db-value {
+	font-size: 13px;
+	color: #1d2327;
+	word-break: break-all;
+}
+
+.crocina-db-value code {
+	background: #e8eaeb;
+	padding: 0.15rem 0.4rem;
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+.crocina-idx-tag {
+	display: inline-block;
+	background: #f0f0f1;
+	border: 1px solid #dcdcde;
+	padding: 0.1rem 0.35rem;
+	border-radius: 4px;
+	font-size: 11px;
+	margin: 1px 2px;
+	color: #1d2327;
+}
+
+/* ---- Capability grid ---- */
+.crocina-cap-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.crocina-cap-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.45rem 0.55rem;
+	background: #f6f7f7;
+	border-radius: 6px;
+	font-size: 13px;
+}
+
+.crocina-cap-name {
+	font-family: Consolas, Monaco, 'Courier New', monospace;
+	font-size: 12px;
+	color: #1d2327;
+}
+
+/* ---- REST API grid ---- */
+.crocina-rest-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.crocina-rest-row {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.45rem 0.55rem;
+	background: #f6f7f7;
+	border-radius: 6px;
+	font-size: 12px;
+}
+
+.crocina-rest-method {
+	display: inline-block;
+	padding: 0.1rem 0.35rem;
+	border-radius: 4px;
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background: #2271b1;
+	color: #ffffff;
+	flex-shrink: 0;
+}
+
+.crocina-rest-row code {
+	flex: 1;
+	font-size: 12px;
+	color: #1d2327;
+}
+
+/* ---- CLI grid ---- */
+.crocina-cli-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.crocina-cli-row {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.45rem 0.55rem;
+	background: #f6f7f7;
+	border-radius: 6px;
+}
+
+.crocina-cli-cmd {
+	font-size: 12px;
+	font-weight: 600;
+	color: #0c5a3e;
+	background: #edfaef;
+	padding: 0.1rem 0.4rem;
+	border-radius: 4px;
+	flex-shrink: 0;
+}
+
+.crocina-cli-desc {
+	font-size: 12px;
+	color: #50575e;
+}
+
+/* ---- Error guard grid ---- */
+.crocina-err-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.crocina-err-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.45rem 0.55rem;
+	background: #f6f7f7;
+	border-radius: 6px;
+	font-size: 13px;
+}
+
+.crocina-err-row span:first-child {
+	font-weight: 500;
+	color: #1d2327;
+}
+
+/* ---- Environment grid ---- */
+.crocina-env-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0.35rem;
+}
+
+.crocina-env-row {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.4rem 0.55rem;
+	background: #f6f7f7;
+	border-radius: 6px;
+	font-size: 12px;
+}
+
+.crocina-env-label {
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.crocina-env-value {
+	color: #50575e;
+	font-family: Consolas, Monaco, 'Courier New', monospace;
+	font-size: 12px;
+}
+
+/* ---- Status dots ---- */
+.crocina-status-dot {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 0.25rem;
+}
+
+.crocina-status-ok {
+	background: #00a32a;
+	box-shadow: 0 0 0 2px rgb(0 163 42 / 20%);
+}
+
+.crocina-status-err {
+	background: #d63638;
+	box-shadow: 0 0 0 2px rgb(214 54 56 / 20%);
+}
+
+/* ---- Loader animation ---- */
+.crocina-cap-loader,
+.crocina-rest-loader,
+.crocina-err-loader {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 2px solid #dcdcde;
+	border-top-color: #2271b1;
+	border-radius: 50%;
+}
+
+.crocina-cap-loader.loaded,
+.crocina-rest-loader.loaded,
+.crocina-err-loader.loaded {
+	width: auto;
+	height: auto;
+	border: none;
+	border-radius: 0;
+	animation: none;
+}
+
+.crocina-cap-loader,
+.crocina-rest-loader,
+.crocina-err-loader {
+	animation: crocina-status-spin 0.6s linear infinite;
+}
+
+@keyframes crocina-status-spin {
+
+	to { transform: rotate(360deg); }
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+	.crocina-system-two-col {
+		grid-template-columns: 1fr;
+	}
+
+	.crocina-db-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.crocina-env-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* ================================================================
+   Channel Error History
+   ================================================================ */
+.crocina-err-row {
+	padding: 0.4rem 0.5rem;
+	border-bottom: 1px solid #e8e8eb;
+	line-height: 1.5;
+}
+
+.crocina-err-row:last-child {
+	border-bottom: none;
+}
+
+.crocina-err-row:hover {
+	background: #ffffff;
+}
+
+.crocina-err-time {
+	color: #6b738a;
+	font-size: 11px;
+	white-space: nowrap;
+}
+
+.crocina-err-channel {
+	font-weight: 600;
+	padding: 1px 4px;
+	border-radius: 2px;
+	font-size: 11px;
+}
+
+.crocina-err-origin {
+	color: #8c8f94;
+	font-style: italic;
+	font-size: 11px;
+}
+
+.crocina-err-msg {
+	color: #3c434a;
+}
+
+.crocina-err-ctx {
+	color: #8c8f94;
+	font-size: 11px;
+}
+
+#crocina-err-history-filter {
+	vertical-align: baseline;
+}

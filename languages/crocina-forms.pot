@@ -1,0 +1,2422 @@
+# Crocina Forms — Translation Template
+# Copyright (C) 2026 Crocina Forms
+# This file is distributed under the same license as the plugin.
+# ------------------------------------------------------------------------
+# 
+# 581 translatable strings extracted on 2026-07-25 08:58:12
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Crocina Forms 0.1.0\n"
+"POT-Creation-Date: 2026-07-25 08:58:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Crocina Forms POT Generator\n"
+
+#: includes/class-crocina-ajax.php:645
+msgid "%d entries marked as read."
+msgstr ""
+
+#: includes/class-crocina-admin.php:354
+msgid "%d log cleared."
+msgid_plural "%d logs cleared."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/inbox-modern.php:38
+msgid "%d log deleted."
+msgid_plural "%d logs deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/inbox-modern.php:40
+msgid "%d log resent."
+msgid_plural "%d logs resent."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-crocina-ajax.php:559
+msgid "%d of %d webhook(s) failed."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:576
+msgid "%s: Failed. Check your configuration."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:575
+msgid "%s: Sent successfully."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:530
+msgid "(test)"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:948
+msgid "09120000000"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:594
+msgid "1/1"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:595
+msgid "1/2"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:596
+msgid "1/3"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:262
+msgid "A batch watermark operation is already in progress. Wait for it to finish or reload the page."
+msgstr ""
+
+#: templates/admin/settings-modern.php:1079
+msgid "Active"
+msgstr ""
+
+#: includes/class-crocina-admin.php:599
+msgid "Add Crocina Form"
+msgstr ""
+
+#: assets/block.js:868
+msgid "Add Group"
+msgstr ""
+
+#: includes/class-crocina-core.php:509
+#: templates/admin/dashboard.php:14
+msgid "Add New Form"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:23
+msgid "Add fields"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:678
+msgid "Add option"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:674
+msgid "Add option values once using the builder below; they sync automatically for choice fields."
+msgstr ""
+
+#: templates/admin/settings-modern.php:152
+msgid "Admin Email"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:1074
+msgid "Admin service unavailable."
+msgstr ""
+
+#: templates/admin/settings-modern.php:1023
+msgid "Alias for warm-cache"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:558
+msgid "All %d webhook(s) sent."
+msgstr ""
+
+#: includes/class-crocina-core.php:525
+msgid "All Forms"
+msgstr ""
+
+#: templates/admin/settings-modern.php:453
+msgid "All channels"
+msgstr ""
+
+#: templates/admin/inbox-modern.php:64
+msgid "All forms"
+msgstr ""
+
+#: templates/admin/inbox-modern.php:73
+msgid "All messages"
+msgstr ""
+
+#: templates/admin/settings-modern.php:706
+msgid "Allowed file types (comma separated)"
+msgstr ""
+
+#: templates/admin/settings-modern.php:789
+msgid "Apply Watermark to All Images"
+msgstr ""
+
+#: templates/admin/settings-modern.php:784
+msgid "Apply watermark to all existing media library images."
+msgstr ""
+
+#: templates/admin/event-log.php:45
+msgid "Are you sure you want to delete the entire event log?"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:180
+msgid "Are you sure you want to delete this log?"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:133
+msgid "Arrow"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:328
+msgid "Attachment #%d: %s"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:310
+msgid "Attachment #%d: file not found."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:322
+msgid "Attachment #%d: watermark apply returned false (unsupported format or small image)."
+msgstr ""
+
+#: templates/admin/settings-modern.php:111
+msgid "Attachments"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:465
+msgid "Authentication"
+msgstr ""
+
+#: templates/admin/settings-modern.php:124
+msgid "Auto-append Jalali date to custom messages"
+msgstr ""
+
+#: templates/admin/settings-modern.php:125
+msgid "Auto-append date type"
+msgstr ""
+
+#: assets/block.js:140
+msgid "Auto-fit"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1003
+msgid "Available CLI commands. Run with"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:565
+#: includes/class-crocina-channel-bale.php:20
+#: templates/admin/settings-modern.php:215
+msgid "Bale"
+msgstr ""
+
+#: templates/admin/settings-modern.php:259
+msgid "Bale chat ID"
+msgstr ""
+
+#: templates/admin/settings-modern.php:260
+msgid "Bale endpoint"
+msgstr ""
+
+#: templates/admin/settings-modern.php:258
+msgid "Bale token"
+msgstr ""
+
+#: templates/admin/settings-modern.php:887
+msgid "Batch"
+msgstr ""
+
+#: templates/admin/settings-modern.php:783
+msgid "Batch Watermark"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:352
+msgid "Batch watermark complete. %d succeeded, %d failed."
+msgstr ""
+
+#: includes/class-crocina-core.php:1182
+msgid "Benchmark"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:276
+msgid "Border radius (px)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:120
+#: templates/admin/builder-canvas.php:61
+#: assets/block.js:124
+msgid "Bordered"
+msgstr ""
+
+#: templates/admin/settings-modern.php:128
+msgid "Both Jalali and Gregorian"
+msgstr ""
+
+#: templates/admin/settings-modern.php:728
+msgid "Bottom left"
+msgstr ""
+
+#: templates/admin/settings-modern.php:727
+msgid "Bottom right"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:143
+msgid "Briefcase"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:301
+msgid "Browse"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:46
+msgid "Build your form visually"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:179
+msgid "Button"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:201
+msgid "Button background"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:188
+msgid "Button icon"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:183
+msgid "Button text"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:209
+msgid "Button text color"
+msgstr ""
+
+#: templates/admin/settings-modern.php:852
+msgid "Cache Backend"
+msgstr ""
+
+#: templates/admin/settings-modern.php:861
+msgid "Cache Performance"
+msgstr ""
+
+#: templates/admin/settings-modern.php:894
+msgid "Cache backend:"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:140
+msgid "Calendar"
+msgstr ""
+
+#: templates/admin/settings-modern.php:966
+msgid "Capability Mapping"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:118
+#: templates/admin/builder-canvas.php:59
+#: assets/block.js:122
+msgid "Card"
+msgstr ""
+
+#: templates/admin/settings-modern.php:731
+msgid "Center"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:933
+msgid "Channel \"%s\" is not registered."
+msgstr ""
+
+#: templates/admin/settings-modern.php:440
+msgid "Channel Error History"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:130
+msgid "Chat"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:132
+msgid "Check"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:983
+msgid "Check that your token, chat ID, and endpoint are correct, then save before testing."
+msgstr ""
+
+#: includes/class-crocina-admin.php:254
+#: assets/block.js:92
+msgid "Checkbox"
+msgstr ""
+
+#: assets/block.js:1143
+msgid "Choose a form"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:350
+msgid "Choose a template"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:408
+msgid "Choose an icon"
+msgstr ""
+
+#: assets/block.js:1416
+msgid "Choose which form to display."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:109
+#: assets/block.js:154
+msgid "Classic"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:359
+msgid "Clean, flat layout with minimal decoration."
+msgstr ""
+
+#: templates/admin/event-log.php:44
+msgid "Clear log"
+msgstr ""
+
+#: includes/class-crocina-admin.php:328
+msgid "Clear logs"
+msgstr ""
+
+#: templates/admin/event-log.php:43
+msgid "Clearing..."
+msgstr ""
+
+#: templates/admin/settings-modern.php:465
+msgid "Click \"Refresh Error Log\" to load."
+msgstr ""
+
+#: templates/admin/builder-canvas.php:39
+msgid "Click a field type or drag it onto the canvas. Drag card handles to reorder."
+msgstr ""
+
+#: templates/admin/builder-canvas.php:170
+msgid "Click export above to generate JSON…"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:141
+msgid "Clipboard"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:354
+#: templates/admin/inbox-modern.php:113
+msgid "Close"
+msgstr ""
+
+#: assets/block.js:910
+msgid "Collapse"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:230
+msgid "Colors"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:638
+msgid "Column width"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:444
+msgid "Configure how this form notifies you — via email, instant-message channels, or custom webhook URLs. Only the channels you enable below will be used."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:320
+msgid "Content &amp; Advanced"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:174
+msgid "Copy"
+msgstr ""
+
+#: templates/admin/export-modern.php:58
+msgid "Copy export code"
+msgstr ""
+
+#: templates/admin/export-modern.php:14
+msgid "Copy failed. Please select and copy manually."
+msgstr ""
+
+#: templates/admin/export-modern.php:64
+msgid "Copy the full JSON or export only selected categories above."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:901
+msgid "Core service unavailable."
+msgstr ""
+
+#: templates/admin/settings-modern.php:908
+msgid "Could not load database status."
+msgstr ""
+
+#: includes/class-crocina-admin.php:1315
+msgid "Count"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:462
+msgid "Create a server endpoint (PHP, Node.js, Zapier, Make, n8n, etc.) that accepts POST requests."
+msgstr ""
+
+#: includes/class-crocina-admin.php:285
+msgid "Created"
+msgstr ""
+
+#: includes/class-crocina-core.php:505
+#: assets/block.js:165
+msgid "Crocina Form"
+msgstr ""
+
+#: includes/class-crocina-admin.php:1258
+msgid "Crocina Form Submissions"
+msgstr ""
+
+#: includes/class-crocina-admin.php:84
+#: includes/class-crocina-core.php:501
+#: templates/admin/dashboard.php:13
+msgid "Crocina Forms"
+msgstr ""
+
+#: crocina-forms.php:27
+msgid "Crocina Forms requires PHP 7.4 or higher. Your current PHP version is %s. Please upgrade."
+msgstr ""
+
+#: crocina-forms.php:46
+msgid "Crocina Forms requires WordPress 5.6 or higher. Your current version is %s. Please upgrade."
+msgstr ""
+
+#: templates/admin/settings-modern.php:100
+msgid "Crocina Settings"
+msgstr ""
+
+#: includes/class-crocina-admin.php:506
+msgid "Crocina configuration imported successfully."
+msgstr ""
+
+#: assets/block.js:1460
+msgid "Current template. Change it in the Template panel on the left."
+msgstr ""
+
+#: templates/admin/settings-modern.php:969
+msgid "Current user capabilities used by the plugin."
+msgstr ""
+
+#: assets/block.js:1476
+msgid "Current visual theme. Change it in the Theme panel on the left."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:343
+msgid "Custom CSS for advanced styling. Only available to administrators."
+msgstr ""
+
+#: templates/admin/settings-modern.php:753
+msgid "Custom sample image for preview"
+msgstr ""
+
+#: templates/admin/settings-modern.php:874
+msgid "DB"
+msgstr ""
+
+#: includes/class-crocina-admin.php:1294
+msgid "Daily submissions chart"
+msgstr ""
+
+#: templates/admin/settings-modern.php:123
+msgid "Dashboard stats days"
+msgstr ""
+
+#: templates/admin/settings-modern.php:904
+msgid "Database Status"
+msgstr ""
+
+#: includes/class-crocina-core.php:1185
+msgid "Database queries"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:47
+msgid "Date"
+msgstr ""
+
+#: includes/class-crocina-admin.php:1314
+#: includes/class-crocina-inbox-table.php:48
+msgid "Date (Jalali)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:117
+#: templates/admin/builder-canvas.php:58
+#: assets/block.js:121
+msgid "Default"
+msgstr ""
+
+#: templates/admin/settings-modern.php:895
+msgid "Default (transient fallback)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:292
+msgid "Default template"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:307
+msgid "Default theme"
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php:56
+#: includes/class-crocina-inbox-table.php:66
+msgid "Delete"
+msgstr ""
+
+#: assets/block.js:939
+msgid "Delete group (fields move to Uncategorized)"
+msgstr ""
+
+#: assets/block.js:941
+msgid "Delete this group? Fields will move to Uncategorized."
+msgstr ""
+
+#: templates/admin/settings-modern.php:880
+msgid "Design Cache"
+msgstr ""
+
+#: assets/block.js:139
+msgid "Desktop"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:334
+msgid "Disclaimer, privacy note, extra links, etc."
+msgstr ""
+
+#: assets/block.js:1275
+msgid "Display Options"
+msgstr ""
+
+#: assets/block.js:1293
+msgid "Display the form name bar in the editor preview."
+msgstr ""
+
+#: assets/block.js:1304
+msgid "Display the submit button area."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:327
+msgid "Displayed above the form fields."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:335
+msgid "Displayed below the form fields before the submit button."
+msgstr ""
+
+#: templates/admin/builder-canvas.php:178
+msgid "Download .json"
+msgstr ""
+
+#: assets/block.js:851
+msgid "Drag to reorder"
+msgstr ""
+
+#: templates/fields/field-file.php:26
+msgid "Drop file here or click to select"
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php:55
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:464
+msgid "Each endpoint receives a JSON payload containing"
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php:69
+msgid "Edit"
+msgstr ""
+
+#: includes/class-crocina-core.php:513
+msgid "Edit Form"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:566
+#: includes/class-crocina-channel-eitaa.php:20
+#: templates/admin/settings-modern.php:269
+msgid "Eitaa"
+msgstr ""
+
+#: templates/admin/settings-modern.php:309
+msgid "Eitaa bot token"
+msgstr ""
+
+#: templates/admin/settings-modern.php:310
+msgid "Eitaa chat ID"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:129
+#: includes/class-crocina-admin.php:247
+#: includes/class-crocina-ajax.php:515
+#: includes/class-crocina-channel-email.php:17
+#: assets/block.js:86
+msgid "Email"
+msgstr ""
+
+#: templates/admin/settings-modern.php:155
+msgid "Email recipients"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:487
+msgid "Email recipients (comma separated)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:494
+msgid "Enable email recipients"
+msgstr ""
+
+#: templates/admin/settings-modern.php:140
+msgid "Enable event debug logging"
+msgstr ""
+
+#: templates/admin/settings-modern.php:704
+msgid "Enable file attachments for admin email"
+msgstr ""
+
+#: templates/admin/settings-modern.php:713
+msgid "Enable image watermarking"
+msgstr ""
+
+#: templates/admin/settings-modern.php:138
+msgid "Enable logging for all submissions"
+msgstr ""
+
+#: templates/admin/settings-modern.php:916
+msgid "Engine"
+msgstr ""
+
+#: assets/block.js:861
+msgid "Enter group name:"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:463
+msgid "Enter one URL per line in the field above (e.g."
+msgstr ""
+
+#: templates/admin/settings-modern.php:1069
+msgid "Environment"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1041
+msgid "Error Log Guard"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:993
+msgid "Error: %s"
+msgstr ""
+
+#: templates/admin/settings-modern.php:468
+msgid "Errors are persisted in"
+msgstr ""
+
+#: includes/class-crocina-admin.php:126
+#: templates/admin/event-log.php:11
+msgid "Event Log"
+msgstr ""
+
+#: templates/admin/settings-modern.php:473
+msgid "Event Webhook"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:64
+msgid "Event log cleared successfully."
+msgstr ""
+
+#: templates/admin/settings-modern.php:144
+msgid "Event logs are written to"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:468
+msgid "Example PHP endpoint"
+msgstr ""
+
+#: assets/block.js:910
+msgid "Expand"
+msgstr ""
+
+#: includes/class-crocina-admin.php:117
+msgid "Export & Import"
+msgstr ""
+
+#: templates/admin/export-modern.php:17
+msgid "Export & Import Center"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:155
+msgid "Export / Import"
+msgstr ""
+
+#: templates/admin/export-modern.php:13
+msgid "Export JSON copied."
+msgstr ""
+
+#: templates/admin/export-modern.php:39
+msgid "Export data"
+msgstr ""
+
+#: templates/admin/export-modern.php:61
+msgid "Export selected only"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:165
+msgid "Export this form"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1011
+msgid "Export, stats, webhook test"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:341
+msgid "Extra CSS"
+msgstr ""
+
+#: templates/admin/settings-modern.php:924
+msgid "FULLTEXT"
+msgstr ""
+
+#: includes/class-crocina-logger.php:821
+msgid "FULLTEXT index on payload is working correctly."
+msgstr ""
+
+#: includes/class-crocina-logger.php:809
+msgid "FULLTEXT query failed on %s. MariaDB with InnoDB requires version 10.6+ for FULLTEXT indexes on LONGTEXT columns. Run the upgrade routine to create the fallback."
+msgstr ""
+
+#: includes/class-crocina-logger.php:815
+msgid "FULLTEXT query failed: %s"
+msgstr ""
+
+#: includes/class-crocina-logger.php:796
+msgid "FULLTEXT unavailable — search uses LIKE (slower but works everywhere)."
+msgstr ""
+
+#: includes/class-crocina-logger.php:781
+msgid "FULLTEXT working via payload_ft fallback column (TEXT)."
+msgstr ""
+
+#: templates/admin/inbox-modern.php:31
+msgid "Failed to delete the selected log."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:426
+msgid "Failed to encode form data."
+msgstr ""
+
+#: assets/block.js:307
+msgid "Failed to load fields."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:618
+msgid "Failed to mark as read."
+msgstr ""
+
+#: includes/class-crocina-rest-controller.php:327
+msgid "Failed to save field order."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:979
+msgid "Failed to send test message."
+msgstr ""
+
+#: includes/class-crocina-logger.php:790
+msgid "Fallback FULLTEXT also failed: %s"
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:113
+msgid "Field"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:251
+msgid "Field border color"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:260
+msgid "Field focus color"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:234
+msgid "Field label color"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:52
+#: assets/block.js:824
+msgid "Fields"
+msgstr ""
+
+#: includes/class-crocina-notifications.php:444
+msgid "Fields:"
+msgstr ""
+
+#: includes/class-crocina-admin.php:251
+#: assets/block.js:94
+msgid "File"
+msgstr ""
+
+#: includes/class-crocina-core.php:1890
+msgid "File is required."
+msgstr ""
+
+#: includes/class-crocina-core.php:1942
+msgid "File is too large."
+msgstr ""
+
+#: templates/admin/event-log.php:18
+msgid "File size:"
+msgstr ""
+
+#: includes/class-crocina-core.php:1978
+msgid "File type not allowed."
+msgstr ""
+
+#: includes/class-crocina-core.php:1914
+msgid "File upload failed."
+msgstr ""
+
+#: templates/admin/inbox-modern.php:56
+msgid "Filter"
+msgstr ""
+
+#: templates/admin/inbox-modern.php:62
+msgid "Filter by form"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:135
+msgid "Flag"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:363
+msgid "Floating appearance with deep shadow."
+msgstr ""
+
+#: templates/admin/settings-modern.php:1007
+msgid "Flush, warm, or show cache status"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:287
+#: templates/admin/settings-modern.php:723
+msgid "Font size (px)"
+msgstr ""
+
+#: includes/class-crocina-admin.php:281
+#: includes/class-crocina-inbox-table.php:49
+msgid "Form"
+msgstr ""
+
+#: assets/block.js:1161
+msgid "Form Fields"
+msgstr ""
+
+#: assets/block.js:1139
+msgid "Form Settings"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:242
+msgid "Form background"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:333
+msgid "Form footer (shown below fields)"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:490
+msgid "Form imported successfully. Reloading…"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:325
+msgid "Form intro (shown above fields)"
+msgstr ""
+
+#: includes/class-crocina-core.php:2310
+msgid "Form is empty."
+msgstr ""
+
+#: includes/class-crocina-admin.php:792
+#: includes/class-crocina-ajax.php:381
+#: includes/class-crocina-core.php:704
+#: includes/class-crocina-rest-controller.php:206
+msgid "Form not found."
+msgstr ""
+
+#: templates/admin/builder-canvas.php:134
+msgid "Form settings"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:45
+msgid "Form slug"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:50
+msgid "Form slug (identifier)..."
+msgstr ""
+
+#: includes/class-crocina-channel-email.php:31
+#: includes/class-crocina-notifications.php:309
+msgid "Form submission"
+msgstr ""
+
+#: includes/class-crocina-notifications.php:439
+msgid "Form:"
+msgstr ""
+
+#: templates/admin/export-modern.php:47
+msgid "Forms and their field definitions"
+msgstr ""
+
+#: includes/class-crocina-admin.php:961
+msgid "Forms per page"
+msgstr ""
+
+#: templates/admin/settings-modern.php:474
+msgid "Forward all plugin events as JSON POST requests to an external endpoint."
+msgstr ""
+
+#: templates/admin/settings-modern.php:120
+msgid "Full (date + time)"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:511
+msgid "Full Name"
+msgstr ""
+
+#: templates/admin/settings-modern.php:780
+msgid "GD library is not installed. Preview unavailable."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:150
+msgid "GD library not available"
+msgstr ""
+
+#: templates/admin/settings-modern.php:108
+msgid "General"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:462
+msgid "Get the endpoint URL"
+msgstr ""
+
+#: templates/admin/export-modern.php:46
+msgid "Global settings (channels, spam, logging)"
+msgstr ""
+
+#: templates/admin/settings-modern.php:127
+msgid "Gregorian only"
+msgstr ""
+
+#: assets/block.js:1032
+msgid "Group"
+msgstr ""
+
+#: assets/block.js:927
+msgid "Group name"
+msgstr ""
+
+#: assets/block.js:1471
+msgid "H:"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:466
+msgid "HTTPS required"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:137
+msgid "Heart"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:650
+#: assets/block.js:995
+msgid "Helper text"
+msgstr ""
+
+#: assets/block.js:1294
+msgid "Hide the form name bar in the editor preview."
+msgstr ""
+
+#: assets/block.js:1305
+msgid "Hide the submit button area."
+msgstr ""
+
+#: templates/admin/settings-modern.php:875
+msgid "Hits"
+msgstr ""
+
+#: templates/admin/settings-modern.php:695
+msgid "Honeypot field name"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:458
+msgid "How to set up webhook endpoints"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:51
+msgid "IP"
+msgstr ""
+
+#: includes/class-crocina-notifications.php:441
+msgid "IP:"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:406
+msgid "Icon picker"
+msgstr ""
+
+#: templates/admin/export-modern.php:71
+msgid "Import configuration"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:189
+msgid "Import into this form"
+msgstr ""
+
+#: includes/class-crocina-admin.php:480
+msgid "Import payload too large."
+msgstr ""
+
+#: includes/class-crocina-admin.php:1131
+msgid "Imported Form"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1079
+msgid "Inactive"
+msgstr ""
+
+#: includes/class-crocina-admin.php:108
+#: templates/admin/inbox-modern.php:19
+msgid "Inbox"
+msgstr ""
+
+#: templates/admin/export-modern.php:48
+msgid "Inbox / submission history"
+msgstr ""
+
+#: includes/class-crocina-admin.php:949
+msgid "Inbox rows"
+msgstr ""
+
+#: templates/admin/settings-modern.php:936
+msgid "Indexes"
+msgstr ""
+
+#: templates/admin/settings-modern.php:888
+msgid "Individual"
+msgstr ""
+
+#: assets/block.js:166
+msgid "Insert a Crocina contact form into your content with custom display options."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:150
+msgid "Install php-gd extension or ask your host."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:453
+msgid "Invalid JSON payload."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:895
+msgid "Invalid channel."
+msgstr ""
+
+#: includes/class-crocina-rest-controller.php:289
+msgid "Invalid fields data."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:376
+msgid "Invalid form."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:215
+msgid "Invalid input."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:604
+msgid "Invalid log ID."
+msgstr ""
+
+#: assets/block.js:247
+msgid "Invalid response."
+msgstr ""
+
+#: includes/class-crocina-core.php:1654
+msgid "Invalid timestamp."
+msgstr ""
+
+#: templates/admin/settings-modern.php:119
+msgid "Jalali date display"
+msgstr ""
+
+#: templates/admin/settings-modern.php:126
+msgid "Jalali only"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:512
+msgid "John Doe"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:624
+msgid "Key / Slug"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:620
+msgid "Label"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:617
+msgid "Label, slug, type, placeholder, helper text, and choice options live here. Required fields will insist on data when the form is submitted."
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php:41
+msgid "Last Updated"
+msgstr ""
+
+#: templates/admin/export-modern.php:32
+msgid "Latest log: %1$s submitted on %2$s."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:272
+msgid "Layout &amp; Dimensions"
+msgstr ""
+
+#: templates/admin/settings-modern.php:948
+msgid "Legacy indexes"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:360
+msgid "Lifted card-style with rounded corners and subtle shadow."
+msgstr ""
+
+#: templates/admin/event-log.php:22
+msgid "Lines shown:"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:142
+msgid "Link"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1015
+msgid "List forms with field/cache info"
+msgstr ""
+
+#: templates/admin/settings-modern.php:777
+msgid "Live Preview"
+msgstr ""
+
+#: assets/block.js:1381
+msgid "Loading available forms\\u2026"
+msgstr ""
+
+#: assets/block.js:809
+msgid "Loading fields\\u2026"
+msgstr ""
+
+#: assets/block.js:1145
+msgid "Loading\\u2026"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:139
+msgid "Location"
+msgstr ""
+
+#: templates/admin/inbox-modern.php:29
+msgid "Log deleted successfully."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:56
+msgid "Log file does not exist."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:89
+#: includes/class-crocina-ajax.php:677
+msgid "Log not found."
+msgstr ""
+
+#: templates/admin/settings-modern.php:139
+msgid "Log retention (days)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:530
+msgid "Log submissions for this form (stored in the inbox)."
+msgstr ""
+
+#: includes/class-crocina-admin.php:1286
+msgid "Logged submissions"
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:51
+msgid "Logger is unavailable."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:610
+msgid "Logger unavailable."
+msgstr ""
+
+#: templates/admin/settings-modern.php:135
+msgid "Logging"
+msgstr ""
+
+#: templates/admin/settings-modern.php:733
+msgid "Logo max width (px)"
+msgstr ""
+
+#: templates/admin/settings-modern.php:719
+msgid "Logo only"
+msgstr ""
+
+#: templates/admin/settings-modern.php:734
+msgid "Logo opacity (5–100)"
+msgstr ""
+
+#: templates/admin/inbox-modern.php:84
+msgid "Mark all as read"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:70
+msgid "Mark as read"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:659
+msgid "Mark field as required"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:615
+msgid "Marked as read."
+msgstr ""
+
+#: templates/admin/settings-modern.php:705
+msgid "Max attachment size (MB)"
+msgstr ""
+
+#: templates/admin/settings-modern.php:479
+msgid "Max body size (KB)"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1076
+msgid "Max exec"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:138
+msgid "Megaphone"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1075
+msgid "Memory"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:519
+msgid "Message"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:447
+msgid "Message example: {fields} sent from {page_url}"
+msgstr ""
+
+#: includes/class-crocina-core.php:2526
+msgid "Message sent successfully."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:479
+msgid "Message template"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:110
+#: templates/admin/builder-canvas.php:60
+#: assets/block.js:123
+msgid "Minimal"
+msgstr ""
+
+#: templates/admin/settings-modern.php:694
+msgid "Minimum delay (seconds)"
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:56
+msgid "Missing log ID."
+msgstr ""
+
+#: assets/block.js:142
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:108
+#: assets/block.js:153
+msgid "Modern"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:163
+msgid "Multi-line preview text"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:947
+msgid "Name"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:203
+msgid "New"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:608
+#: includes/class-crocina-admin.php:175
+msgid "New Field"
+msgstr ""
+
+#: includes/class-crocina-core.php:517
+msgid "New Form"
+msgstr ""
+
+#: templates/admin/inbox-modern.php:49
+msgid "New messages"
+msgstr ""
+
+#: includes/class-crocina-admin.php:201
+msgid "No Crocina forms are available."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:244
+msgid "No categories selected."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:584
+msgid "No channels are enabled for this form."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:127
+#: includes/class-crocina-inbox-table.php:82
+msgid "No data"
+msgstr ""
+
+#: assets/block.js:1120
+msgid "No fields configured for this form."
+msgstr ""
+
+#: assets/block.js:303
+msgid "No fields found."
+msgstr ""
+
+#: assets/block.js:254
+msgid "No forms available."
+msgstr ""
+
+#: includes/class-crocina-core.php:533
+msgid "No forms found"
+msgstr ""
+
+#: includes/class-crocina-core.php:537
+msgid "No forms found in trash"
+msgstr ""
+
+#: templates/admin/dashboard.php:29
+msgid "No forms found. Create your first form to get started."
+msgstr ""
+
+#: assets/block.js:1037
+msgid "No group"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:148
+msgid "No icon"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:248
+msgid "No image processing library (GD/Imagick) available."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:287
+msgid "No images found in the media library."
+msgstr ""
+
+#: templates/admin/event-log.php:56
+msgid "No log entries yet. Enable event logging in Settings to start collecting events."
+msgstr ""
+
+#: templates/admin/event-log.php:31
+msgid "No log file found."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:1053
+msgid "No settings data received."
+msgstr ""
+
+#: includes/class-crocina-rest-controller.php:316
+msgid "No valid fields to save."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:1067
+msgid "No valid settings found in the request."
+msgstr ""
+
+#: templates/admin/settings-modern.php:930
+msgid "Not tested"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:543
+msgid "Notification service unavailable."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:54
+#: templates/admin/settings-modern.php:109
+msgid "Notifications"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:443
+msgid "Notifications & Webhooks"
+msgstr ""
+
+#: templates/admin/inbox-modern.php:23
+msgid "Notifications resent successfully."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:502
+msgid "Notify via WhatsApp (global endpoint/token)"
+msgstr ""
+
+#: includes/class-crocina-admin.php:249
+#: assets/block.js:88
+msgid "Number"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1079
+msgid "Object cache"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:466
+msgid "Only HTTPS endpoints are allowed by default for security."
+msgstr ""
+
+#: templates/admin/export-modern.php:74
+msgid "Only import JSON from trusted sources."
+msgstr ""
+
+#: assets/block.js:1007
+msgid "Options"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:281
+msgid "Padding (px)"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:50
+msgid "Page"
+msgstr ""
+
+#: includes/class-crocina-notifications.php:440
+msgid "Page:"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:186
+msgid "Paste JSON to import into this form…"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:463
+msgid "Paste the full URL"
+msgstr ""
+
+#: templates/admin/export-modern.php:80
+msgid "Paste your JSON payload here..."
+msgstr ""
+
+#: templates/admin/event-log.php:26
+msgid "Path:"
+msgstr ""
+
+#: includes/class-crocina-core.php:1186
+msgid "Peak memory"
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:208
+#: includes/class-crocina-ajax.php:47
+msgid "Permission denied."
+msgstr ""
+
+#: templates/admin/settings-modern.php:895
+msgid "Persistent (Redis/Memcached)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:131
+#: includes/class-crocina-ajax.php:948
+#: assets/block.js:89
+msgid "Phone"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:353
+msgid "Pick the layout style that best fits your form."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:646
+#: assets/block.js:985
+msgid "Placeholder"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:915
+msgid "Please configure the %s token and chat ID in the settings above, then save before testing."
+msgstr ""
+
+#: includes/class-crocina-core.php:1670
+msgid "Please wait a moment before submitting again."
+msgstr ""
+
+#: templates/admin/settings-modern.php:1078
+msgid "Post max"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1019
+msgid "Pre-build cache for all forms"
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:170
+msgid "Preview"
+msgstr ""
+
+#: assets/block.js:1279
+msgid "Preview height (px)"
+msgstr ""
+
+#: assets/block.js:1469
+msgid "Preview height for the editor. Adjust it in the Display Options panel."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:158
+msgid "Preview value"
+msgstr ""
+
+#: assets/block.js:1184
+msgid "Primary color"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:357
+msgid "Processing… %d of %d images done."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:362
+msgid "Prominent border with a bold outline."
+msgstr ""
+
+#: templates/admin/settings-modern.php:831
+msgid "Published Forms"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:35
+msgid "Quick add text"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:158
+msgid "Quick backup or transfer this single form as JSON."
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:164
+#: templates/admin/inbox-modern.php:110
+msgid "Quick view"
+msgstr ""
+
+#: templates/admin/settings-modern.php:983
+msgid "REST API Health"
+msgstr ""
+
+#: includes/class-crocina-admin.php:253
+#: assets/block.js:93
+msgid "Radio"
+msgstr ""
+
+#: templates/admin/settings-modern.php:478
+msgid "Rate limit (requests per minute)"
+msgstr ""
+
+#: templates/admin/settings-modern.php:692
+msgid "Rate limit (submissions per window)"
+msgstr ""
+
+#: templates/admin/settings-modern.php:693
+msgid "Rate limit window (seconds)"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:203
+msgid "Read"
+msgstr ""
+
+#: templates/admin/inbox-modern.php:75
+msgid "Read only"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:464
+msgid "Receive the payload"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:94
+msgid "Redo"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:92
+#: assets/block.js:838
+msgid "Redo (Ctrl+Shift+Z)"
+msgstr ""
+
+#: templates/admin/event-log.php:37
+#: templates/admin/settings-modern.php:806
+msgid "Refresh"
+msgstr ""
+
+#: templates/admin/settings-modern.php:449
+msgid "Refresh Error Log"
+msgstr ""
+
+#: templates/admin/settings-modern.php:986
+msgid "Registered REST API endpoints under crocina/v1."
+msgstr ""
+
+#: includes/class-crocina-admin.php:1282
+msgid "Registered forms"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:194
+#: templates/admin/settings-modern.php:749
+msgid "Remove"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:613
+msgid "Remove field"
+msgstr ""
+
+#: includes/class-crocina-core.php:1184
+msgid "Render time"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:654
+msgid "Required"
+msgstr ""
+
+#: assets/block.js:1345
+msgid "Reset all block settings to their default values."
+msgstr ""
+
+#: assets/block.js:1347
+msgid "Reset all settings to defaults? This action cannot be undone."
+msgstr ""
+
+#: assets/block.js:1362
+msgid "Reset to defaults"
+msgstr ""
+
+#: assets/block.js:1325
+msgid "Responsive preview"
+msgstr ""
+
+#: assets/block.js:1485
+msgid "Responsive preview mode for testing different screen sizes."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:567
+#: includes/class-crocina-channel-rubika.php:17
+#: templates/admin/settings-modern.php:319
+msgid "Rubika"
+msgstr ""
+
+#: templates/admin/settings-modern.php:361
+msgid "Rubika chat ID"
+msgstr ""
+
+#: templates/admin/settings-modern.php:362
+msgid "Rubika endpoint"
+msgstr ""
+
+#: templates/admin/settings-modern.php:360
+msgid "Rubika token"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:157
+msgid "Sample Input"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:162
+msgid "Sample Textarea"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:99
+msgid "Save"
+msgstr ""
+
+#: templates/admin/settings-modern.php:79
+msgid "Save Settings"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:97
+msgid "Save form (Ctrl+S)"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1031
+msgid "Scan handlers for nonce/cap"
+msgstr ""
+
+#: templates/admin/settings-modern.php:796
+msgid "Scanning…"
+msgstr ""
+
+#: templates/admin/settings-modern.php:920
+msgid "Schema"
+msgstr ""
+
+#: templates/admin/dashboard.php:24
+#: templates/admin/inbox-modern.php:96
+msgid "Search"
+msgstr ""
+
+#: includes/class-crocina-core.php:529
+msgid "Search Forms"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:412
+msgid "Search icons..."
+msgstr ""
+
+#: templates/admin/inbox-modern.php:95
+msgid "Search inbox..."
+msgstr ""
+
+#: templates/admin/inbox-modern.php:94
+msgid "Search logs"
+msgstr ""
+
+#: templates/admin/settings-modern.php:110
+msgid "Security"
+msgstr ""
+
+#: includes/class-crocina-core.php:1538
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-crocina-admin.php:252
+#: assets/block.js:91
+msgid "Select"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:673
+msgid "Select / radio / checkbox options"
+msgstr ""
+
+#: includes/class-crocina-admin.php:202
+msgid "Select a Crocina form by entering its ID below:%s"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:115
+msgid "Select a field from the left to start building your form."
+msgstr ""
+
+#: assets/block.js:1124
+msgid "Select a form to see its fields."
+msgstr ""
+
+#: templates/admin/export-modern.php:44
+msgid "Select what to export"
+msgstr ""
+
+#: templates/fields/field-select.php:18
+msgid "Select..."
+msgstr ""
+
+#: templates/fields/field-file.php:30
+msgid "Selected file preview"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:390
+msgid "Send"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:171
+#: includes/class-crocina-core.php:5943
+msgid "Send Message"
+msgstr ""
+
+#: templates/admin/settings-modern.php:210
+msgid "Send Test Message"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:506
+msgid "Send payload to Bale endpoint/token"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:510
+msgid "Send payload to Eitaa webhook"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:514
+msgid "Send payload to Rubika endpoint"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:521
+msgid "Send test notification"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1027
+msgid "Send test webhook"
+msgstr ""
+
+#: includes/class-crocina-core.php:4542
+#: templates/form.php:71
+msgid "Sending..."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:523
+msgid "Sends a sample submission to all enabled channels to verify configuration."
+msgstr ""
+
+#: templates/admin/settings-modern.php:912
+msgid "Server"
+msgstr ""
+
+#: templates/admin/settings-modern.php:482
+msgid "Set to 0 for unlimited."
+msgstr ""
+
+#: includes/class-crocina-admin.php:99
+msgid "Settings"
+msgstr ""
+
+#: templates/admin/settings-modern.php:867
+msgid "Settings Cache"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:1089
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:121
+#: templates/admin/builder-canvas.php:62
+#: assets/block.js:125
+msgid "Shadow"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:134
+msgid "Share"
+msgstr ""
+
+#: templates/admin/settings-modern.php:121
+msgid "Short (month/day)"
+msgstr ""
+
+#: includes/class-crocina-admin.php:282
+#: includes/class-crocina-form-list-table.php:40
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-crocina-admin.php:203
+msgid "Shortcode inserted."
+msgstr ""
+
+#: assets/block.js:1302
+msgid "Show form footer"
+msgstr ""
+
+#: assets/block.js:1291
+msgid "Show preview header"
+msgstr ""
+
+#: templates/admin/export-modern.php:21
+msgid "Snapshot: %1$s (format %2$s). %3$d forms and %4$d submissions."
+msgstr ""
+
+#: includes/class-crocina-core.php:1622
+msgid "Spam detected."
+msgstr ""
+
+#: templates/admin/builder-canvas.php:120
+msgid "Spam protection is enabled for this form."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:136
+msgid "Star"
+msgstr ""
+
+#: templates/admin/export-modern.php:82
+msgid "Start import"
+msgstr ""
+
+#: templates/admin/inbox-modern.php:71
+#: templates/admin/settings-modern.php:1058
+msgid "Status"
+msgstr ""
+
+#: assets/block.js:1175
+msgid "Style"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:446
+msgid "Subject example: {form_title} received on {page_title}"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:483
+msgid "Subject template"
+msgstr ""
+
+#: includes/class-crocina-admin.php:286
+#: includes/class-crocina-form-list-table.php:42
+msgid "Submissions"
+msgstr ""
+
+#: includes/class-crocina-admin.php:1290
+msgid "Submissions in last %d days"
+msgstr ""
+
+#: assets/block.js:1315
+msgid "Submit button takes its background from the primary color."
+msgstr ""
+
+#: assets/block.js:1316
+msgid "Submit button uses its own background color setting."
+msgstr ""
+
+#: includes/class-crocina-channel-email.php:38
+#: includes/class-crocina-notifications.php:430
+msgid "Submitted at (Jalali):"
+msgstr ""
+
+#: includes/class-crocina-notifications.php:427
+#: templates/notice.php:17
+msgid "Submitted at:"
+msgstr ""
+
+#: templates/admin/settings-modern.php:113
+msgid "System"
+msgstr ""
+
+#: includes/class-crocina-core.php:2446
+msgid "System error."
+msgstr ""
+
+#: assets/block.js:141
+msgid "Tablet"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:564
+#: includes/class-crocina-channel-telegram.php:17
+#: templates/admin/settings-modern.php:160
+msgid "Telegram"
+msgstr ""
+
+#: templates/admin/settings-modern.php:205
+msgid "Telegram chat ID"
+msgstr ""
+
+#: templates/admin/settings-modern.php:206
+msgid "Telegram endpoint"
+msgstr ""
+
+#: templates/admin/settings-modern.php:204
+msgid "Telegram token"
+msgstr ""
+
+#: includes/class-crocina-admin.php:248
+msgid "Telephone"
+msgstr ""
+
+#: assets/block.js:1204
+msgid "Template"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:55
+#: assets/block.js:1462
+msgid "Template:"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:952
+msgid "Test Page"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:947
+msgid "Test User"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:966
+msgid "Test message sent successfully!"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:585
+msgid "Test notification sent."
+msgstr ""
+
+#: includes/class-crocina-admin.php:245
+#: assets/block.js:85
+msgid "Text"
+msgstr ""
+
+#: templates/admin/settings-modern.php:720
+msgid "Text + Logo"
+msgstr ""
+
+#: templates/admin/settings-modern.php:724
+msgid "Text color (hex)"
+msgstr ""
+
+#: templates/admin/settings-modern.php:718
+msgid "Text only"
+msgstr ""
+
+#: templates/admin/settings-modern.php:725
+msgid "Text opacity (5–100)"
+msgstr ""
+
+#: includes/class-crocina-admin.php:246
+#: assets/block.js:87
+msgid "Textarea"
+msgstr ""
+
+#: includes/class-crocina-core.php:2238
+msgid "The field \"%s\" has an invalid value."
+msgstr ""
+
+#: includes/class-crocina-core.php:2202
+msgid "The field \"%s\" is required."
+msgstr ""
+
+#: templates/admin/settings-modern.php:470
+msgid "The log is rotated at 5 MB."
+msgstr ""
+
+#: assets/block.js:1211
+msgid "Theme"
+msgstr ""
+
+#: assets/block.js:1478
+msgid "Theme:"
+msgstr ""
+
+#: templates/admin/export-modern.php:42
+msgid "This JSON snapshot includes your forms, settings, and inbox history."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:520
+msgid "This is a test message from the Crocina Forms plugin."
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php:39
+msgid "Title"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:465
+msgid "To protect your endpoint, add a secret query parameter (e.g."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:612
+msgid "Toggle field options"
+msgstr ""
+
+#: includes/class-crocina-core.php:1750
+msgid "Too many fields submitted."
+msgstr ""
+
+#: templates/admin/settings-modern.php:730
+msgid "Top left"
+msgstr ""
+
+#: templates/admin/settings-modern.php:729
+msgid "Top right"
+msgstr ""
+
+#: templates/admin/settings-modern.php:838
+msgid "Total Logs"
+msgstr ""
+
+#: includes/class-crocina-core.php:1958
+msgid "Total upload size is too large."
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php:70
+msgid "Trash"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:628
+msgid "Type"
+msgstr ""
+
+#: includes/class-crocina-admin.php:250
+#: assets/block.js:90
+msgid "URL"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:361
+msgid "Ultra-light border, airy spacing, no frills."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:61
+msgid "Unable to clear the log file. Check file permissions."
+msgstr ""
+
+#: includes/class-crocina-admin.php:486
+msgid "Unable to decode the provided JSON."
+msgstr ""
+
+#: includes/class-crocina-admin-page-renderer.php:141
+msgid "Unable to display inbox."
+msgstr ""
+
+#: templates/admin/inbox-modern.php:25
+msgid "Unable to find the requested log entry."
+msgstr ""
+
+#: includes/class-crocina-admin.php:473
+msgid "Unable to import configuration."
+msgstr ""
+
+#: includes/class-crocina-core.php:1474
+msgid "Unable to submit the form."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:61
+msgid "Unable to update log status."
+msgstr ""
+
+#: assets/block.js:874
+msgid "Uncategorized"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:90
+msgid "Undo"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:88
+#: assets/block.js:829
+msgid "Undo (Ctrl+Z)"
+msgstr ""
+
+#: templates/admin/settings-modern.php:845
+msgid "Unread Logs"
+msgstr ""
+
+#: templates/admin/inbox-modern.php:74
+msgid "Unread only"
+msgstr ""
+
+#: templates/admin/settings-modern.php:751
+msgid "Upload Logo"
+msgstr ""
+
+#: templates/admin/settings-modern.php:760
+msgid "Upload Sample Image"
+msgstr ""
+
+#: templates/admin/settings-modern.php:754
+msgid "Upload a custom image to see how the watermark looks."
+msgstr ""
+
+#: templates/admin/settings-modern.php:745
+msgid "Upload a transparent PNG logo. Recommended max width: 120px."
+msgstr ""
+
+#: assets/block.js:1010
+msgid "Upload field"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1077
+msgid "Upload max"
+msgstr ""
+
+#: templates/form.php:47
+msgid "Uploading file…"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:498
+msgid "Use the global Telegram settings for this form"
+msgstr ""
+
+#: assets/block.js:1313
+msgid "Use theme primary color for button"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:222
+msgid "Use theme primary color for submit button"
+msgstr ""
+
+#: templates/admin/settings-modern.php:146
+msgid "Useful for debugging without enabling WP_DEBUG."
+msgstr ""
+
+#: includes/class-crocina-form-list-table.php:71
+msgid "View"
+msgstr ""
+
+#: includes/class-crocina-core.php:521
+msgid "View Form"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:196
+msgid "View details"
+msgstr ""
+
+#: templates/admin/settings-modern.php:444
+msgid "View the most recent errors below."
+msgstr ""
+
+#: templates/admin/settings-modern.php:1000
+msgid "WP-CLI Commands"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1046
+msgid "WP_DEBUG"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1054
+msgid "WP_DEBUG_DISPLAY"
+msgstr ""
+
+#: templates/admin/settings-modern.php:1050
+msgid "WP_DEBUG_LOG"
+msgstr ""
+
+#: templates/admin/settings-modern.php:112
+msgid "Watermark"
+msgstr ""
+
+#: templates/admin/settings-modern.php:744
+msgid "Watermark Logo"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:243
+msgid "Watermark is not enabled. Enable it in the watermark settings first."
+msgstr ""
+
+#: templates/admin/settings-modern.php:726
+msgid "Watermark position"
+msgstr ""
+
+#: templates/admin/settings-modern.php:722
+msgid "Watermark text"
+msgstr ""
+
+#: templates/admin/settings-modern.php:717
+msgid "Watermark type"
+msgstr ""
+
+#: includes/class-crocina-channel-webhook.php:17
+msgid "Webhook"
+msgstr ""
+
+#: templates/admin/settings-modern.php:477
+msgid "Webhook endpoint URL"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:455
+msgid "Webhook endpoints (one per line)"
+msgstr ""
+
+#: includes/class-crocina-ajax.php:556
+msgid "Webhooks (%d/%d)"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:460
+msgid "Webhooks send a JSON POST request to each endpoint URL whenever this form is submitted."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:326
+msgid "Welcome message, instructions, etc."
+msgstr ""
+
+#: includes/class-crocina-ajax.php:568
+#: includes/class-crocina-channel-whatsapp.php:17
+#: templates/admin/settings-modern.php:371
+msgid "WhatsApp"
+msgstr ""
+
+#: templates/admin/settings-modern.php:429
+msgid "WhatsApp chat ID"
+msgstr ""
+
+#: templates/admin/settings-modern.php:430
+msgid "WhatsApp endpoint"
+msgstr ""
+
+#: templates/admin/settings-modern.php:428
+msgid "WhatsApp token"
+msgstr ""
+
+#: templates/admin/settings-modern.php:442
+msgid "When a channel send fails (test or real), the error is logged to"
+msgstr ""
+
+#: includes/class-crocina-admin.php:437
+msgid "You are not allowed to delete logs."
+msgstr ""
+
+#: includes/class-crocina-admin.php:512
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:140
+msgid "You are not allowed to preview forms."
+msgstr ""
+
+#: includes/class-crocina-admin.php:364
+msgid "You are not allowed to resend logs."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:44
+msgid "You are not allowed to update logs."
+msgstr ""
+
+#: includes/class-crocina-admin-ajax-handler.php:72
+msgid "You are not allowed to view logs."
+msgstr ""
+
+#: includes/class-crocina-core.php:1698
+msgid "You are submitting too often. Try again later."
+msgstr ""
+
+#: includes/class-crocina-rest-controller.php:112
+msgid "You do not have permission to list forms."
+msgstr ""
+
+#: includes/class-crocina-rest-controller.php:130
+msgid "You do not have permission to modify forms."
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:325
+msgid "You do not have sufficient permissions to perform this action."
+msgstr ""
+
+#: assets/block.js:346
+msgid "\\u2014 Select a form \\u2014"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:465
+msgid "and validate it on your server."
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:609
+#: includes/class-crocina-admin.php:176
+msgid "auto key"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:288
+msgid "e.g. 14"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:282
+msgid "e.g. 20"
+msgstr ""
+
+#: includes/class-crocina-admin-meta-boxes.php:277
+msgid "e.g. 8"
+msgstr ""
+
+#: includes/class-crocina-admin.php:322
+msgid "entries"
+msgstr ""
+
+#: templates/admin/export-modern.php:51
+msgid "forms"
+msgstr ""
+
+#: includes/class-crocina-inbox-table.php:213
+msgid "n/a"
+msgstr ""
+
+#: includes/class-crocina-logger.php:721
+msgid "not set"
+msgstr ""
+
+#: templates/admin/builder-canvas.php:183
+msgid "or"
+msgstr ""
+
+#: includes/class-crocina-notifications.php:307
+msgid "submission"
+msgstr ""
+
+#: templates/admin/export-modern.php:52
+msgid "submissions"
+msgstr ""
+
+#: templates/admin/export-modern.php:32
+msgid "unknown form"
+msgstr ""
+
+#: templates/admin/settings-modern.php:851
+msgid "—"
+msgstr ""
+
