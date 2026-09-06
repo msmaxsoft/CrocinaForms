@@ -240,6 +240,32 @@ class Crocina_Forms_Core {
 
 	}
 
+	/**
+	 * Flush every plugin cache layer at once.
+	 *
+	 * Clears the global settings cache and drops ALL per-form design and
+	 * fields caches (both the in-memory request cache and the persistent
+	 * object cache group). Used after bulk operations such as saving global
+	 * settings via AJAX, where any form-scoped cache may now be stale.
+	 *
+	 * @return void
+	 */
+	public function flush_cache() {
+
+		// Global settings cache.
+		$this->flush_settings_cache();
+
+		// Drop the entire in-memory request cache (design + fields entries).
+		$this->form_design_cache = array();
+
+		// Flush the persistent object cache group so nothing stale survives.
+		if ( function_exists( 'wp_cache_flush_group' ) ) {
+			wp_cache_flush_group( self::$cache_group );
+		} else {
+			wp_cache_flush();
+		}
+	}
+
 
 
 

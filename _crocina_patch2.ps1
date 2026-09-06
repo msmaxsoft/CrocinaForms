@@ -1,3 +1,7 @@
+$ErrorActionPreference = 'Stop'
+$path = 'C:\laragon\www\GhitHub\CrocinaForms\templates\notice.php'
+
+$content = @'
 <?php
 defined( 'ABSPATH' ) || exit;
 
@@ -23,3 +27,10 @@ $submitted_display = isset( $data['submitted_at_jalali'] ) ? (string) $data['sub
 		</div>
 	<?php endif; ?>
 </div>
+'@
+
+$enc = New-Object System.Text.UTF8Encoding($false)
+# Normalize to CRLF
+$content = $content -replace "`r`n", "`n" -replace "`n", "`r`n"
+[System.IO.File]::WriteAllText($path, $content, $enc)
+Write-Output "OK rewrote notice.php"
